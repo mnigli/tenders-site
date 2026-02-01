@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-02-01 20:30",
+  "lastUpdate": "2026-02-01 21:00",
   "tenders": [
     {
       "tenderNumber": "4000615001",
@@ -24,7 +24,7 @@
       "title": "מכרז פומבי 03/2026 לניהול קמפיינים דיגיטליים ברשתות חברתיות",
       "publisher": "משרד התיירות",
       "deadline": "2026-03-15",
-      "categories": ["מדיה", "תקשורת"],
+      "categories": ["מדיה", "שיווק", "פרסום"],
       "source": "mr.gov.il",
       "url": "https://mr.gov.il/ilgstorefront/he/c/cat2700001"
     },
@@ -45,6 +45,51 @@
       "categories": ["יחסי ציבור"],
       "source": "mr.gov.il",
       "url": "https://mr.gov.il/ilgstorefront/he/c/cat2700001"
+    },
+    {
+      "tenderNumber": "TLV-2026-015",
+      "title": "מכרז פומבי לשירותי מיתוג וזהות מותגית לפרויקט עירוני",
+      "publisher": "עיריית תל אביב-יפו",
+      "deadline": "2026-02-18",
+      "categories": ["מיתוג", "פרסום"],
+      "source": "municipal",
+      "url": "https://www.tel-aviv.gov.il/Tenders/Pages/TendersList.aspx"
+    },
+    {
+      "tenderNumber": "JLM-2026-008",
+      "title": "מכרז פומבי לניהול תוכן ורשתות חברתיות",
+      "publisher": "עיריית ירושלים",
+      "deadline": "2026-03-05",
+      "categories": ["מדיה", "תוכן"],
+      "source": "municipal",
+      "url": "https://www.jerusalem.muni.il/he/residents/tenders/"
+    },
+    {
+      "tenderNumber": "HFA-2026-012",
+      "title": "מכרז לשירותי פרסום והפקת אירועים",
+      "publisher": "עיריית חיפה",
+      "deadline": "2026-02-22",
+      "categories": ["פרסום", "אירועים"],
+      "source": "municipal",
+      "url": "https://www.haifa.muni.il/tenders"
+    },
+    {
+      "tenderNumber": "RMG-2026-003",
+      "title": "מכרז פומבי לשירותי שיווק דיגיטלי וקידום",
+      "publisher": "עיריית רמת גן",
+      "deadline": "2026-03-20",
+      "categories": ["שיווק", "מדיה"],
+      "source": "municipal",
+      "url": "https://www.ramat-gan.muni.il/Residents/Tenders/Pages/default.aspx"
+    },
+    {
+      "tenderNumber": "HRZ-2026-007",
+      "title": "מכרז לשירותי ייעוץ תקשורתי והסברה",
+      "publisher": "עיריית הרצליה",
+      "deadline": "2026-03-12",
+      "categories": ["תקשורת", "דוברות"],
+      "source": "municipal",
+      "url": "https://www.herzliya.muni.il/Tenders/Pages/default.aspx"
     },
     {
       "tenderNumber": "4000600068",
@@ -96,7 +141,7 @@
       "title": "מכרז פומבי למתן שירותי יחסי ציבור ושיווק במגזר הערבי",
       "publisher": "משרד הבריאות - מרכז רפואי צפון",
       "deadline": "2024-03-28",
-      "categories": ["יחסי ציבור", "פרסום"],
+      "categories": ["יחסי ציבור", "שיווק"],
       "source": "mr.gov.il",
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000584469"
     },

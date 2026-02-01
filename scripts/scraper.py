@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-מכרזי דוברות ויחסי ציבור - סקריפט סריקה
+מכרזי דוברות ויחסי ציבור - סקריפט סריקה מורחב
 סורק מכרזים ממקורות ממשלתיים ועירוניים בישראל
 """
 
@@ -22,21 +22,44 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Keywords for filtering PR/Communications tenders
+# Extended keywords for filtering PR/Communications/Marketing tenders
 KEYWORDS = [
-    'דוברות', 'יחסי ציבור', 'תקשורת', 'פרסום', 'מדיה',
-    'ייעוץ תקשורתי', 'ניהול משברים', 'רשתות חברתיות',
-    'דיגיטל', 'קמפיין', 'מיתוג', 'שיווק', 'הסברה',
-    'PR', 'public relations', 'communications'
+    # דוברות והסברה
+    'דוברות', 'דובר', 'הסברה', 'דיפלומטיה ציבורית',
+    # יחסי ציבור
+    'יחסי ציבור', 'יח"צ', 'PR', 'public relations',
+    # תקשורת
+    'תקשורת', 'ייעוץ תקשורתי', 'ניהול משברים', 'אסטרטגיה תקשורתית',
+    'communications', 'תקשורת חזותית',
+    # פרסום ושיווק
+    'פרסום', 'שיווק', 'marketing', 'advertising', 'קידום מכירות',
+    'קריאייטיב', 'creative', 'קופירייטינג',
+    # מדיה ודיגיטל
+    'מדיה', 'media', 'רשתות חברתיות', 'social media', 'דיגיטל', 'digital',
+    'סושיאל', 'פייסבוק', 'אינסטגרם', 'טיקטוק', 'לינקדאין',
+    # קמפיינים ומיתוג
+    'קמפיין', 'campaign', 'מיתוג', 'branding', 'brand',
+    'זהות מותגית', 'לוגו',
+    # תוכן ועריכה
+    'תוכן', 'content', 'עריכה', 'כתיבה שיווקית', 'קופי',
+    'וידאו', 'video', 'הפקה', 'production',
+    # ניטור וניתוח
+    'ניטור תקשורת', 'מדיה מוניטורינג', 'ניתוח מדיה', 'סקירת עיתונות',
+    # אירועים
+    'אירועים', 'events', 'כנסים', 'השקות'
 ]
 
-# Categories mapping
+# Extended categories mapping
 CATEGORY_MAP = {
-    'דוברות': ['דוברות', 'דובר', 'spokesman'],
-    'יחסי ציבור': ['יחסי ציבור', 'יח"צ', 'PR', 'public relations'],
-    'תקשורת': ['תקשורת', 'ייעוץ תקשורתי', 'communications'],
-    'פרסום': ['פרסום', 'קמפיין', 'advertising'],
-    'מדיה': ['מדיה', 'רשתות חברתיות', 'דיגיטל', 'social media']
+    'דוברות': ['דוברות', 'דובר', 'spokesman', 'הסברה', 'דיפלומטיה ציבורית'],
+    'יחסי ציבור': ['יחסי ציבור', 'יח"צ', 'PR', 'public relations', 'ניהול משברים'],
+    'תקשורת': ['תקשורת', 'ייעוץ תקשורתי', 'communications', 'אסטרטגיה תקשורתית'],
+    'פרסום': ['פרסום', 'קמפיין', 'advertising', 'campaign', 'קריאייטיב', 'creative'],
+    'שיווק': ['שיווק', 'marketing', 'קידום', 'קופירייטינג', 'כתיבה שיווקית'],
+    'מדיה': ['מדיה', 'רשתות חברתיות', 'דיגיטל', 'social media', 'סושיאל'],
+    'מיתוג': ['מיתוג', 'branding', 'brand', 'זהות מותגית', 'לוגו'],
+    'תוכן': ['תוכן', 'content', 'עריכה', 'וידאו', 'הפקה'],
+    'אירועים': ['אירועים', 'events', 'כנסים', 'השקות']
 }
 
 
@@ -106,6 +129,13 @@ class MRGovScraper(TenderScraper):
     BASE_URL = "https://mr.gov.il"
     SEARCH_URL = f"{BASE_URL}/ilgstorefront/he/search"
 
+    # Extended search keywords
+    SEARCH_KEYWORDS = [
+        'דוברות', 'יחסי ציבור', 'תקשורת', 'פרסום',
+        'שיווק', 'מדיה', 'מיתוג', 'קמפיין',
+        'רשתות חברתיות', 'דיגיטל', 'הסברה', 'תוכן'
+    ]
+
     def scrape(self) -> list:
         """Scrape tenders from mr.gov.il"""
         tenders = []
@@ -113,10 +143,11 @@ class MRGovScraper(TenderScraper):
 
         try:
             # Search for relevant keywords
-            for keyword in ['דוברות', 'יחסי ציבור', 'תקשורת', 'פרסום']:
+            for keyword in self.SEARCH_KEYWORDS:
                 params = {
-                    'q': keyword,
-                    'sort': 'relevance'
+                    'text': keyword,
+                    'q': ':uploadDateDesc:itemStatus:new',
+                    'sort': 'uploadDateDesc'
                 }
 
                 response = self.session.get(self.SEARCH_URL, params=params, timeout=30)
@@ -155,6 +186,10 @@ class MRGovScraper(TenderScraper):
                     continue
 
                 title = title_el.get_text(strip=True)
+
+                # Only include actual tenders (מכרז), not exemptions (פטור)
+                if 'פטור' in title and 'מכרז' not in title:
+                    continue
 
                 if not self.matches_keywords(title):
                     continue
@@ -200,6 +235,12 @@ class MRGovScraper(TenderScraper):
         match = re.search(r'מכרז\s*(?:מספר|#)?\s*:?\s*([A-Za-z0-9\-\/]+)', text)
         if match:
             return match.group(1)
+
+        # Try to find numeric ID
+        match = re.search(r'(\d{10,})', text)
+        if match:
+            return match.group(1)
+
         return f"MR-{datetime.now().strftime('%Y%m%d%H%M%S')}"
 
     def _extract_date(self, element) -> str:
@@ -321,9 +362,11 @@ class TenderGovScraper(TenderScraper):
 class MunicipalScraper(TenderScraper):
     """
     Scraper for municipal tenders (various city websites)
+    Extended to include more municipalities
     """
 
     MUNICIPALITIES = {
+        # ערים גדולות
         'tel-aviv': {
             'name': 'עיריית תל אביב-יפו',
             'url': 'https://www.tel-aviv.gov.il/Tenders/Pages/TendersList.aspx',
@@ -331,7 +374,7 @@ class MunicipalScraper(TenderScraper):
         },
         'jerusalem': {
             'name': 'עיריית ירושלים',
-            'url': 'https://www.jerusalem.muni.il/he/tenders/',
+            'url': 'https://www.jerusalem.muni.il/he/residents/tenders/',
             'prefix': 'JLM'
         },
         'haifa': {
@@ -341,13 +384,89 @@ class MunicipalScraper(TenderScraper):
         },
         'beersheba': {
             'name': 'עיריית באר שבע',
-            'url': 'https://www.beer-sheva.muni.il/tenders',
+            'url': 'https://www.beer-sheva.muni.il/Residents/tenders/Pages/default.aspx',
             'prefix': 'BSH'
         },
         'rishon': {
             'name': 'עיריית ראשון לציון',
-            'url': 'https://www.rishonlezion.muni.il/tenders',
+            'url': 'https://www.rishonlezion.muni.il/Residents/Tenders/Pages/default.aspx',
             'prefix': 'RLZ'
+        },
+        # ערים נוספות
+        'petah-tikva': {
+            'name': 'עיריית פתח תקווה',
+            'url': 'https://www.petah-tikva.muni.il/Residents/Tenders/Pages/default.aspx',
+            'prefix': 'PTK'
+        },
+        'netanya': {
+            'name': 'עיריית נתניה',
+            'url': 'https://www.netanya.muni.il/Tenders/Pages/default.aspx',
+            'prefix': 'NTN'
+        },
+        'ashdod': {
+            'name': 'עיריית אשדוד',
+            'url': 'https://www.ashdod.muni.il/Tenders/Pages/default.aspx',
+            'prefix': 'ASD'
+        },
+        'holon': {
+            'name': 'עיריית חולון',
+            'url': 'https://www.holon.muni.il/Residents/Tenders/Pages/default.aspx',
+            'prefix': 'HLN'
+        },
+        'bnei-brak': {
+            'name': 'עיריית בני ברק',
+            'url': 'https://www.bnei-brak.muni.il/tenders',
+            'prefix': 'BBK'
+        },
+        'ramat-gan': {
+            'name': 'עיריית רמת גן',
+            'url': 'https://www.ramat-gan.muni.il/Residents/Tenders/Pages/default.aspx',
+            'prefix': 'RMG'
+        },
+        'bat-yam': {
+            'name': 'עיריית בת ים',
+            'url': 'https://www.bat-yam.muni.il/tenders',
+            'prefix': 'BTY'
+        },
+        'ashkelon': {
+            'name': 'עיריית אשקלון',
+            'url': 'https://www.ashkelon.muni.il/tenders',
+            'prefix': 'ASK'
+        },
+        'rehovot': {
+            'name': 'עיריית רחובות',
+            'url': 'https://www.rehovot.muni.il/Residents/Tenders/Pages/default.aspx',
+            'prefix': 'RHV'
+        },
+        'herzliya': {
+            'name': 'עיריית הרצליה',
+            'url': 'https://www.herzliya.muni.il/Tenders/Pages/default.aspx',
+            'prefix': 'HRZ'
+        },
+        'kfar-saba': {
+            'name': 'עיריית כפר סבא',
+            'url': 'https://www.kfar-saba.muni.il/tenders',
+            'prefix': 'KFS'
+        },
+        'raanana': {
+            'name': 'עיריית רעננה',
+            'url': 'https://www.raanana.muni.il/tenders',
+            'prefix': 'RNN'
+        },
+        'modiin': {
+            'name': 'עיריית מודיעין-מכבים-רעות',
+            'url': 'https://www.modiin.muni.il/tenders',
+            'prefix': 'MDN'
+        },
+        'nazareth': {
+            'name': 'עיריית נצרת',
+            'url': 'https://www.nazareth.muni.il/tenders',
+            'prefix': 'NZR'
+        },
+        'eilat': {
+            'name': 'עיריית אילת',
+            'url': 'https://www.eilat.muni.il/tenders',
+            'prefix': 'ELT'
         }
     }
 
@@ -385,13 +504,15 @@ class MunicipalScraper(TenderScraper):
         """Parse municipal tenders page"""
         tenders = []
 
-        # Common selectors for municipal sites
+        # Common selectors for municipal sites (SharePoint based and others)
         items = (
             soup.find_all('div', class_='tender-row') or
             soup.find_all('tr', class_='tender') or
             soup.find_all('article', class_='tender') or
             soup.find_all('li', class_='tender-item') or
-            soup.find_all('div', class_='ms-listviewtable')
+            soup.find_all('div', class_='ms-listviewtable') or
+            soup.find_all('tr', class_='ms-itmhover') or
+            soup.find_all('div', class_='dfwp-item')
         )
 
         for item in items:
