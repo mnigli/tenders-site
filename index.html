@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מכרזי דוברות ויחסי ציבור - ישראל</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>מכרזי דוברות ויחסי ציבור</h1>
+            <p class="subtitle">מכרזים ממשלתיים ועירוניים בתחומי התקשורת</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="filters">
+            <div class="filter-group">
+                <label for="search">חיפוש:</label>
+                <input type="text" id="search" placeholder="חפש לפי כותרת, גוף מפרסם...">
+            </div>
+            <div class="filter-group">
+                <label for="source">מקור:</label>
+                <select id="source">
+                    <option value="">הכל</option>
+                    <option value="mr.gov.il">מר"מ - מנהל הרכש הממשלתי</option>
+                    <option value="tender.gov.il">מערכת המכרזים הממלכתית</option>
+                    <option value="municipal">עיריות</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="status">סטטוס:</label>
+                <select id="status">
+                    <option value="">הכל</option>
+                    <option value="open">פתוח להגשה</option>
+                    <option value="closing-soon">נסגר בקרוב</option>
+                    <option value="closed">נסגר</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="category">קטגוריה:</label>
+                <select id="category">
+                    <option value="">הכל</option>
+                    <option value="דוברות">דוברות</option>
+                    <option value="יחסי ציבור">יחסי ציבור</option>
+                    <option value="תקשורת">תקשורת</option>
+                    <option value="פרסום">פרסום</option>
+                    <option value="מדיה">מדיה</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="stat-card">
+                <span class="stat-number" id="total-tenders">0</span>
+                <span class="stat-label">סה"כ מכרזים</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="open-tenders">0</span>
+                <span class="stat-label">פתוחים להגשה</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="closing-soon">0</span>
+                <span class="stat-label">נסגרים השבוע</span>
+            </div>
+        </section>
+
+        <section class="last-update">
+            <p>עדכון אחרון: <span id="last-update-date">טוען...</span></p>
+        </section>
+
+        <section class="tenders-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>מספר מכרז</th>
+                        <th>כותרת</th>
+                        <th>גוף מפרסם</th>
+                        <th>מועד אחרון להגשה</th>
+                        <th>קטגוריה</th>
+                        <th>מקור</th>
+                        <th>פעולות</th>
+                    </tr>
+                </thead>
+                <tbody id="tenders-body">
+                    <tr>
+                        <td colspan="7" class="loading">טוען נתונים...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="pagination">
+            <button id="prev-page" disabled>הקודם</button>
+            <span id="page-info">עמוד 1</span>
+            <button id="next-page">הבא</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>הנתונים נאספים באופן אוטומטי ממקורות ציבוריים | עדכון שבועי</p>
+            <p>מקורות: מר"מ, מערכת המכרזים הממלכתית, אתרי עיריות</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

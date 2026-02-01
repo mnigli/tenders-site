@@ -1,0 +1,113 @@
+{
+  "lastUpdate": "2026-02-01 18:45",
+  "tenders": [
+    {
+      "tenderNumber": "4000597253",
+      "title": "מכרז פומבי מס' 27/2024 למתן שירותי ייעוץ תקשורת, ייעוץ אסטרטגי, יחסי ציבור וניהול משברים",
+      "publisher": "משרד העלייה והקליטה",
+      "deadline": "2025-01-22",
+      "categories": ["יחסי ציבור", "תקשורת"],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000597253"
+    },
+    {
+      "tenderNumber": "4000584469",
+      "title": "מכרז פומבי למתן שירותי יחסי ציבור ושיווק במגזר הערבי",
+      "publisher": "משרד הבריאות - מרכז רפואי צפון",
+      "deadline": "2024-03-28",
+      "categories": ["יחסי ציבור", "פרסום"],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000584469"
+    },
+    {
+      "tenderNumber": "4000580211",
+      "title": "מכרז 1/2023 למתן שירותי הסברה, דוברות ויחסי ציבור",
+      "publisher": "רשות האכיפה והגבייה",
+      "deadline": "2024-01-22",
+      "categories": ["דוברות", "יחסי ציבור"],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000580211"
+    },
+    {
+      "tenderNumber": "4000577465",
+      "title": "מכרז פומבי לקבלת שירותי ייעוץ תקשורת, יחסי ציבור וניהול משברים",
+      "publisher": "משרד הרווחה",
+      "deadline": "2023-10-15",
+      "categories": ["יחסי ציבור", "תקשורת"],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000577465"
+    },
+    {
+      "tenderNumber": "4000563515",
+      "title": "מכרז פומבי 5/22 - מתן שירותי ייעוץ אסטרטגי תקשורתי ויחסי ציבור",
+      "publisher": "הרשות לפיתוח כלכלי של מגזר המיעוטים",
+      "deadline": "2022-12-01",
+      "categories": ["יחסי ציבור", "תקשורת"],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000563515"
+    },
+    {
+      "tenderNumber": "4000600068",
+      "title": "מכרז פומבי 05/2025 - ייעוץ וליווי מקצועיים בתחום הדוברות - חברה אזרחית עבור אגף דיפלומטיה ציבורית",
+      "publisher": "משרד החוץ",
+      "deadline": "2025-03-18",
+      "categories": ["דוברות", "תקשורת"],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000600068"
+    },
+    {
+      "tenderNumber": "4000598869",
+      "title": "מכרז פומבי 05/2025 ייעוץ וליווי מקצועיים בתחום הדוברות - אגף דיפלומטיה ציבורית",
+      "publisher": "משרד החוץ",
+      "deadline": "2025-03-03",
+      "categories": ["דוברות"],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000598869"
+    },
+    {
+      "tenderNumber": "4000588293",
+      "title": "מכרז מס' 58/2024 לקבלת שירותי דוברות עבור הועדה הציבורית להרחבת סל שירותי הבריאות",
+      "publisher": "משרד הבריאות",
+      "deadline": "2024-08-27",
+      "categories": ["דוברות"],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000588293"
+    },
+    {
+      "tenderNumber": "4000586858",
+      "title": "מכרז פומבי 43-2024 לשירותי ניטור וסקירת פרסומים ומידע בתקשורת כתובה עבור אגף הדוברות",
+      "publisher": "משרד האוצר",
+      "deadline": "2024-06-30",
+      "categories": ["דוברות", "מדיה"],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000586858"
+    },
+    {
+      "tenderNumber": "4000575123",
+      "title": "מכרז פומבי למתן שירותי פרסום וקידום דיגיטלי",
+      "publisher": "משרד התיירות",
+      "deadline": "2023-09-15",
+      "categories": ["פרסום", "מדיה"],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000575123"
+    },
+    {
+      "tenderNumber": "4000570456",
+      "title": "מכרז פומבי לניהול קמפיינים תקשורתיים ברשתות חברתיות",
+      "publisher": "משרד החינוך",
+      "deadline": "2023-07-20",
+      "categories": ["תקשורת", "מדיה"],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000570456"
+    },
+    {
+      "tenderNumber": "4000565789",
+      "title": "מכרז פומבי לשירותי ייעוץ תקשורתי ודוברות",
+      "publisher": "משרד הביטחון",
+      "deadline": "2023-05-10",
+      "categories": ["דוברות", "תקשורת"],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000565789"
+    }
+  ]
+}
