@@ -741,6 +741,129 @@ class MashcalScraper(TenderScraper):
         return tenders
 
 
+class MerkavaScraper(TenderScraper):
+    """
+    Scraper for merkava.mrp.gov.il - אתר המשרות של נציבות שירות המדינה
+    מכרזים בינמשרדיים ומשרות בשירות המדינה
+    """
+
+    BASE_URL = "https://merkava.mrp.gov.il"
+    API_URL = f"{BASE_URL}/sap/opu/odata/ILG/GIUS_PUBLIC_AREA_SRV/TenderDataSet"
+
+    def scrape(self) -> list:
+        """Scrape tenders from merkava.mrp.gov.il using their OData API"""
+        tenders = []
+        logger.info("Scraping merkava.mrp.gov.il - Civil Service Commission...")
+
+        try:
+            # Create a special session with SSL workaround for this site
+            import ssl
+            import urllib3
+            from requests.adapters import HTTPAdapter
+            from urllib3.util.ssl_ import create_urllib3_context
+
+            # Create custom SSL context that works with legacy servers
+            class SSLAdapter(HTTPAdapter):
+                def init_poolmanager(self, *args, **kwargs):
+                    ctx = create_urllib3_context()
+                    ctx.check_hostname = False
+                    ctx.verify_mode = ssl.CERT_NONE
+                    ctx.set_ciphers('DEFAULT@SECLEVEL=1')
+                    kwargs['ssl_context'] = ctx
+                    return super().init_poolmanager(*args, **kwargs)
+
+            session = requests.Session()
+            session.mount('https://', SSLAdapter())
+            session.headers.update(self.session.headers)
+
+            # Use the SAP OData API
+            params = {
+                'sap-client': '470',
+                '$format': 'json',
+                '$top': '500'  # Get up to 500 tenders
+            }
+
+            response = session.get(self.API_URL, params=params, timeout=60, verify=False)
+
+            if response.status_code == 200:
+                data = response.json()
+                results = data.get('d', {}).get('results', [])
+
+                for item in results:
+                    try:
+                        tender = self._parse_tender_item(item)
+                        if tender:
+                            tenders.append(tender)
+                    except Exception as e:
+                        logger.debug(f"Error parsing merkava item: {e}")
+                        continue
+            else:
+                logger.warning(f"Failed to fetch merkava.mrp.gov.il: {response.status_code}")
+
+        except Exception as e:
+            logger.error(f"Error scraping merkava.mrp.gov.il: {e}")
+
+        logger.info(f"Found {len(tenders)} tenders from merkava.mrp.gov.il")
+        return tenders
+
+    def _parse_tender_item(self, item: dict) -> Optional[Tender]:
+        """Parse a single tender item from the API response"""
+        # Get tender title - use TenderName or JobName
+        title = item.get('TenderName') or item.get('JobName', '')
+        if not title:
+            return None
+
+        # Get tender number
+        tender_num = item.get('TenderNumber') or item.get('RequestId') or item.get('JobNumber', '')
+        if not tender_num:
+            return None
+
+        # Parse deadline from OData date format: /Date(1770076800000)/
+        deadline = self._parse_odata_date(item.get('LastSubmittingDate'))
+
+        # Get publisher (office/organization name)
+        publisher = item.get('OfficeName') or item.get('OfficeUnitName') or "נציבות שירות המדינה"
+
+        # Get location/area
+        area = item.get('Area') or item.get('LocationName', '')
+
+        # Build URL for the tender
+        url = f"{self.BASE_URL}/giusp/#/job-details/{item.get('RequestId', tender_num)}"
+
+        # Combine title with area if available
+        full_title = f"{title}"
+        if area:
+            full_title = f"{title} - {area}"
+
+        return Tender(
+            tenderNumber=f"MRK-{tender_num}",
+            title=full_title[:200],
+            publisher=publisher,
+            deadline=deadline or datetime.now().strftime('%Y-%m-%d'),
+            categories=self.categorize(title),
+            source="merkava.mrp.gov.il",
+            url=url,
+            docType="מכרז בינמשרדי"
+        )
+
+    def _parse_odata_date(self, date_str: str) -> Optional[str]:
+        """Parse OData date format: /Date(1770076800000)/ to ISO format"""
+        if not date_str:
+            return None
+
+        try:
+            # Extract timestamp from /Date(...)/ format
+            match = re.search(r'/Date\((\d+)\)/', str(date_str))
+            if match:
+                timestamp_ms = int(match.group(1))
+                dt = datetime.fromtimestamp(timestamp_ms / 1000)
+                return dt.strftime('%Y-%m-%d')
+        except Exception as e:
+            logger.debug(f"Error parsing OData date {date_str}: {e}")
+
+        return None
+
+
 class LocalAuthoritiesPortalScraper(TenderScraper):
     """
     Scraper for rashuiot.co.il - פורטל רשויות מקומיות
@@ -954,6 +1077,7 @@ def main():
         TenderGovScraper(),
         MunicipalScraper(),
         MashcalScraper(),
+        MerkavaScraper(),
         LocalAuthoritiesPortalScraper(),
         GovernmentCompaniesScraper()
     ]
@@ -990,6 +1114,7 @@ def main():
             "tender.gov.il": len([t for t in tenders_data if t['source'] == 'tender.gov.il']),
             "municipal": len([t for t in tenders_data if t['source'] == 'municipal']),
             "mashcal.co.il": len([t for t in tenders_data if t['source'] == 'mashcal.co.il']),
+            "merkava.mrp.gov.il": len([t for t in tenders_data if t['source'] == 'merkava.mrp.gov.il']),
             "rashuiot.co.il": len([t for t in tenders_data if t['source'] == 'rashuiot.co.il']),
             "government-company": len([t for t in tenders_data if t['source'] == 'government-company'])
         }
