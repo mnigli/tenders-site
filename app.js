@@ -66,7 +66,10 @@ function showNotice(message) {
         <p>📢 ${message}</p>
         <button onclick="this.parentElement.remove()">✕</button>
     `;
-    document.querySelector('.container').insertBefore(notice, document.querySelector('.stats'));
+    const stats = document.querySelector('.stats');
+    if (stats && stats.parentElement) {
+        stats.parentElement.insertBefore(notice, stats);
+    }
 }
 
 // Setup event listeners
