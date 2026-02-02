@@ -827,8 +827,8 @@ class MerkavaScraper(TenderScraper):
         # Get location/area
         area = item.get('Area') or item.get('LocationName', '')
 
-        # Build URL for the tender
-        url = f"{self.BASE_URL}/giusp/#/job-details/{item.get('RequestId', tender_num)}"
+        # Build URL for the tender - correct format is #/position/{RequestId}
+        url = f"{self.BASE_URL}/giusp/#/position/{item.get('RequestId', tender_num)}"
 
         # Combine title with area if available
         full_title = f"{title}"
