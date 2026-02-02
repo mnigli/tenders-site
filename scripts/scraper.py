@@ -23,7 +23,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Extended keywords for filtering PR/Communications/Marketing tenders
-# These keywords must appear in the title or description to be considered relevant
+# These keywords must appear in the TITLE to be considered relevant
 KEYWORDS = [
     # דוברות והסברה
     'דוברות', 'דובר', 'הסברה', 'דיפלומטיה ציבורית',
@@ -34,21 +34,21 @@ KEYWORDS = [
     'תקשורת שיווקית',
     # פרסום ושיווק
     'שירותי פרסום', 'משרד פרסום', 'סוכנות פרסום', 'פרסום ושיווק',
-    'שיווק דיגיטלי', 'קמפיין פרסומי', 'פרסומת',
+    'שיווקי', 'קמפיין פרסומי', 'פרסומת', 'פרסום',
     # מדיה ודיגיטל
     'מדיה חברתית', 'רשתות חברתיות', 'ניהול עמודים',
-    'דיגיטל', 'סושיאל',
+    'מדיה דיגיטלית', 'סושיאל', 'מדיה',
     # קמפיינים ומיתוג
     'קמפיין', 'מיתוג', 'זהות מותגית', 'לוגו',
-    # תוכן ועריכה - specific
-    'כתיבת תוכן', 'הפקת תוכן', 'עריכת תוכן',
-    'הפקת סרטונים', 'הפקת וידאו', 'סרטון תדמית',
+    # תוכן ועריכה
+    'כתיבת תוכן', 'הפקת תוכן', 'עריכת תוכן', 'תוכן שיווקי',
+    'הפקת סרטונים', 'הפקת וידאו', 'סרטון תדמית', 'תוכן',
     # ניטור וניתוח
     'ניטור תקשורת', 'ניתוח מדיה', 'סקירת עיתונות',
-    # אירועים - specific
+    # אירועים
     'הפקת אירועים', 'ניהול אירועים', 'כנסים ואירועים',
     # חיפוש נוסף
-    'תדמית', 'קהל יעד', 'מסרים', 'עיצוב גרפי'
+    'תדמית', 'קהל יעד', 'מסרים', 'עיצוב גרפי', 'דיגיטל'
 ]
 
 # Words that indicate NOT a PR/communications tender (exclusion list)
@@ -155,27 +155,47 @@ class MRGovScraper(TenderScraper):
         'רשתות חברתיות', 'דיגיטל', 'הסברה', 'תוכן'
     ]
 
-    def scrape(self) -> list:
-        """Scrape tenders from mr.gov.il"""
+    def scrape(self, include_historical: bool = False, max_pages: int = 5) -> list:
+        """Scrape tenders from mr.gov.il
+
+        Args:
+            include_historical: If True, search all tenders (not just new ones)
+            max_pages: Maximum number of pages to scrape per keyword
+        """
         tenders = []
         logger.info("Scraping mr.gov.il...")
 
         try:
             # Search for relevant keywords
             for keyword in self.SEARCH_KEYWORDS:
-                params = {
-                    'text': keyword,
-                    'q': ':uploadDateDesc:itemStatus:new',
-                    'sort': 'uploadDateDesc'
-                }
-
-                response = self.session.get(self.SEARCH_URL, params=params, timeout=30)
-
-                if response.status_code == 200:
-                    soup = BeautifulSoup(response.content, 'html.parser')
-                    tenders.extend(self._parse_results(soup))
+                # Build query - include historical or only new
+                if include_historical:
+                    q_param = ':uploadDateDesc'  # All tenders, sorted by date
                 else:
-                    logger.warning(f"Failed to fetch mr.gov.il for keyword '{keyword}': {response.status_code}")
+                    q_param = ':uploadDateDesc:itemStatus:new'  # Only new tenders
+
+                # Scrape multiple pages
+                for page in range(max_pages):
+                    params = {
+                        'text': keyword,
+                        'q': q_param,
+                        'sort': 'uploadDateDesc',
+                        'page': page
+                    }
+
+                    response = self.session.get(self.SEARCH_URL, params=params, timeout=30)
+
+                    if response.status_code == 200:
+                        soup = BeautifulSoup(response.content, 'html.parser')
+                        page_tenders = self._parse_results(soup)
+                        tenders.extend(page_tenders)
+
+                        # If no results on this page, stop pagination for this keyword
+                        if not page_tenders:
+                            break
+                    else:
+                        logger.warning(f"Failed to fetch mr.gov.il for keyword '{keyword}' page {page}: {response.status_code}")
+                        break
 
         except Exception as e:
             logger.error(f"Error scraping mr.gov.il: {e}")
@@ -226,7 +246,9 @@ class MRGovScraper(TenderScraper):
 
                 title = link.get_text(strip=True)
 
-                if not title or not self.matches_keywords(title + ' ' + full_text):
+                # IMPORTANT: Only check keywords in the TITLE, not full text
+                # Because full text contains "תאריך פרסום" etc. which gives false positives
+                if not title or not self.matches_keywords(title):
                     continue
 
                 # Extract URL
@@ -639,21 +661,33 @@ class MunicipalScraper(TenderScraper):
         return datetime.now().strftime('%Y-%m-%d')
 
 
-def main():
-    """Main function to run all scrapers"""
+def main(include_historical: bool = False):
+    """Main function to run all scrapers
+
+    Args:
+        include_historical: If True, search historical tenders (last 6 months)
+    """
     logger.info("Starting tender scraping...")
+    if include_historical:
+        logger.info("*** HISTORICAL MODE: Searching all tenders (including closed) ***")
 
     all_tenders = []
 
-    # Initialize scrapers
-    scrapers = [
-        MRGovScraper(),
+    # Initialize and run MRGov scraper with historical option
+    mr_scraper = MRGovScraper()
+    try:
+        tenders = mr_scraper.scrape(include_historical=include_historical, max_pages=10 if include_historical else 3)
+        all_tenders.extend(tenders)
+    except Exception as e:
+        logger.error(f"MRGovScraper failed: {e}")
+
+    # Run other scrapers normally (they don't support historical mode yet)
+    other_scrapers = [
         TenderGovScraper(),
         MunicipalScraper()
     ]
 
-    # Run all scrapers
-    for scraper in scrapers:
+    for scraper in other_scrapers:
         try:
             tenders = scraper.scrape()
             all_tenders.extend(tenders)
@@ -663,14 +697,20 @@ def main():
     # Convert to dict format
     tenders_data = [asdict(t) for t in all_tenders]
 
-    # Sort by deadline (closest first)
-    tenders_data.sort(key=lambda x: x['deadline'])
+    # Sort by deadline (closest first for open, most recent for closed)
+    tenders_data.sort(key=lambda x: x['deadline'], reverse=include_historical)
 
     # Create output
     output = {
         "lastUpdate": datetime.now().strftime('%Y-%m-%d %H:%M'),
         "tenders": tenders_data
     }
+
+    # Add note if no tenders found or if in historical mode
+    if not tenders_data:
+        output["note"] = "כרגע אין מכרזים פתוחים בתחום יחסי ציבור ודוברות. המערכת סורקת אוטומטית כל שבוע."
+    elif include_historical:
+        output["note"] = f"מצב בדיקה היסטורית: נמצאו {len(tenders_data)} מכרזים מהחצי שנה האחרונה."
 
     # Save to file
     output_path = Path(__file__).parent.parent / 'data' / 'tenders.json'
@@ -685,4 +725,7 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    import sys
+    # Check if --historical flag is passed
+    include_historical = '--historical' in sys.argv
+    main(include_historical=include_historical)

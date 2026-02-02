@@ -1,36 +1,33 @@
 {
-  "lastUpdate": "2026-02-02 07:45",
-  "note": "כרגע אין מכרזים פתוחים בתחום יחסי ציבור ודוברות. הנתונים להלן הם לדוגמה בלבד. המערכת סורקת אוטומטית כל שבוע.",
+  "lastUpdate": "2026-02-02 08:03",
   "tenders": [
     {
-      "tenderNumber": "DEMO-2026-001",
-      "title": "שירותי יחסי ציבור ודוברות - דוגמה",
-      "publisher": "משרד ממשלתי (דוגמה)",
-      "deadline": "2026-03-15",
-      "categories": ["יחסי ציבור", "דוברות"],
-      "source": "demo",
-      "url": "https://mr.gov.il",
-      "description": "זהו מכרז לדוגמה. כאשר יפורסמו מכרזים אמיתיים בתחום, הם יופיעו כאן."
+      "tenderNumber": "4000613689",
+      "title": "מנוע חיתום דיגיטלי בקרן להלוואות בערבות מדינה לעסקים קטנים ובינוניים",
+      "publisher": "משרד האוצר - החשב הכללי",
+      "deadline": "2026-02-26",
+      "categories": [
+        "פרסום",
+        "מדיה"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613689",
+      "description": ""
     },
     {
-      "tenderNumber": "DEMO-2026-002",
-      "title": "הפקת קמפיין פרסומי - דוגמה",
-      "publisher": "עיריית תל אביב (דוגמה)",
-      "deadline": "2026-03-20",
-      "categories": ["פרסום", "קמפיין"],
-      "source": "demo",
-      "url": "https://www.tel-aviv.gov.il",
-      "description": "זהו מכרז לדוגמה להפקת קמפיין פרסומי."
-    },
-    {
-      "tenderNumber": "DEMO-2026-003",
-      "title": "ניהול רשתות חברתיות - דוגמה",
-      "publisher": "משרד התיירות (דוגמה)",
-      "deadline": "2026-03-25",
-      "categories": ["מדיה", "דיגיטל"],
-      "source": "demo",
-      "url": "https://mr.gov.il",
-      "description": "זהו מכרז לדוגמה לניהול עמודי סושיאל."
+      "tenderNumber": "4000613695",
+      "title": "שירותי עריכת תוכן הגהה ותרגום שיווקי והעלאת התכנים באופן שיווקי במערכת ADMIN ייחודית- תוכן עניינים",
+      "publisher": "משרד הבריאות - המרכז הרפואי הלל יפה",
+      "deadline": "2026-02-18",
+      "categories": [
+        "פרסום",
+        "שיווק",
+        "תוכן"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613695",
+      "description": ""
     }
-  ]
+  ],
+  "note": "נמצאו מכרזים מ-mr.gov.il. עדכון אוטומטי שבועי."
 }
