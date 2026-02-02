@@ -311,7 +311,7 @@ function debounce(func, wait) {
 // ===========================================
 
 // Cloudflare Worker URL - UPDATE THIS after creating your worker!
-const WORKER_URL = 'https://tenders-trigger.YOUR_SUBDOMAIN.workers.dev';
+const WORKER_URL = 'https://weathered-dream-bcc2.eliglik81.workers.dev';
 
 // Trigger scan function
 async function triggerScan() {
