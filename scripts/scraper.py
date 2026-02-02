@@ -407,7 +407,7 @@ class MunicipalScraper(TenderScraper):
         # ערים גדולות
         'tel-aviv': {
             'name': 'עיריית תל אביב-יפו',
-            'url': 'https://www.tel-aviv.gov.il/AuctionAndCareers/Pages/AuctionAndCareers.aspx',
+            'url': 'https://www.tel-aviv.gov.il/AuctionAndCareers/Pages/Service.aspx',
             'prefix': 'TLV'
         },
         'jerusalem': {
@@ -542,60 +542,104 @@ class MunicipalScraper(TenderScraper):
         """Parse municipal tenders page - collect ALL tenders"""
         tenders = []
 
-        # Common selectors for municipal sites (SharePoint based and others)
-        items = (
-            soup.find_all('div', class_='tender-row') or
-            soup.find_all('tr', class_='tender') or
-            soup.find_all('article', class_='tender') or
-            soup.find_all('li', class_='tender-item') or
-            soup.find_all('div', class_='ms-listviewtable') or
-            soup.find_all('tr', class_='ms-itmhover') or
-            soup.find_all('div', class_='dfwp-item')
-        )
+        # Try to find tender items using multiple strategies
 
-        for item in items:
-            try:
-                # Extract title
-                title_el = item.find(['h2', 'h3', 'h4', 'a', 'span'], class_=re.compile(r'title|name|subject'))
-                if not title_el:
-                    title_el = item.find('td', class_='title') or item.find(['a', 'span'])
+        # Strategy 1: Look for table rows with tender data (Tel Aviv style)
+        tables = soup.find_all('table')
+        for table in tables:
+            rows = table.find_all('tr')
+            for row in rows:
+                cells = row.find_all(['td', 'th'])
+                if len(cells) >= 2:
+                    # Get text from row
+                    row_text = row.get_text()
 
-                if not title_el:
+                    # Skip header rows
+                    if 'שם הקובץ' in row_text or 'מספר מכרז' in row_text:
+                        continue
+
+                    # Look for tender pattern (contains "מכרז" and a number)
+                    if 'מכרז' in row_text:
+                        # Extract title - first cell usually has the title
+                        title = cells[0].get_text(strip=True) if cells else ""
+
+                        # Extract tender number
+                        num_match = re.search(r'(\d+[./]\d+|\d+/\d+)', row_text)
+                        tender_num = f"{city_info['prefix']}-{num_match.group(1)}" if num_match else f"{city_info['prefix']}-{len(tenders)+1}"
+
+                        # Extract deadline
+                        date_match = re.search(r'(\d{1,2}[./]\d{1,2}[./]\d{2,4})', row_text)
+                        deadline = self.parse_date(date_match.group(1)) if date_match else datetime.now().strftime('%Y-%m-%d')
+
+                        # Get URL from link
+                        link = row.find('a', href=True)
+                        url = link['href'] if link else city_info['url']
+                        if url and not url.startswith('http'):
+                            base_url = '/'.join(city_info['url'].split('/')[:3])
+                            url = f"{base_url}{url}"
+
+                        if title and len(title) > 5:
+                            tender = Tender(
+                                tenderNumber=tender_num,
+                                title=title[:200],  # Limit title length
+                                publisher=city_info['name'],
+                                deadline=deadline,
+                                categories=self.categorize(title),
+                                source="municipal",
+                                url=url
+                            )
+                            tenders.append(tender)
+
+        # Strategy 2: Look for div/article items with tender info
+        if not tenders:
+            items = (
+                soup.find_all('div', class_=re.compile(r'tender|item|card|row', re.I)) or
+                soup.find_all('article') or
+                soup.find_all('li', class_=re.compile(r'tender|item', re.I))
+            )
+
+            for item in items:
+                try:
+                    text = item.get_text()
+                    if 'מכרז' not in text:
+                        continue
+
+                    # Extract title
+                    title_el = item.find(['h2', 'h3', 'h4', 'a', 'strong'])
+                    title = title_el.get_text(strip=True) if title_el else ""
+
+                    if not title or len(title) < 5:
+                        continue
+
+                    # Extract tender number
+                    num_match = re.search(r'(\d+[./]\d+|\d+/\d+)', text)
+                    tender_num = f"{city_info['prefix']}-{num_match.group(1)}" if num_match else f"{city_info['prefix']}-{len(tenders)+1}"
+
+                    # Extract deadline
+                    date_match = re.search(r'(\d{1,2}[./]\d{1,2}[./]\d{2,4})', text)
+                    deadline = self.parse_date(date_match.group(1)) if date_match else datetime.now().strftime('%Y-%m-%d')
+
+                    # Get URL
+                    link = item.find('a', href=True)
+                    url = link['href'] if link else city_info['url']
+                    if url and not url.startswith('http'):
+                        base_url = '/'.join(city_info['url'].split('/')[:3])
+                        url = f"{base_url}{url}"
+
+                    tender = Tender(
+                        tenderNumber=tender_num,
+                        title=title[:200],
+                        publisher=city_info['name'],
+                        deadline=deadline,
+                        categories=self.categorize(title),
+                        source="municipal",
+                        url=url
+                    )
+                    tenders.append(tender)
+
+                except Exception as e:
+                    logger.debug(f"Error parsing municipal item: {e}")
                     continue
-
-                title = title_el.get_text(strip=True)
-                if not title:
-                    continue
-
-                # Extract tender number
-                num_el = item.find(text=re.compile(r'מספר|מכרז|#')) or item.find(class_=re.compile(r'number|id'))
-                tender_num = self._extract_number(num_el, city_info['prefix'])
-
-                # Extract deadline
-                date_el = item.find(text=re.compile(r'\d{1,2}[./]\d{1,2}[./]\d{2,4}'))
-                deadline = self._extract_date(date_el) if date_el else datetime.now().strftime('%Y-%m-%d')
-
-                # Extract URL
-                link = item.find('a', href=True)
-                url = link['href'] if link else city_info['url']
-                if url and not url.startswith('http'):
-                    base = city_info['url'].rsplit('/', 1)[0]
-                    url = f"{base}/{url}"
-
-                tender = Tender(
-                    tenderNumber=tender_num,
-                    title=title,
-                    publisher=city_info['name'],
-                    deadline=deadline,
-                    categories=self.categorize(title),
-                    source="municipal",
-                    url=url
-                )
-                tenders.append(tender)
-
-            except Exception as e:
-                logger.debug(f"Error parsing municipal item: {e}")
-                continue
 
         return tenders
 
