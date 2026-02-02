@@ -3,51 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>מכרזי דוברות ויחסי ציבור - ישראל</title>
+    <title>מכרזים ממשלתיים ועירוניים - ישראל</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>מכרזי דוברות ויחסי ציבור</h1>
-            <p class="subtitle">מכרזים ממשלתיים ועירוניים בתחומי התקשורת</p>
+            <h1>מכרזים ממשלתיים ועירוניים</h1>
+            <p class="subtitle">כל המכרזים ממקורות ציבוריים במקום אחד</p>
         </div>
     </header>
 
     <main class="container">
         <section class="filters">
-            <div class="filter-group">
-                <label for="search">חיפוש:</label>
-                <input type="text" id="search" placeholder="חפש לפי כותרת, גוף מפרסם...">
+            <div class="filter-row">
+                <div class="filter-group search-group">
+                    <label for="search">חיפוש חופשי:</label>
+                    <input type="text" id="search" placeholder="חפש לפי כותרת, גוף מפרסם, מספר מכרז...">
+                </div>
             </div>
-            <div class="filter-group">
-                <label for="source">מקור:</label>
-                <select id="source">
-                    <option value="">הכל</option>
-                    <option value="mr.gov.il">מר"מ - מנהל הרכש הממשלתי</option>
-                    <option value="tender.gov.il">מערכת המכרזים הממלכתית</option>
-                    <option value="municipal">עיריות</option>
-                </select>
-            </div>
-            <div class="filter-group">
-                <label for="status">סטטוס:</label>
-                <select id="status">
-                    <option value="">הכל</option>
-                    <option value="open">פתוח להגשה</option>
-                    <option value="closing-soon">נסגר בקרוב</option>
-                    <option value="closed">נסגר</option>
-                </select>
-            </div>
-            <div class="filter-group">
-                <label for="category">קטגוריה:</label>
-                <select id="category">
-                    <option value="">הכל</option>
-                    <option value="דוברות">דוברות</option>
-                    <option value="יחסי ציבור">יחסי ציבור</option>
-                    <option value="תקשורת">תקשורת</option>
-                    <option value="פרסום">פרסום</option>
-                    <option value="מדיה">מדיה</option>
-                </select>
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label for="source">מקור:</label>
+                    <select id="source">
+                        <option value="">כל המקורות</option>
+                        <option value="mr.gov.il">מר"מ - מנהל הרכש הממשלתי</option>
+                        <option value="tender.gov.il">מערכת המכרזים הממלכתית</option>
+                        <option value="municipal">עיריות</option>
+                        <option value="government-company">חברות ממשלתיות</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="status">סטטוס:</label>
+                    <select id="status">
+                        <option value="">הכל</option>
+                        <option value="open">פתוח להגשה</option>
+                        <option value="closing-soon">נסגר בקרוב (7 ימים)</option>
+                        <option value="closed">נסגר</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="category">קטגוריה:</label>
+                    <select id="category">
+                        <option value="">כל הקטגוריות</option>
+                        <option value="דוברות">דוברות</option>
+                        <option value="יחסי ציבור">יחסי ציבור</option>
+                        <option value="תקשורת">תקשורת</option>
+                        <option value="פרסום">פרסום</option>
+                        <option value="שיווק">שיווק</option>
+                        <option value="מדיה">מדיה</option>
+                        <option value="מיתוג">מיתוג</option>
+                        <option value="תוכן">תוכן</option>
+                        <option value="עיצוב">עיצוב</option>
+                        <option value="אירועים">אירועים</option>
+                        <option value="אחר">אחר</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <button id="clear-filters" class="btn-secondary">נקה פילטרים</button>
+                </div>
             </div>
         </section>
 
@@ -55,6 +69,10 @@
             <div class="stat-card">
                 <span class="stat-number" id="total-tenders">0</span>
                 <span class="stat-label">סה"כ מכרזים</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="filtered-tenders">0</span>
+                <span class="stat-label">תוצאות נוכחיות</span>
             </div>
             <div class="stat-card">
                 <span class="stat-number" id="open-tenders">0</span>
@@ -68,6 +86,7 @@
 
         <section class="last-update">
             <p>עדכון אחרון: <span id="last-update-date">טוען...</span></p>
+            <p class="source-stats" id="source-stats"></p>
         </section>
 
         <section class="tenders-table">
@@ -101,7 +120,7 @@
     <footer>
         <div class="container">
             <p>הנתונים נאספים באופן אוטומטי ממקורות ציבוריים | עדכון שבועי</p>
-            <p>מקורות: מר"מ, מערכת המכרזים הממלכתית, אתרי עיריות</p>
+            <p>מקורות: מר"מ, מערכת המכרזים הממלכתית, אתרי עיריות, חברות ממשלתיות</p>
         </div>
     </footer>
 

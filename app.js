@@ -1,8 +1,9 @@
 // Configuration
-const ITEMS_PER_PAGE = 15;
+const ITEMS_PER_PAGE = 20;
 let currentPage = 1;
 let allTenders = [];
 let filteredTenders = [];
+let sourceStats = {};
 
 // DOM Elements
 const tendersBody = document.getElementById('tenders-body');
@@ -10,13 +11,16 @@ const searchInput = document.getElementById('search');
 const sourceSelect = document.getElementById('source');
 const statusSelect = document.getElementById('status');
 const categorySelect = document.getElementById('category');
+const clearFiltersBtn = document.getElementById('clear-filters');
 const prevButton = document.getElementById('prev-page');
 const nextButton = document.getElementById('next-page');
 const pageInfo = document.getElementById('page-info');
 const totalTendersEl = document.getElementById('total-tenders');
+const filteredTendersEl = document.getElementById('filtered-tenders');
 const openTendersEl = document.getElementById('open-tenders');
 const closingSoonEl = document.getElementById('closing-soon');
 const lastUpdateEl = document.getElementById('last-update-date');
+const sourceStatsEl = document.getElementById('source-stats');
 
 // Initialize
 document.addEventListener('DOMContentLoaded', init);
@@ -35,9 +39,15 @@ async function loadTenders() {
         }
         const data = await response.json();
         allTenders = data.tenders || [];
+        sourceStats = data.sources || {};
         lastUpdateEl.textContent = data.lastUpdate || 'לא זמין';
 
-        // Show notice if there's a note (e.g., demo mode)
+        // Show source stats
+        if (data.sources) {
+            displaySourceStats(data.sources);
+        }
+
+        // Show notice if there's a note
         if (data.note) {
             showNotice(data.note);
         }
@@ -58,12 +68,33 @@ async function loadTenders() {
     }
 }
 
+// Display source statistics
+function displaySourceStats(sources) {
+    const sourceNames = {
+        'mr.gov.il': 'מר"מ',
+        'tender.gov.il': 'מכרזים ממלכתי',
+        'municipal': 'עיריות',
+        'government-company': 'חברות ממשלתיות'
+    };
+
+    const parts = [];
+    for (const [source, count] of Object.entries(sources)) {
+        if (count > 0) {
+            parts.push(`${sourceNames[source] || source}: ${count}`);
+        }
+    }
+
+    if (sourceStatsEl && parts.length > 0) {
+        sourceStatsEl.textContent = `מקורות: ${parts.join(' | ')}`;
+    }
+}
+
 // Show notice banner
 function showNotice(message) {
     const notice = document.createElement('div');
     notice.className = 'notice-banner';
     notice.innerHTML = `
-        <p>📢 ${message}</p>
+        <p>${message}</p>
         <button onclick="this.parentElement.remove()">✕</button>
     `;
     const stats = document.querySelector('.stats');
@@ -78,23 +109,34 @@ function setupEventListeners() {
     sourceSelect.addEventListener('change', filterTenders);
     statusSelect.addEventListener('change', filterTenders);
     categorySelect.addEventListener('change', filterTenders);
+    clearFiltersBtn.addEventListener('click', clearFilters);
     prevButton.addEventListener('click', () => changePage(-1));
     nextButton.addEventListener('click', () => changePage(1));
 }
 
+// Clear all filters
+function clearFilters() {
+    searchInput.value = '';
+    sourceSelect.value = '';
+    statusSelect.value = '';
+    categorySelect.value = '';
+    filterTenders();
+}
+
 // Filter tenders
 function filterTenders() {
-    const searchTerm = searchInput.value.toLowerCase();
+    const searchTerm = searchInput.value.toLowerCase().trim();
     const sourceFilter = sourceSelect.value;
     const statusFilter = statusSelect.value;
     const categoryFilter = categorySelect.value;
 
     filteredTenders = allTenders.filter(tender => {
-        // Search filter
+        // Search filter - search in title, publisher, and tender number
         const matchesSearch = !searchTerm ||
             tender.title.toLowerCase().includes(searchTerm) ||
             tender.publisher.toLowerCase().includes(searchTerm) ||
-            tender.tenderNumber.toLowerCase().includes(searchTerm);
+            tender.tenderNumber.toLowerCase().includes(searchTerm) ||
+            (tender.description && tender.description.toLowerCase().includes(searchTerm));
 
         // Source filter
         const matchesSource = !sourceFilter || tender.source === sourceFilter;
@@ -144,7 +186,8 @@ function updateStats() {
         }
     });
 
-    totalTendersEl.textContent = filteredTenders.length;
+    totalTendersEl.textContent = allTenders.length;
+    filteredTendersEl.textContent = filteredTenders.length;
     openTendersEl.textContent = openCount;
     closingSoonEl.textContent = closingSoonCount;
 }
@@ -160,7 +203,7 @@ function renderTenders() {
             <tr>
                 <td colspan="7" class="no-results">
                     <h3>לא נמצאו מכרזים</h3>
-                    <p>נסה לשנות את פרמטרי החיפוש</p>
+                    <p>נסה לשנות את פרמטרי החיפוש או לנקות את הפילטרים</p>
                 </td>
             </tr>
         `;
@@ -189,7 +232,7 @@ function createTenderRow(tender) {
         'mr.gov.il': 'מר"מ',
         'tender.gov.il': 'מכרזים ממלכתי',
         'municipal': 'עירייה',
-        'demo': 'דוגמה'
+        'government-company': 'חברה ממשלתית'
     };
 
     const formattedDate = formatHebrewDate(tender.deadline);
@@ -197,16 +240,22 @@ function createTenderRow(tender) {
         `<span class="category-tag">${cat}</span>`
     ).join(' ');
 
+    // Truncate long titles
+    const maxTitleLength = 80;
+    const displayTitle = tender.title.length > maxTitleLength
+        ? tender.title.substring(0, maxTitleLength) + '...'
+        : tender.title;
+
     return `
-        <tr>
-            <td>${tender.tenderNumber}</td>
-            <td>${tender.title}</td>
+        <tr class="${status === 'closed' ? 'row-closed' : ''}">
+            <td class="tender-number">${tender.tenderNumber}</td>
+            <td class="tender-title" title="${tender.title}">${displayTitle}</td>
             <td>${tender.publisher}</td>
             <td>
                 <span class="status-badge ${statusClass[status]}">${statusText[status]}</span>
                 <br><small>${formattedDate}</small>
             </td>
-            <td>${categories}</td>
+            <td class="categories">${categories}</td>
             <td><span class="source-badge">${sourceNames[tender.source] || tender.source}</span></td>
             <td>
                 <a href="${tender.url}" target="_blank" class="btn">צפייה</a>

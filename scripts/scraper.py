@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-מכרזי דוברות ויחסי ציבור - סקריפט סריקה מורחב
-סורק מכרזים ממקורות ממשלתיים ועירוניים בישראל
+מכרזי דוברות ויחסי ציבור - סקריפט סריקה גורפת
+סורק את כל המכרזים (לא פטורים) ומסנן באתר עצמו
 """
 
 import json
@@ -22,47 +22,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Extended keywords for filtering PR/Communications/Marketing tenders
-# These keywords must appear in the TITLE to be considered relevant
-KEYWORDS = [
-    # דוברות והסברה
-    'דוברות', 'דובר', 'הסברה', 'דיפלומטיה ציבורית',
-    # יחסי ציבור
-    'יחסי ציבור', 'יח"צ',
-    # תקשורת - specific to communications/PR field
-    'ייעוץ תקשורתי', 'ניהול משברים', 'אסטרטגיה תקשורתית',
-    'תקשורת שיווקית',
-    # פרסום ושיווק
-    'שירותי פרסום', 'משרד פרסום', 'סוכנות פרסום', 'פרסום ושיווק',
-    'שיווקי', 'קמפיין פרסומי', 'פרסומת', 'פרסום',
-    # מדיה ודיגיטל
-    'מדיה חברתית', 'רשתות חברתיות', 'ניהול עמודים',
-    'מדיה דיגיטלית', 'סושיאל', 'מדיה',
-    # קמפיינים ומיתוג
-    'קמפיין', 'מיתוג', 'זהות מותגית', 'לוגו',
-    # תוכן ועריכה
-    'כתיבת תוכן', 'הפקת תוכן', 'עריכת תוכן', 'תוכן שיווקי',
-    'הפקת סרטונים', 'הפקת וידאו', 'סרטון תדמית', 'תוכן',
-    # ניטור וניתוח
-    'ניטור תקשורת', 'ניתוח מדיה', 'סקירת עיתונות',
-    # אירועים
-    'הפקת אירועים', 'ניהול אירועים', 'כנסים ואירועים',
-    # חיפוש נוסף
-    'תדמית', 'קהל יעד', 'מסרים', 'עיצוב גרפי', 'דיגיטל'
-]
-
-# Words that indicate NOT a PR/communications tender (exclusion list)
-EXCLUDE_KEYWORDS = [
-    'רפואי', 'רפואה', 'ציוד רפואי', 'אספקת ציוד',
-    'בניה', 'בנייה', 'תשתיות', 'שיפוץ',
-    'מזון', 'הסעדה', 'ניקיון',
-    'רכב', 'רכבים', 'דלק',
-    'מחשבים', 'תוכנה', 'מערכות מידע',
-    'אבטחה', 'שמירה', 'בטחון',
-    'חשמל', 'אינסטלציה', 'תחזוקה'
-]
-
-# Extended categories mapping
+# Extended categories mapping - used for categorization in the website
 CATEGORY_MAP = {
     'דוברות': ['דוברות', 'דובר', 'spokesman', 'הסברה', 'דיפלומטיה ציבורית'],
     'יחסי ציבור': ['יחסי ציבור', 'יח"צ', 'PR', 'public relations', 'ניהול משברים'],
@@ -72,7 +32,9 @@ CATEGORY_MAP = {
     'מדיה': ['מדיה', 'רשתות חברתיות', 'דיגיטל', 'social media', 'סושיאל'],
     'מיתוג': ['מיתוג', 'branding', 'brand', 'זהות מותגית', 'לוגו'],
     'תוכן': ['תוכן', 'content', 'עריכה', 'וידאו', 'הפקה'],
-    'אירועים': ['אירועים', 'events', 'כנסים', 'השקות']
+    'אירועים': ['אירועים', 'events', 'כנסים', 'השקות'],
+    'עיצוב': ['עיצוב', 'גרפי', 'design', 'graphic'],
+    'אחר': []  # Default category
 }
 
 
@@ -87,6 +49,7 @@ class Tender:
     source: str
     url: str
     description: str = ""
+    docType: str = "מכרז"  # מכרז, פטור, הודעה
 
 
 class TenderScraper:
@@ -95,19 +58,16 @@ class TenderScraper:
     def __init__(self):
         self.session = requests.Session()
         self.session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7',
         })
+        # Disable SSL verification for problematic sites
+        self.session.verify = False
 
-    def matches_keywords(self, text: str) -> bool:
-        """Check if text contains relevant keywords and doesn't contain exclusion keywords"""
-        text_lower = text.lower()
-
-        # First check if text contains exclusion keywords - if so, skip
-        if any(excl.lower() in text_lower for excl in EXCLUDE_KEYWORDS):
-            return False
-
-        # Then check if text contains relevant keywords
-        return any(kw.lower() in text_lower for kw in KEYWORDS)
+        # Suppress SSL warnings
+        import urllib3
+        urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
     def categorize(self, text: str) -> list:
         """Categorize tender based on content"""
@@ -115,10 +75,12 @@ class TenderScraper:
         text_lower = text.lower()
 
         for category, keywords in CATEGORY_MAP.items():
+            if category == 'אחר':
+                continue
             if any(kw.lower() in text_lower for kw in keywords):
                 categories.append(category)
 
-        return categories if categories else ['תקשורת']
+        return categories if categories else ['אחר']
 
     def parse_date(self, date_str: str) -> Optional[str]:
         """Parse various date formats to ISO format"""
@@ -143,59 +105,45 @@ class TenderScraper:
 class MRGovScraper(TenderScraper):
     """
     Scraper for mr.gov.il - מנהל הרכש הממשלתי (Government Procurement Administration)
+    גישה גורפת: אוסף את כל המכרזים (לא פטורים), סינון באתר
     """
 
     BASE_URL = "https://mr.gov.il"
     SEARCH_URL = f"{BASE_URL}/ilgstorefront/he/search"
 
-    # Extended search keywords
-    SEARCH_KEYWORDS = [
-        'דוברות', 'יחסי ציבור', 'תקשורת', 'פרסום',
-        'שיווק', 'מדיה', 'מיתוג', 'קמפיין',
-        'רשתות חברתיות', 'דיגיטל', 'הסברה', 'תוכן'
-    ]
-
-    def scrape(self, include_historical: bool = False, max_pages: int = 5) -> list:
-        """Scrape tenders from mr.gov.il
+    def scrape(self, max_pages: int = 20) -> list:
+        """Scrape ALL tenders from mr.gov.il (excluding exemptions)
 
         Args:
-            include_historical: If True, search all tenders (not just new ones)
-            max_pages: Maximum number of pages to scrape per keyword
+            max_pages: Maximum number of pages to scrape
         """
         tenders = []
-        logger.info("Scraping mr.gov.il...")
+        logger.info("Scraping mr.gov.il - COMPREHENSIVE MODE (all tenders, no exemptions)...")
 
         try:
-            # Search for relevant keywords
-            for keyword in self.SEARCH_KEYWORDS:
-                # Build query - include historical or only new
-                if include_historical:
-                    q_param = ':uploadDateDesc'  # All tenders, sorted by date
-                else:
-                    q_param = ':uploadDateDesc:itemStatus:new'  # Only new tenders
+            # Scrape all recent tenders sorted by date
+            for page in range(max_pages):
+                params = {
+                    'q': ':uploadDateDesc',  # All items, sorted by upload date
+                    'sort': 'uploadDateDesc',
+                    'page': page
+                }
 
-                # Scrape multiple pages
-                for page in range(max_pages):
-                    params = {
-                        'text': keyword,
-                        'q': q_param,
-                        'sort': 'uploadDateDesc',
-                        'page': page
-                    }
+                response = self.session.get(self.SEARCH_URL, params=params, timeout=30)
 
-                    response = self.session.get(self.SEARCH_URL, params=params, timeout=30)
+                if response.status_code == 200:
+                    soup = BeautifulSoup(response.content, 'html.parser')
+                    page_tenders = self._parse_results(soup)
 
-                    if response.status_code == 200:
-                        soup = BeautifulSoup(response.content, 'html.parser')
-                        page_tenders = self._parse_results(soup)
-                        tenders.extend(page_tenders)
-
-                        # If no results on this page, stop pagination for this keyword
-                        if not page_tenders:
-                            break
-                    else:
-                        logger.warning(f"Failed to fetch mr.gov.il for keyword '{keyword}' page {page}: {response.status_code}")
+                    if not page_tenders:
+                        logger.info(f"No more results at page {page}, stopping.")
                         break
+
+                    tenders.extend(page_tenders)
+                    logger.info(f"Page {page}: Found {len(page_tenders)} tenders (total: {len(tenders)})")
+                else:
+                    logger.warning(f"Failed to fetch mr.gov.il page {page}: {response.status_code}")
+                    break
 
         except Exception as e:
             logger.error(f"Error scraping mr.gov.il: {e}")
@@ -208,11 +156,11 @@ class MRGovScraper(TenderScraper):
                 seen.add(tender.tenderNumber)
                 unique_tenders.append(tender)
 
-        logger.info(f"Found {len(unique_tenders)} tenders from mr.gov.il")
+        logger.info(f"Found {len(unique_tenders)} unique tenders from mr.gov.il")
         return unique_tenders
 
     def _parse_results(self, soup: BeautifulSoup) -> list:
-        """Parse search results page"""
+        """Parse search results page - collect ALL tenders, skip exemptions"""
         tenders = []
 
         # Find tender cards - correct selector for mr.gov.il
@@ -222,22 +170,24 @@ class MRGovScraper(TenderScraper):
         if not items:
             items = soup.find_all('div', class_='product-item') or soup.find_all('article')
 
-        logger.info(f"Found {len(items)} result containers")
-
         for item in items:
             try:
                 # Get full text for analysis
                 full_text = item.get_text()
 
-                # Skip exemptions (פטור) - only include actual tenders
-                if 'פטור' in full_text and 'מכרז' not in full_text:
-                    logger.debug("Skipping exemption (פטור)")
-                    continue
+                # Determine document type
+                doc_type = "מכרז"
 
-                # Also check status field - skip if status is "פטור"
-                if 'סטטוס: פטור' in full_text or 'סטטוס:פטור' in full_text:
-                    logger.debug("Skipping exemption by status")
-                    continue
+                # Skip exemptions (פטור) - we only want actual tenders
+                if 'פטור' in full_text:
+                    # Check if it's truly an exemption
+                    if 'סטטוס: פטור' in full_text or 'סטטוס:פטור' in full_text:
+                        continue  # Skip exemptions
+                    if 'הודעת פטור' in full_text or 'הודעות פטור' in full_text:
+                        continue  # Skip exemption notices
+                    # If "פטור" appears but also "מכרז", might be a tender mentioning exemption
+                    if 'מכרז' not in full_text:
+                        continue  # Skip if no mention of tender
 
                 # Extract title from link
                 link = item.find('a', href=lambda h: h and '/p/' in h)
@@ -245,10 +195,7 @@ class MRGovScraper(TenderScraper):
                     continue
 
                 title = link.get_text(strip=True)
-
-                # IMPORTANT: Only check keywords in the TITLE, not full text
-                # Because full text contains "תאריך פרסום" etc. which gives false positives
-                if not title or not self.matches_keywords(title):
+                if not title:
                     continue
 
                 # Extract URL
@@ -271,12 +218,12 @@ class MRGovScraper(TenderScraper):
                         title=title,
                         publisher=publisher,
                         deadline=deadline or datetime.now().strftime('%Y-%m-%d'),
-                        categories=self.categorize(title + ' ' + full_text),
+                        categories=self.categorize(title),  # Only categorize by title
                         source="mr.gov.il",
-                        url=url
+                        url=url,
+                        docType=doc_type
                     )
                     tenders.append(tender)
-                    logger.info(f"Found tender: {title[:50]}...")
 
             except Exception as e:
                 logger.debug(f"Error parsing item: {e}")
@@ -338,21 +285,22 @@ class MRGovScraper(TenderScraper):
 class TenderGovScraper(TenderScraper):
     """
     Scraper for tender.gov.il - מערכת המכרזים הממלכתית
+    גישה גורפת: אוסף את כל המכרזים
     """
 
     BASE_URL = "https://www.gov.il"
     API_URL = f"{BASE_URL}/he/api/BuresApi/Index"
 
     def scrape(self) -> list:
-        """Scrape tenders from tender.gov.il / gov.il"""
+        """Scrape ALL tenders from tender.gov.il / gov.il"""
         tenders = []
-        logger.info("Scraping tender.gov.il...")
+        logger.info("Scraping tender.gov.il - COMPREHENSIVE MODE...")
 
         try:
-            # Try the official government tenders API
+            # Try the official government tenders API - get more results
             params = {
                 'skip': 0,
-                'limit': 100,
+                'limit': 500,  # Get more results
                 'OfficeId': '',
                 'Type': 'all'
             }
@@ -374,7 +322,7 @@ class TenderGovScraper(TenderScraper):
         return tenders
 
     def _parse_api_results(self, data: dict) -> list:
-        """Parse API response"""
+        """Parse API response - collect ALL tenders"""
         tenders = []
 
         results = data.get('results', []) or data.get('items', [])
@@ -382,12 +330,11 @@ class TenderGovScraper(TenderScraper):
         for item in results:
             try:
                 title = item.get('Title', '') or item.get('title', '')
-
-                if not self.matches_keywords(title):
+                if not title:
                     continue
 
                 tender = Tender(
-                    tenderNumber=item.get('TenderId', '') or item.get('id', ''),
+                    tenderNumber=str(item.get('TenderId', '') or item.get('id', '')),
                     title=title,
                     publisher=item.get('OfficeName', '') or item.get('office', 'משרד ממשלתי'),
                     deadline=self.parse_date(item.get('EndDate', '')) or datetime.now().strftime('%Y-%m-%d'),
@@ -404,7 +351,7 @@ class TenderGovScraper(TenderScraper):
         return tenders
 
     def _scrape_html(self) -> list:
-        """Fallback HTML scraping"""
+        """Fallback HTML scraping - collect ALL tenders"""
         tenders = []
         url = f"{self.BASE_URL}/he/departments/tenders"
 
@@ -419,17 +366,16 @@ class TenderGovScraper(TenderScraper):
                     title_el = item.find('h2') or item.find('h3')
                     if title_el:
                         title = title_el.get_text(strip=True)
-                        if self.matches_keywords(title):
-                            tender = Tender(
-                                tenderNumber=f"GOV-{datetime.now().strftime('%Y%m%d%H%M%S')}",
-                                title=title,
-                                publisher="משרד ממשלתי",
-                                deadline=datetime.now().strftime('%Y-%m-%d'),
-                                categories=self.categorize(title),
-                                source="tender.gov.il",
-                                url=url
-                            )
-                            tenders.append(tender)
+                        tender = Tender(
+                            tenderNumber=f"GOV-{datetime.now().strftime('%Y%m%d%H%M%S')}",
+                            title=title,
+                            publisher="משרד ממשלתי",
+                            deadline=datetime.now().strftime('%Y-%m-%d'),
+                            categories=self.categorize(title),
+                            source="tender.gov.il",
+                            url=url
+                        )
+                        tenders.append(tender)
 
         except Exception as e:
             logger.error(f"HTML scraping failed: {e}")
@@ -440,7 +386,7 @@ class TenderGovScraper(TenderScraper):
 class MunicipalScraper(TenderScraper):
     """
     Scraper for municipal tenders (various city websites)
-    Extended to include more municipalities
+    גישה גורפת: אוסף את כל המכרזים מעיריות
     """
 
     MUNICIPALITIES = {
@@ -549,7 +495,7 @@ class MunicipalScraper(TenderScraper):
     }
 
     def scrape(self) -> list:
-        """Scrape tenders from multiple municipalities"""
+        """Scrape ALL tenders from multiple municipalities"""
         all_tenders = []
 
         for city_id, city_info in self.MUNICIPALITIES.items():
@@ -561,7 +507,7 @@ class MunicipalScraper(TenderScraper):
         return all_tenders
 
     def _scrape_municipality(self, city_id: str, city_info: dict) -> list:
-        """Scrape single municipality"""
+        """Scrape single municipality - collect ALL tenders"""
         tenders = []
 
         try:
@@ -579,7 +525,7 @@ class MunicipalScraper(TenderScraper):
         return tenders
 
     def _parse_municipal_page(self, soup: BeautifulSoup, city_info: dict) -> list:
-        """Parse municipal tenders page"""
+        """Parse municipal tenders page - collect ALL tenders"""
         tenders = []
 
         # Common selectors for municipal sites (SharePoint based and others)
@@ -604,8 +550,7 @@ class MunicipalScraper(TenderScraper):
                     continue
 
                 title = title_el.get_text(strip=True)
-
-                if not self.matches_keywords(title):
+                if not title:
                     continue
 
                 # Extract tender number
@@ -661,56 +606,167 @@ class MunicipalScraper(TenderScraper):
         return datetime.now().strftime('%Y-%m-%d')
 
 
-def main(include_historical: bool = False):
-    """Main function to run all scrapers
-
-    Args:
-        include_historical: If True, search historical tenders (last 6 months)
+class GovernmentCompaniesScraper(TenderScraper):
     """
-    logger.info("Starting tender scraping...")
-    if include_historical:
-        logger.info("*** HISTORICAL MODE: Searching all tenders (including closed) ***")
+    Scraper for government companies tenders
+    חברות ממשלתיות כמו חברת החשמל, מקורות, רכבת ישראל וכו'
+    """
+
+    COMPANIES = {
+        'israel-electric': {
+            'name': 'חברת החשמל',
+            'url': 'https://www.iec.co.il/tenders',
+            'prefix': 'IEC'
+        },
+        'mekorot': {
+            'name': 'מקורות',
+            'url': 'https://www.mekorot.co.il/tenders',
+            'prefix': 'MKR'
+        },
+        'israel-railways': {
+            'name': 'רכבת ישראל',
+            'url': 'https://www.rail.co.il/tenders',
+            'prefix': 'ISR'
+        },
+        'israel-post': {
+            'name': 'דואר ישראל',
+            'url': 'https://www.israelpost.co.il/tenders',
+            'prefix': 'POST'
+        },
+        'airports-authority': {
+            'name': 'רשות שדות התעופה',
+            'url': 'https://www.iaa.gov.il/tenders',
+            'prefix': 'IAA'
+        },
+        'ports-company': {
+            'name': 'חברת נמלי ישראל',
+            'url': 'https://www.israports.co.il/tenders',
+            'prefix': 'PORT'
+        },
+        'bezeq': {
+            'name': 'בזק',
+            'url': 'https://www.bezeq.co.il/tenders',
+            'prefix': 'BZK'
+        },
+        'egged': {
+            'name': 'אגד',
+            'url': 'https://www.egged.co.il/tenders',
+            'prefix': 'EGD'
+        },
+        'dan': {
+            'name': 'דן',
+            'url': 'https://www.dan.co.il/tenders',
+            'prefix': 'DAN'
+        }
+    }
+
+    def scrape(self) -> list:
+        """Scrape ALL tenders from government companies"""
+        all_tenders = []
+
+        for company_id, company_info in self.COMPANIES.items():
+            logger.info(f"Scraping {company_info['name']}...")
+            tenders = self._scrape_company(company_id, company_info)
+            all_tenders.extend(tenders)
+
+        logger.info(f"Found {len(all_tenders)} tenders from government companies")
+        return all_tenders
+
+    def _scrape_company(self, company_id: str, company_info: dict) -> list:
+        """Scrape single government company"""
+        tenders = []
+
+        try:
+            response = self.session.get(company_info['url'], timeout=30)
+
+            if response.status_code == 200:
+                soup = BeautifulSoup(response.content, 'html.parser')
+                # Parse tenders from HTML - use common patterns
+                items = (
+                    soup.find_all('div', class_=re.compile(r'tender|item')) or
+                    soup.find_all('article') or
+                    soup.find_all('tr', class_=re.compile(r'tender|item'))
+                )
+
+                for item in items:
+                    title_el = item.find(['h2', 'h3', 'h4', 'a'])
+                    if title_el:
+                        title = title_el.get_text(strip=True)
+                        if title:
+                            tender = Tender(
+                                tenderNumber=f"{company_info['prefix']}-{datetime.now().strftime('%Y%m%d%H%M%S')}",
+                                title=title,
+                                publisher=company_info['name'],
+                                deadline=datetime.now().strftime('%Y-%m-%d'),
+                                categories=self.categorize(title),
+                                source="government-company",
+                                url=company_info['url']
+                            )
+                            tenders.append(tender)
+            else:
+                logger.warning(f"Failed to fetch {company_info['name']}: {response.status_code}")
+
+        except Exception as e:
+            logger.debug(f"Error scraping {company_info['name']}: {e}")
+
+        return tenders
+
+
+def main():
+    """Main function to run all scrapers - COMPREHENSIVE MODE"""
+    logger.info("Starting COMPREHENSIVE tender scraping...")
+    logger.info("Collecting ALL tenders (excluding exemptions), filtering will be done in the website")
 
     all_tenders = []
 
-    # Initialize and run MRGov scraper with historical option
-    mr_scraper = MRGovScraper()
-    try:
-        tenders = mr_scraper.scrape(include_historical=include_historical, max_pages=10 if include_historical else 3)
-        all_tenders.extend(tenders)
-    except Exception as e:
-        logger.error(f"MRGovScraper failed: {e}")
-
-    # Run other scrapers normally (they don't support historical mode yet)
-    other_scrapers = [
+    # Run all scrapers
+    scrapers = [
+        MRGovScraper(),
         TenderGovScraper(),
-        MunicipalScraper()
+        MunicipalScraper(),
+        GovernmentCompaniesScraper()
     ]
 
-    for scraper in other_scrapers:
+    for scraper in scrapers:
         try:
             tenders = scraper.scrape()
             all_tenders.extend(tenders)
+            logger.info(f"{scraper.__class__.__name__}: {len(tenders)} tenders")
         except Exception as e:
             logger.error(f"Scraper {scraper.__class__.__name__} failed: {e}")
 
-    # Convert to dict format
-    tenders_data = [asdict(t) for t in all_tenders]
+    # Remove duplicates based on tender number
+    seen = set()
+    unique_tenders = []
+    for tender in all_tenders:
+        if tender.tenderNumber not in seen:
+            seen.add(tender.tenderNumber)
+            unique_tenders.append(tender)
 
-    # Sort by deadline (closest first for open, most recent for closed)
-    tenders_data.sort(key=lambda x: x['deadline'], reverse=include_historical)
+    # Convert to dict format
+    tenders_data = [asdict(t) for t in unique_tenders]
+
+    # Sort by deadline (closest first)
+    tenders_data.sort(key=lambda x: x['deadline'])
 
     # Create output
     output = {
         "lastUpdate": datetime.now().strftime('%Y-%m-%d %H:%M'),
-        "tenders": tenders_data
+        "tenders": tenders_data,
+        "totalCount": len(tenders_data),
+        "sources": {
+            "mr.gov.il": len([t for t in tenders_data if t['source'] == 'mr.gov.il']),
+            "tender.gov.il": len([t for t in tenders_data if t['source'] == 'tender.gov.il']),
+            "municipal": len([t for t in tenders_data if t['source'] == 'municipal']),
+            "government-company": len([t for t in tenders_data if t['source'] == 'government-company'])
+        }
     }
 
-    # Add note if no tenders found or if in historical mode
+    # Add note
     if not tenders_data:
-        output["note"] = "כרגע אין מכרזים פתוחים בתחום יחסי ציבור ודוברות. המערכת סורקת אוטומטית כל שבוע."
-    elif include_historical:
-        output["note"] = f"מצב בדיקה היסטורית: נמצאו {len(tenders_data)} מכרזים מהחצי שנה האחרונה."
+        output["note"] = "לא נמצאו מכרזים. המערכת סורקת אוטומטית כל שבוע."
+    else:
+        output["note"] = f"נמצאו {len(tenders_data)} מכרזים ממגוון מקורות. השתמש בפילטרים באתר לחיפוש ממוקד."
 
     # Save to file
     output_path = Path(__file__).parent.parent / 'data' / 'tenders.json'
@@ -725,7 +781,4 @@ def main(include_historical: bool = False):
 
 
 if __name__ == '__main__':
-    import sys
-    # Check if --historical flag is passed
-    include_historical = '--historical' in sys.argv
-    main(include_historical=include_historical)
+    main()
