@@ -305,3 +305,75 @@ function debounce(func, wait) {
         timeout = setTimeout(later, wait);
     };
 }
+
+// ===========================================
+// SCAN NOW FUNCTIONALITY
+// ===========================================
+
+// Cloudflare Worker URL - UPDATE THIS after creating your worker!
+const WORKER_URL = 'https://tenders-trigger.YOUR_SUBDOMAIN.workers.dev';
+
+// Trigger scan function
+async function triggerScan() {
+    const btn = document.getElementById('scan-now-btn');
+    const status = document.getElementById('scan-status');
+
+    // Check if worker URL is configured
+    if (WORKER_URL.includes('YOUR_SUBDOMAIN')) {
+        // Fallback: open GitHub Actions page
+        window.open('https://github.com/mnigli/tenders-site/actions/workflows/scrape.yml', '_blank');
+        status.textContent = "לחץ על 'Run workflow' בעמוד שנפתח";
+        status.className = 'scan-status info';
+        return;
+    }
+
+    // Disable button during request
+    btn.disabled = true;
+    btn.textContent = 'מפעיל...';
+    status.textContent = '';
+    status.className = 'scan-status';
+
+    try {
+        const response = await fetch(WORKER_URL, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        });
+
+        const data = await response.json();
+
+        if (data.success) {
+            status.textContent = '✓ הסריקה הופעלה! הנתונים יתעדכנו תוך כ-2 דקות';
+            status.className = 'scan-status success';
+            btn.textContent = 'הופעל!';
+
+            // Re-enable button after 30 seconds
+            setTimeout(() => {
+                btn.disabled = false;
+                btn.textContent = 'סרוק עכשיו';
+            }, 30000);
+
+            // Reload data after 2 minutes
+            setTimeout(() => {
+                status.textContent = 'מרענן נתונים...';
+                loadTenders();
+            }, 120000);
+        } else {
+            throw new Error(data.error || 'Unknown error');
+        }
+    } catch (error) {
+        console.error('Scan trigger error:', error);
+        status.textContent = '✗ שגיאה - נסה שוב מאוחר יותר';
+        status.className = 'scan-status error';
+        btn.disabled = false;
+        btn.textContent = 'סרוק עכשיו';
+
+        // Fallback: open GitHub Actions page
+        setTimeout(() => {
+            if (confirm('האם לפתוח את GitHub Actions להפעלה ידנית?')) {
+                window.open('https://github.com/mnigli/tenders-site/actions/workflows/scrape.yml', '_blank');
+            }
+        }, 1000);
+    }
+}

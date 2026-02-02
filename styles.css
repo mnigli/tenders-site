@@ -404,33 +404,41 @@ footer p {
     background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
     color: white;
     text-decoration: none;
+    border: none;
     border-radius: 6px;
     font-size: 0.9rem;
     font-weight: 500;
+    cursor: pointer;
     transition: all 0.3s;
     box-shadow: 0 2px 4px rgba(72, 187, 120, 0.3);
 }
 
-.btn-scan:hover {
+.btn-scan:hover:not(:disabled) {
     background: linear-gradient(135deg, #38a169 0%, #2f855a 100%);
     box-shadow: 0 4px 8px rgba(72, 187, 120, 0.4);
     transform: translateY(-1px);
 }
 
-.scan-help {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 20px;
-    height: 20px;
-    background: #e2e8f0;
-    color: #4a5568;
-    border-radius: 50%;
-    font-size: 0.75rem;
-    font-weight: bold;
-    cursor: help;
+.btn-scan:disabled {
+    background: #a0aec0;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
 }
 
-.scan-help:hover {
-    background: #cbd5e0;
+.scan-status {
+    font-size: 0.85rem;
+    margin-right: 10px;
+}
+
+.scan-status.success {
+    color: #38a169;
+}
+
+.scan-status.error {
+    color: #e53e3e;
+}
+
+.scan-status.info {
+    color: #3182ce;
 }
