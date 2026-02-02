@@ -61,6 +61,14 @@ class TenderScraper:
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
             'Accept-Language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+            'Cache-Control': 'max-age=0',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
+            'Sec-Fetch-User': '?1',
         })
         # Disable SSL verification for problematic sites
         self.session.verify = False
@@ -121,6 +129,9 @@ class MRGovScraper(TenderScraper):
         logger.info("Scraping mr.gov.il - COMPREHENSIVE MODE (all tenders, no exemptions)...")
 
         try:
+            # First, visit the homepage to get cookies/session
+            self.session.get(self.BASE_URL, timeout=30)
+
             # Scrape all recent tenders sorted by date
             for page in range(max_pages):
                 params = {
@@ -128,6 +139,9 @@ class MRGovScraper(TenderScraper):
                     'sort': 'uploadDateDesc',
                     'page': page
                 }
+
+                import time
+                time.sleep(1)  # Add delay to avoid rate limiting
 
                 response = self.session.get(self.SEARCH_URL, params=params, timeout=30)
 
@@ -393,17 +407,17 @@ class MunicipalScraper(TenderScraper):
         # ערים גדולות
         'tel-aviv': {
             'name': 'עיריית תל אביב-יפו',
-            'url': 'https://www.tel-aviv.gov.il/Tenders/Pages/TendersList.aspx',
+            'url': 'https://www.tel-aviv.gov.il/AuctionAndCareers/Pages/AuctionAndCareers.aspx',
             'prefix': 'TLV'
         },
         'jerusalem': {
             'name': 'עיריית ירושלים',
-            'url': 'https://www.jerusalem.muni.il/he/residents/tenders/',
+            'url': 'https://www.jerusalem.muni.il/he/city/tenders/contractorstenders/',
             'prefix': 'JLM'
         },
         'haifa': {
             'name': 'עיריית חיפה',
-            'url': 'https://www.haifa.muni.il/tenders',
+            'url': 'https://www2.haifa.muni.il/Michrazim/Default.aspx',
             'prefix': 'HFA'
         },
         'beersheba': {
@@ -606,6 +620,100 @@ class MunicipalScraper(TenderScraper):
         return datetime.now().strftime('%Y-%m-%d')
 
 
+class LocalAuthoritiesPortalScraper(TenderScraper):
+    """
+    Scraper for rashuiot.co.il - פורטל רשויות מקומיות
+    מרכז מכרזים של רשויות מקומיות בישראל
+    """
+
+    BASE_URL = "https://www.rashuiot.co.il"
+    TENDERS_URL = f"{BASE_URL}/tenders"
+
+    def scrape(self) -> list:
+        """Scrape tenders from the local authorities portal"""
+        tenders = []
+        logger.info("Scraping rashuiot.co.il - Local Authorities Portal...")
+
+        try:
+            response = self.session.get(self.TENDERS_URL, timeout=30)
+
+            if response.status_code == 200:
+                soup = BeautifulSoup(response.content, 'html.parser')
+                tenders = self._parse_tenders_page(soup)
+            else:
+                logger.warning(f"Failed to fetch rashuiot.co.il: {response.status_code}")
+
+        except Exception as e:
+            logger.error(f"Error scraping rashuiot.co.il: {e}")
+
+        logger.info(f"Found {len(tenders)} tenders from rashuiot.co.il")
+        return tenders
+
+    def _parse_tenders_page(self, soup: BeautifulSoup) -> list:
+        """Parse tenders from the portal page"""
+        tenders = []
+
+        # Try various selectors for tender items
+        items = (
+            soup.find_all('div', class_=re.compile(r'tender|item|card')) or
+            soup.find_all('article') or
+            soup.find_all('tr', class_=re.compile(r'tender|row')) or
+            soup.find_all('li', class_=re.compile(r'tender|item'))
+        )
+
+        for item in items:
+            try:
+                # Extract title
+                title_el = item.find(['h2', 'h3', 'h4', 'a'], class_=re.compile(r'title|name|subject'))
+                if not title_el:
+                    title_el = item.find(['a', 'span', 'div'], text=True)
+
+                if not title_el:
+                    continue
+
+                title = title_el.get_text(strip=True)
+                if not title or len(title) < 5:
+                    continue
+
+                # Skip exemptions
+                if 'פטור' in title.lower():
+                    continue
+
+                # Extract publisher/authority name
+                publisher_el = item.find(text=re.compile(r'עיריי|מועצ|רשות'))
+                publisher = publisher_el.strip() if publisher_el else "רשות מקומית"
+
+                # Extract deadline
+                date_match = re.search(r'(\d{1,2}[./]\d{1,2}[./]\d{2,4})', item.get_text())
+                deadline = self.parse_date(date_match.group(1)) if date_match else datetime.now().strftime('%Y-%m-%d')
+
+                # Extract URL
+                link = item.find('a', href=True)
+                url = link['href'] if link else self.TENDERS_URL
+                if url and not url.startswith('http'):
+                    url = f"{self.BASE_URL}{url}"
+
+                # Generate tender number
+                tender_num = f"RSH-{datetime.now().strftime('%Y%m%d%H%M%S')}-{len(tenders)}"
+
+                tender = Tender(
+                    tenderNumber=tender_num,
+                    title=title,
+                    publisher=publisher,
+                    deadline=deadline,
+                    categories=self.categorize(title),
+                    source="rashuiot.co.il",
+                    url=url
+                )
+                tenders.append(tender)
+
+            except Exception as e:
+                logger.debug(f"Error parsing rashuiot item: {e}")
+                continue
+
+        return tenders
+
+
 class GovernmentCompaniesScraper(TenderScraper):
     """
     Scraper for government companies tenders
@@ -724,6 +832,7 @@ def main():
         MRGovScraper(),
         TenderGovScraper(),
         MunicipalScraper(),
+        LocalAuthoritiesPortalScraper(),
         GovernmentCompaniesScraper()
     ]
 
@@ -758,6 +867,7 @@ def main():
             "mr.gov.il": len([t for t in tenders_data if t['source'] == 'mr.gov.il']),
             "tender.gov.il": len([t for t in tenders_data if t['source'] == 'tender.gov.il']),
             "municipal": len([t for t in tenders_data if t['source'] == 'municipal']),
+            "rashuiot.co.il": len([t for t in tenders_data if t['source'] == 'rashuiot.co.il']),
             "government-company": len([t for t in tenders_data if t['source'] == 'government-company'])
         }
     }
