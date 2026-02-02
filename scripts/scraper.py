@@ -664,6 +664,83 @@ class MunicipalScraper(TenderScraper):
         return datetime.now().strftime('%Y-%m-%d')
 
 
+class MashcalScraper(TenderScraper):
+    """
+    Scraper for mashcal.co.il - משכ"ל החברה למשק וכלכלה של השלטון המקומי
+    מכרזים מרכזיים לרשויות מקומיות
+    """
+
+    BASE_URL = "https://www.mashcal.co.il"
+    TENDERS_URL = f"{BASE_URL}/our-tenders/"
+
+    def scrape(self) -> list:
+        """Scrape tenders from mashcal.co.il"""
+        tenders = []
+        logger.info("Scraping mashcal.co.il - Local Government Company...")
+
+        try:
+            response = self.session.get(self.TENDERS_URL, timeout=30)
+
+            if response.status_code == 200:
+                soup = BeautifulSoup(response.content, 'html.parser')
+                tenders = self._parse_tenders_page(soup)
+            else:
+                logger.warning(f"Failed to fetch mashcal.co.il: {response.status_code}")
+
+        except Exception as e:
+            logger.error(f"Error scraping mashcal.co.il: {e}")
+
+        logger.info(f"Found {len(tenders)} tenders from mashcal.co.il")
+        return tenders
+
+    def _parse_tenders_page(self, soup: BeautifulSoup) -> list:
+        """Parse tenders from mashcal page"""
+        tenders = []
+        text = soup.get_text()
+
+        # Find all tender patterns: "פתוח לרכישה" followed by tender title and date
+        # Pattern: status + title + date + category
+        lines = text.split('\n')
+        current_status = None
+        current_title = None
+
+        for i, line in enumerate(lines):
+            line = line.strip()
+
+            if 'פתוח לרכישה' in line:
+                current_status = 'open'
+            elif 'הסתיים מועד ההגשה' in line:
+                current_status = 'closed'
+            elif 'יפתח בקרוב' in line:
+                current_status = 'upcoming'
+
+            # Look for tender title (starts with "מכרז" or contains key words)
+            if current_status == 'open' and ('מכרז' in line or 'תכנון' in line or 'אספקה' in line):
+                if len(line) > 10 and 'מועד' not in line:
+                    current_title = line
+
+                    # Look for date in next lines
+                    for j in range(i+1, min(i+5, len(lines))):
+                        date_match = re.search(r'(\d{1,2}/\d{1,2}/\d{4})', lines[j])
+                        if date_match:
+                            deadline = self.parse_date(date_match.group(1))
+
+                            tender = Tender(
+                                tenderNumber=f"MSHCL-{len(tenders)+1}",
+                                title=current_title[:200],
+                                publisher="משכ\"ל - החברה למשק וכלכלה",
+                                deadline=deadline or datetime.now().strftime('%Y-%m-%d'),
+                                categories=self.categorize(current_title),
+                                source="mashcal.co.il",
+                                url=self.TENDERS_URL
+                            )
+                            tenders.append(tender)
+                            current_title = None
+                            break
+
+        return tenders
+
+
 class LocalAuthoritiesPortalScraper(TenderScraper):
     """
     Scraper for rashuiot.co.il - פורטל רשויות מקומיות
@@ -876,6 +953,7 @@ def main():
         MRGovScraper(),
         TenderGovScraper(),
         MunicipalScraper(),
+        MashcalScraper(),
         LocalAuthoritiesPortalScraper(),
         GovernmentCompaniesScraper()
     ]
@@ -911,6 +989,7 @@ def main():
             "mr.gov.il": len([t for t in tenders_data if t['source'] == 'mr.gov.il']),
             "tender.gov.il": len([t for t in tenders_data if t['source'] == 'tender.gov.il']),
             "municipal": len([t for t in tenders_data if t['source'] == 'municipal']),
+            "mashcal.co.il": len([t for t in tenders_data if t['source'] == 'mashcal.co.il']),
             "rashuiot.co.il": len([t for t in tenders_data if t['source'] == 'rashuiot.co.il']),
             "government-company": len([t for t in tenders_data if t['source'] == 'government-company'])
         }

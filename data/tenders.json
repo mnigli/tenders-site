@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-02-02 15:26",
+  "lastUpdate": "2026-02-02 18:41",
   "tenders": [
     {
       "tenderNumber": "4000603650",
@@ -37,6 +37,19 @@
       ],
       "source": "mr.gov.il",
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000613515",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "HFA-19/01",
+      "title": "קול קורא",
+      "publisher": "עיריית חיפה",
+      "deadline": "2026-01-19",
+      "categories": [
+        "אחר"
+      ],
+      "source": "municipal",
+      "url": "http://www2.haifa.muni.il/Michrazim/TendersFiles/1901-2026First.pdf",
       "description": "",
       "docType": "מכרז"
     },
@@ -2225,6 +2238,71 @@
       "docType": "מכרז"
     },
     {
+      "tenderNumber": "TLV-1",
+      "title": "העיר והעירייה",
+      "publisher": "עיריית תל אביב-יפו",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "municipal",
+      "url": "https://www.tel-aviv.gov.il/About/Pages/about.aspx",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "TLV-2",
+      "title": "מכרזים ודרושים",
+      "publisher": "עיריית תל אביב-יפו",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "municipal",
+      "url": "https://www.tel-aviv.gov.il/AuctionAndCareers/Pages/Careers.aspx",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "TLV-3",
+      "title": "מכרזים ודרושים",
+      "publisher": "עיריית תל אביב-יפו",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "municipal",
+      "url": "https://www.tel-aviv.gov.il/AuctionAndCareers/Pages/Service.aspx",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "TLV-4",
+      "title": "לתשומת לבכם:",
+      "publisher": "עיריית תל אביב-יפו",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "municipal",
+      "url": "https://www.tel-aviv.gov.il/AuctionAndCareers/Pages/Service.aspx",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "TLV-5",
+      "title": "* לצפייה במסמכים יש ללחוץ על החץ הכחול* כל המסמכים בטבלאות אלומונגשים. ייתכן פער בין מועד פרסום המסמכים למועד פרסומם המונגש, עמכם הסליחה* פרטי הקשר מופיעים בהודעת המכרז ובמסמכיו בהתאם לאגף המכרז.",
+      "publisher": "עיריית תל אביב-יפו",
+      "deadline": "2026-02-02",
+      "categories": [
+        "פרסום"
+      ],
+      "source": "municipal",
+      "url": "https://www.tel-aviv.gov.il/AuctionAndCareers/Pages/Service.aspx",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
       "tenderNumber": "4000611154",
       "title": "מכרז להקמה, הפעלה וניהול מזנון חלבי (קפיטריה) בשטח המרכז הרפואי",
       "publisher": "משרד הבריאות - המרכז הגריאטרי-שקומי פלימן",
@@ -3086,6 +3164,19 @@
       "docType": "מכרז"
     },
     {
+      "tenderNumber": "MSHCL-6",
+      "title": "מכרז למתן שירותי ניהול ופיקוח לעבודות פיתוח נופי, אחזקת גנים ועבודות כריתה וגיזום",
+      "publisher": "משכ\"ל - החברה למשק וכלכלה",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mashcal.co.il",
+      "url": "https://www.mashcal.co.il/our-tenders/",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
       "tenderNumber": "4000612978",
       "title": "ערכות אפיון דנ\"א של כרומוזום Y",
       "publisher": "המשרד לביטחון פנים - משטרת ישראל",
@@ -3489,6 +3580,19 @@
       "docType": "מכרז"
     },
     {
+      "tenderNumber": "MSHCL-2",
+      "title": "מכרז לתכנון ובניית מוסדות חינוך וציבור",
+      "publisher": "משכ\"ל - החברה למשק וכלכלה",
+      "deadline": "2026-02-17",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mashcal.co.il",
+      "url": "https://www.mashcal.co.il/our-tenders/",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
       "tenderNumber": "4000613677",
       "title": "הכשרה מקצועית בתזונה - התקשרות עם אמפא ארגון מרפא אינטגרטיבי",
       "publisher": "משרד הבריאות",
@@ -3555,15 +3659,15 @@
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000611181",
-      "title": "מכרז להפעלת מכונות אוטומטיות לממכר משקאות ומוצרי מזון במרכז הרפואי",
-      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש אדית וולפסון",
+      "tenderNumber": "MSHCL-4",
+      "title": "אספקה, התקנה, שיפוץ ואחזקה של מתקני משחק, מתקני ומגרשי ספורט, ריהוט רחוב וסככות",
+      "publisher": "משכ\"ל - החברה למשק וכלכלה",
       "deadline": "2026-02-18",
       "categories": [
         "אחר"
       ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000611181",
+      "source": "mashcal.co.il",
+      "url": "https://www.mashcal.co.il/our-tenders/",
       "description": "",
       "docType": "מכרז"
     },
@@ -3633,6 +3737,19 @@
       "docType": "מכרז"
     },
     {
+      "tenderNumber": "MSHCL-1",
+      "title": "מכרז לאיסוף ופינוי אשפה, גזם ופסולת מוצקה",
+      "publisher": "משכ\"ל - החברה למשק וכלכלה",
+      "deadline": "2026-02-19",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mashcal.co.il",
+      "url": "https://www.mashcal.co.il/our-tenders/",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
       "tenderNumber": "4000613727",
       "title": "התקשרות עם פארק מג'יק קאס  (MAGIC KASS) כספק יחיד",
       "publisher": "משרד האוצר",
@@ -3694,6 +3811,19 @@
       ],
       "source": "mr.gov.il",
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000609838",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "MSHCL-5",
+      "title": "מכרז לאספקת שירותי תקשורת, תשתית קווית, תשתית אלחוטית ושירותי טלפוניה ותקשוב",
+      "publisher": "משכ\"ל - החברה למשק וכלכלה",
+      "deadline": "2026-02-22",
+      "categories": [
+        "תקשורת"
+      ],
+      "source": "mashcal.co.il",
+      "url": "https://www.mashcal.co.il/our-tenders/",
       "description": "",
       "docType": "מכרז"
     },
@@ -3785,6 +3915,19 @@
       ],
       "source": "mr.gov.il",
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000609427",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "MSHCL-7",
+      "title": "מכרז לביצוע עבודות כבישים, פיתוח ותשתיות",
+      "publisher": "משכ\"ל - החברה למשק וכלכלה",
+      "deadline": "2026-02-25",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mashcal.co.il",
+      "url": "https://www.mashcal.co.il/our-tenders/",
       "description": "",
       "docType": "מכרז"
     },
@@ -3928,6 +4071,19 @@
       ],
       "source": "mr.gov.il",
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000613538",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "MSHCL-3",
+      "title": "תכנון ובניית אולמות ספורט וקירויים למגרשי ספורט",
+      "publisher": "משכ\"ל - החברה למשק וכלכלה",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mashcal.co.il",
+      "url": "https://www.mashcal.co.il/our-tenders/",
       "description": "",
       "docType": "מכרז"
     },
@@ -4179,13 +4335,14 @@
       "docType": "מכרז"
     }
   ],
-  "totalCount": 321,
+  "totalCount": 333,
   "sources": {
-    "mr.gov.il": 321,
+    "mr.gov.il": 320,
     "tender.gov.il": 0,
-    "municipal": 0,
+    "municipal": 6,
+    "mashcal.co.il": 7,
     "rashuiot.co.il": 0,
     "government-company": 0
   },
-  "note": "נמצאו 321 מכרזים ממגוון מקורות. השתמש בפילטרים באתר לחיפוש ממוקד."
+  "note": "נמצאו 333 מכרזים ממגוון מקורות. השתמש בפילטרים באתר לחיפוש ממוקד."
 }
