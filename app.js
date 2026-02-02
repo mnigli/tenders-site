@@ -37,6 +37,11 @@ async function loadTenders() {
         allTenders = data.tenders || [];
         lastUpdateEl.textContent = data.lastUpdate || 'לא זמין';
 
+        // Show notice if there's a note (e.g., demo mode)
+        if (data.note) {
+            showNotice(data.note);
+        }
+
         filteredTenders = [...allTenders];
         updateStats();
         renderTenders();
@@ -51,6 +56,17 @@ async function loadTenders() {
             </tr>
         `;
     }
+}
+
+// Show notice banner
+function showNotice(message) {
+    const notice = document.createElement('div');
+    notice.className = 'notice-banner';
+    notice.innerHTML = `
+        <p>📢 ${message}</p>
+        <button onclick="this.parentElement.remove()">✕</button>
+    `;
+    document.querySelector('.container').insertBefore(notice, document.querySelector('.stats'));
 }
 
 // Setup event listeners
@@ -169,7 +185,8 @@ function createTenderRow(tender) {
     const sourceNames = {
         'mr.gov.il': 'מר"מ',
         'tender.gov.il': 'מכרזים ממלכתי',
-        'municipal': 'עירייה'
+        'municipal': 'עירייה',
+        'demo': 'דוגמה'
     };
 
     const formattedDate = formatHebrewDate(tender.deadline);

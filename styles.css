@@ -328,3 +328,36 @@ footer p {
     border-radius: 15px;
     font-size: 0.85rem;
 }
+
+/* Notice banner */
+.notice-banner {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border: 1px solid #f59e0b;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(245, 158, 11, 0.2);
+}
+
+.notice-banner p {
+    margin: 0;
+    color: #92400e;
+    font-weight: 500;
+}
+
+.notice-banner button {
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #92400e;
+    padding: 5px;
+    line-height: 1;
+}
+
+.notice-banner button:hover {
+    color: #78350f;
+}

@@ -23,30 +23,43 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Extended keywords for filtering PR/Communications/Marketing tenders
+# These keywords must appear in the title or description to be considered relevant
 KEYWORDS = [
     # דוברות והסברה
     'דוברות', 'דובר', 'הסברה', 'דיפלומטיה ציבורית',
     # יחסי ציבור
-    'יחסי ציבור', 'יח"צ', 'PR', 'public relations',
-    # תקשורת
-    'תקשורת', 'ייעוץ תקשורתי', 'ניהול משברים', 'אסטרטגיה תקשורתית',
-    'communications', 'תקשורת חזותית',
+    'יחסי ציבור', 'יח"צ',
+    # תקשורת - specific to communications/PR field
+    'ייעוץ תקשורתי', 'ניהול משברים', 'אסטרטגיה תקשורתית',
+    'תקשורת שיווקית',
     # פרסום ושיווק
-    'פרסום', 'שיווק', 'marketing', 'advertising', 'קידום מכירות',
-    'קריאייטיב', 'creative', 'קופירייטינג',
+    'שירותי פרסום', 'משרד פרסום', 'סוכנות פרסום', 'פרסום ושיווק',
+    'שיווק דיגיטלי', 'קמפיין פרסומי', 'פרסומת',
     # מדיה ודיגיטל
-    'מדיה', 'media', 'רשתות חברתיות', 'social media', 'דיגיטל', 'digital',
-    'סושיאל', 'פייסבוק', 'אינסטגרם', 'טיקטוק', 'לינקדאין',
+    'מדיה חברתית', 'רשתות חברתיות', 'ניהול עמודים',
+    'דיגיטל', 'סושיאל',
     # קמפיינים ומיתוג
-    'קמפיין', 'campaign', 'מיתוג', 'branding', 'brand',
-    'זהות מותגית', 'לוגו',
-    # תוכן ועריכה
-    'תוכן', 'content', 'עריכה', 'כתיבה שיווקית', 'קופי',
-    'וידאו', 'video', 'הפקה', 'production',
+    'קמפיין', 'מיתוג', 'זהות מותגית', 'לוגו',
+    # תוכן ועריכה - specific
+    'כתיבת תוכן', 'הפקת תוכן', 'עריכת תוכן',
+    'הפקת סרטונים', 'הפקת וידאו', 'סרטון תדמית',
     # ניטור וניתוח
-    'ניטור תקשורת', 'מדיה מוניטורינג', 'ניתוח מדיה', 'סקירת עיתונות',
-    # אירועים
-    'אירועים', 'events', 'כנסים', 'השקות'
+    'ניטור תקשורת', 'ניתוח מדיה', 'סקירת עיתונות',
+    # אירועים - specific
+    'הפקת אירועים', 'ניהול אירועים', 'כנסים ואירועים',
+    # חיפוש נוסף
+    'תדמית', 'קהל יעד', 'מסרים', 'עיצוב גרפי'
+]
+
+# Words that indicate NOT a PR/communications tender (exclusion list)
+EXCLUDE_KEYWORDS = [
+    'רפואי', 'רפואה', 'ציוד רפואי', 'אספקת ציוד',
+    'בניה', 'בנייה', 'תשתיות', 'שיפוץ',
+    'מזון', 'הסעדה', 'ניקיון',
+    'רכב', 'רכבים', 'דלק',
+    'מחשבים', 'תוכנה', 'מערכות מידע',
+    'אבטחה', 'שמירה', 'בטחון',
+    'חשמל', 'אינסטלציה', 'תחזוקה'
 ]
 
 # Extended categories mapping
@@ -86,8 +99,14 @@ class TenderScraper:
         })
 
     def matches_keywords(self, text: str) -> bool:
-        """Check if text contains relevant keywords"""
+        """Check if text contains relevant keywords and doesn't contain exclusion keywords"""
         text_lower = text.lower()
+
+        # First check if text contains exclusion keywords - if so, skip
+        if any(excl.lower() in text_lower for excl in EXCLUDE_KEYWORDS):
+            return False
+
+        # Then check if text contains relevant keywords
         return any(kw.lower() in text_lower for kw in KEYWORDS)
 
     def categorize(self, text: str) -> list:
@@ -176,52 +195,66 @@ class MRGovScraper(TenderScraper):
         """Parse search results page"""
         tenders = []
 
-        # Find tender cards/items
-        items = soup.find_all('div', class_='product-item') or soup.find_all('article')
+        # Find tender cards - correct selector for mr.gov.il
+        items = soup.find_all('div', class_='result-container')
+
+        # Fallback selectors
+        if not items:
+            items = soup.find_all('div', class_='product-item') or soup.find_all('article')
+
+        logger.info(f"Found {len(items)} result containers")
 
         for item in items:
             try:
-                title_el = item.find('h2') or item.find('h3') or item.find(class_='title')
-                if not title_el:
+                # Get full text for analysis
+                full_text = item.get_text()
+
+                # Skip exemptions (פטור) - only include actual tenders
+                if 'פטור' in full_text and 'מכרז' not in full_text:
+                    logger.debug("Skipping exemption (פטור)")
                     continue
 
-                title = title_el.get_text(strip=True)
-
-                # Only include actual tenders (מכרז), not exemptions (פטור)
-                if 'פטור' in title and 'מכרז' not in title:
+                # Also check status field - skip if status is "פטור"
+                if 'סטטוס: פטור' in full_text or 'סטטוס:פטור' in full_text:
+                    logger.debug("Skipping exemption by status")
                     continue
 
-                if not self.matches_keywords(title):
+                # Extract title from link
+                link = item.find('a', href=lambda h: h and '/p/' in h)
+                if not link:
                     continue
 
-                # Extract tender number
-                tender_num = item.get('data-code', '') or self._extract_tender_number(item)
+                title = link.get_text(strip=True)
+
+                if not title or not self.matches_keywords(title + ' ' + full_text):
+                    continue
 
                 # Extract URL
-                link = item.find('a', href=True)
-                url = link['href'] if link else ''
+                url = link.get('href', '')
                 if url and not url.startswith('http'):
                     url = f"{self.BASE_URL}{url}"
 
-                # Extract deadline
-                deadline_el = item.find(class_='deadline') or item.find(text=re.compile(r'\d{1,2}[./]\d{1,2}[./]\d{2,4}'))
-                deadline = self._extract_date(deadline_el) if deadline_el else None
+                # Extract tender number from URL or text
+                tender_num = self._extract_tender_number_from_url(url) or self._extract_tender_number(item)
 
-                # Extract publisher
-                publisher_el = item.find(class_='publisher') or item.find(class_='ministry')
-                publisher = publisher_el.get_text(strip=True) if publisher_el else "משרד ממשלתי"
+                # Extract deadline - look for "מועד אחרון להגשה"
+                deadline = self._extract_deadline_from_text(full_text)
 
-                if tender_num and title and deadline:
+                # Extract publisher - look for "שם המפרסם"
+                publisher = self._extract_publisher_from_text(full_text)
+
+                if tender_num and title:
                     tender = Tender(
                         tenderNumber=tender_num,
                         title=title,
                         publisher=publisher,
-                        deadline=deadline,
-                        categories=self.categorize(title),
+                        deadline=deadline or datetime.now().strftime('%Y-%m-%d'),
+                        categories=self.categorize(title + ' ' + full_text),
                         source="mr.gov.il",
                         url=url
                     )
                     tenders.append(tender)
+                    logger.info(f"Found tender: {title[:50]}...")
 
             except Exception as e:
                 logger.debug(f"Error parsing item: {e}")
@@ -229,32 +262,55 @@ class MRGovScraper(TenderScraper):
 
         return tenders
 
+    def _extract_tender_number_from_url(self, url: str) -> str:
+        """Extract tender number from URL like /p/4000613481"""
+        match = re.search(r'/p/(\d+)', url)
+        if match:
+            return match.group(1)
+        return ""
+
+    def _extract_deadline_from_text(self, text: str) -> Optional[str]:
+        """Extract deadline from full text"""
+        # Look for "מועד אחרון להגשה: DD/MM/YYYY"
+        match = re.search(r'מועד אחרון להגשה[:\s]*(\d{1,2}[./]\d{1,2}[./]\d{2,4})', text)
+        if match:
+            return self.parse_date(match.group(1))
+
+        # Look for any date pattern as fallback
+        match = re.search(r'(\d{1,2}[./]\d{1,2}[./]\d{4})', text)
+        if match:
+            return self.parse_date(match.group(1))
+
+        return None
+
+    def _extract_publisher_from_text(self, text: str) -> str:
+        """Extract publisher from full text"""
+        # Look for "שם המפרסם: ..."
+        match = re.search(r'שם המפרסם[:\s]*([^\n]+?)(?:\n|מס)', text)
+        if match:
+            return match.group(1).strip()
+        return "משרד ממשלתי"
+
     def _extract_tender_number(self, item) -> str:
         """Extract tender number from item"""
         text = item.get_text()
+
+        # Look for "מס' פרסום: XXXXXXXXXX"
+        match = re.search(r"מס['\"]?\s*פרסום[:\s]*(\d+)", text)
+        if match:
+            return match.group(1)
+
+        # Look for tender number pattern
         match = re.search(r'מכרז\s*(?:מספר|#)?\s*:?\s*([A-Za-z0-9\-\/]+)', text)
         if match:
             return match.group(1)
 
-        # Try to find numeric ID
+        # Try to find numeric ID (10+ digits)
         match = re.search(r'(\d{10,})', text)
         if match:
             return match.group(1)
 
         return f"MR-{datetime.now().strftime('%Y%m%d%H%M%S')}"
-
-    def _extract_date(self, element) -> str:
-        """Extract and parse date from element"""
-        if hasattr(element, 'get_text'):
-            text = element.get_text()
-        else:
-            text = str(element)
-
-        match = re.search(r'(\d{1,2}[./]\d{1,2}[./]\d{2,4})', text)
-        if match:
-            return self.parse_date(match.group(1)) or datetime.now().strftime('%Y-%m-%d')
-
-        return datetime.now().strftime('%Y-%m-%d')
 
 
 class TenderGovScraper(TenderScraper):

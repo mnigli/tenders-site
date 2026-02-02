@@ -1,158 +1,36 @@
 {
-  "lastUpdate": "2026-02-01 21:00",
+  "lastUpdate": "2026-02-02 07:45",
+  "note": "כרגע אין מכרזים פתוחים בתחום יחסי ציבור ודוברות. הנתונים להלן הם לדוגמה בלבד. המערכת סורקת אוטומטית כל שבוע.",
   "tenders": [
     {
-      "tenderNumber": "4000615001",
-      "title": "מכרז פומבי 01/2026 למתן שירותי יחסי ציבור ודוברות",
-      "publisher": "משרד הכלכלה והתעשייה",
-      "deadline": "2026-02-28",
-      "categories": ["יחסי ציבור", "דוברות"],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/c/cat2700001"
-    },
-    {
-      "tenderNumber": "4000614892",
-      "title": "מכרז פומבי לשירותי ייעוץ תקשורת אסטרטגית וניהול משברים",
-      "publisher": "משרד הפנים",
-      "deadline": "2026-02-20",
-      "categories": ["תקשורת", "יחסי ציבור"],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/c/cat2700001"
-    },
-    {
-      "tenderNumber": "4000614567",
-      "title": "מכרז פומבי 03/2026 לניהול קמפיינים דיגיטליים ברשתות חברתיות",
-      "publisher": "משרד התיירות",
+      "tenderNumber": "DEMO-2026-001",
+      "title": "שירותי יחסי ציבור ודוברות - דוגמה",
+      "publisher": "משרד ממשלתי (דוגמה)",
       "deadline": "2026-03-15",
-      "categories": ["מדיה", "שיווק", "פרסום"],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/c/cat2700001"
+      "categories": ["יחסי ציבור", "דוברות"],
+      "source": "demo",
+      "url": "https://mr.gov.il",
+      "description": "זהו מכרז לדוגמה. כאשר יפורסמו מכרזים אמיתיים בתחום, הם יופיעו כאן."
     },
     {
-      "tenderNumber": "4000614234",
-      "title": "מכרז פומבי למתן שירותי דוברות עבור אגף ההסברה",
-      "publisher": "משרד החוץ",
-      "deadline": "2026-02-25",
-      "categories": ["דוברות"],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/c/cat2700001"
-    },
-    {
-      "tenderNumber": "4000613998",
-      "title": "מכרז פומבי לשירותי יחסי ציבור במגזר הערבי",
-      "publisher": "משרד הרווחה",
-      "deadline": "2026-03-10",
-      "categories": ["יחסי ציבור"],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/c/cat2700001"
-    },
-    {
-      "tenderNumber": "TLV-2026-015",
-      "title": "מכרז פומבי לשירותי מיתוג וזהות מותגית לפרויקט עירוני",
-      "publisher": "עיריית תל אביב-יפו",
-      "deadline": "2026-02-18",
-      "categories": ["מיתוג", "פרסום"],
-      "source": "municipal",
-      "url": "https://www.tel-aviv.gov.il/Tenders/Pages/TendersList.aspx"
-    },
-    {
-      "tenderNumber": "JLM-2026-008",
-      "title": "מכרז פומבי לניהול תוכן ורשתות חברתיות",
-      "publisher": "עיריית ירושלים",
-      "deadline": "2026-03-05",
-      "categories": ["מדיה", "תוכן"],
-      "source": "municipal",
-      "url": "https://www.jerusalem.muni.il/he/residents/tenders/"
-    },
-    {
-      "tenderNumber": "HFA-2026-012",
-      "title": "מכרז לשירותי פרסום והפקת אירועים",
-      "publisher": "עיריית חיפה",
-      "deadline": "2026-02-22",
-      "categories": ["פרסום", "אירועים"],
-      "source": "municipal",
-      "url": "https://www.haifa.muni.il/tenders"
-    },
-    {
-      "tenderNumber": "RMG-2026-003",
-      "title": "מכרז פומבי לשירותי שיווק דיגיטלי וקידום",
-      "publisher": "עיריית רמת גן",
+      "tenderNumber": "DEMO-2026-002",
+      "title": "הפקת קמפיין פרסומי - דוגמה",
+      "publisher": "עיריית תל אביב (דוגמה)",
       "deadline": "2026-03-20",
-      "categories": ["שיווק", "מדיה"],
-      "source": "municipal",
-      "url": "https://www.ramat-gan.muni.il/Residents/Tenders/Pages/default.aspx"
+      "categories": ["פרסום", "קמפיין"],
+      "source": "demo",
+      "url": "https://www.tel-aviv.gov.il",
+      "description": "זהו מכרז לדוגמה להפקת קמפיין פרסומי."
     },
     {
-      "tenderNumber": "HRZ-2026-007",
-      "title": "מכרז לשירותי ייעוץ תקשורתי והסברה",
-      "publisher": "עיריית הרצליה",
-      "deadline": "2026-03-12",
-      "categories": ["תקשורת", "דוברות"],
-      "source": "municipal",
-      "url": "https://www.herzliya.muni.il/Tenders/Pages/default.aspx"
-    },
-    {
-      "tenderNumber": "4000600068",
-      "title": "מכרז פומבי 05/2025 - ייעוץ וליווי מקצועיים בתחום הדוברות - חברה אזרחית עבור אגף דיפלומטיה ציבורית",
-      "publisher": "משרד החוץ",
-      "deadline": "2025-03-18",
-      "categories": ["דוברות", "תקשורת"],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000600068"
-    },
-    {
-      "tenderNumber": "4000598869",
-      "title": "מכרז פומבי 05/2025 ייעוץ וליווי מקצועיים בתחום הדוברות - אגף דיפלומטיה ציבורית",
-      "publisher": "משרד החוץ",
-      "deadline": "2025-03-03",
-      "categories": ["דוברות"],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000598869"
-    },
-    {
-      "tenderNumber": "4000597253",
-      "title": "מכרז פומבי מס' 27/2024 למתן שירותי ייעוץ תקשורת, ייעוץ אסטרטגי, יחסי ציבור וניהול משברים",
-      "publisher": "משרד העלייה והקליטה",
-      "deadline": "2025-01-22",
-      "categories": ["יחסי ציבור", "תקשורת"],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000597253"
-    },
-    {
-      "tenderNumber": "4000588293",
-      "title": "מכרז מס' 58/2024 לקבלת שירותי דוברות עבור הועדה הציבורית להרחבת סל שירותי הבריאות",
-      "publisher": "משרד הבריאות",
-      "deadline": "2024-08-27",
-      "categories": ["דוברות"],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000588293"
-    },
-    {
-      "tenderNumber": "4000586858",
-      "title": "מכרז פומבי 43-2024 לשירותי ניטור וסקירת פרסומים ומידע בתקשורת כתובה עבור אגף הדוברות",
-      "publisher": "משרד האוצר",
-      "deadline": "2024-06-30",
-      "categories": ["דוברות", "מדיה"],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000586858"
-    },
-    {
-      "tenderNumber": "4000584469",
-      "title": "מכרז פומבי למתן שירותי יחסי ציבור ושיווק במגזר הערבי",
-      "publisher": "משרד הבריאות - מרכז רפואי צפון",
-      "deadline": "2024-03-28",
-      "categories": ["יחסי ציבור", "שיווק"],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000584469"
-    },
-    {
-      "tenderNumber": "4000580211",
-      "title": "מכרז 1/2023 למתן שירותי הסברה, דוברות ויחסי ציבור",
-      "publisher": "רשות האכיפה והגבייה",
-      "deadline": "2024-01-22",
-      "categories": ["דוברות", "יחסי ציבור"],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000580211"
+      "tenderNumber": "DEMO-2026-003",
+      "title": "ניהול רשתות חברתיות - דוגמה",
+      "publisher": "משרד התיירות (דוגמה)",
+      "deadline": "2026-03-25",
+      "categories": ["מדיה", "דיגיטל"],
+      "source": "demo",
+      "url": "https://mr.gov.il",
+      "description": "זהו מכרז לדוגמה לניהול עמודי סושיאל."
     }
   ]
 }
