@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-02-02 17:21",
+  "lastUpdate": "2026-02-02 19:50",
   "tenders": [
     {
       "tenderNumber": "4000603650",
@@ -11,19 +11,6 @@
       ],
       "source": "mr.gov.il",
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000603650",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000565909",
-      "title": "ELAD  זיהוי קולי,  V2T",
-      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש אדית וולפסון",
-      "deadline": "2026-01-11",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000565909",
       "description": "",
       "docType": "מכרז"
     },
@@ -2368,6 +2355,281 @@
       "docType": "מכרז"
     },
     {
+      "tenderNumber": "MRK-136937",
+      "title": "מנהל/ת מחלקה פנימית ג' - מרכז",
+      "publisher": "בית חולים ע\"ש א. וולפסון",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07117807",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137343",
+      "title": "מפקח/ת שירותי קרקע בשדות תעופה - מרכז",
+      "publisher": "רשות התעופה האזרחית",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07133863",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137345",
+      "title": "מרכז/ת (פיקוח) - חיפה",
+      "publisher": "משרד האנרגיה והתשתיות",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07136800",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137346",
+      "title": "מרכז/ת (פרסום, שיווק והסברה) - ירושלים",
+      "publisher": "המשרד לבטחון לאומי",
+      "deadline": "2026-02-02",
+      "categories": [
+        "דוברות",
+        "פרסום",
+        "שיווק"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07135581",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137349",
+      "title": "עובד/ת סוציאלי/ת עצמאי/ת - צפון",
+      "publisher": "מ.גריאטרי ע\"ש שוהם",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07134985",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137348",
+      "title": "עובד מעבדה/עובד מעבדה מתקדם - מרכז",
+      "publisher": "בית חולים שמואל הרופא",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07134987",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137347",
+      "title": "מנהל/ת תחום (או\"ש תגמול תמרוץ) - ירושלים",
+      "publisher": "הנהלת בתי המשפט",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07134991",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137350",
+      "title": "מנהל/ת תחום תמחור (חטיבת בי\"ח) - ירושלים",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07134993",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137351",
+      "title": "רכז/ת לשכה בכיר/ה א' (תזונה) - ירושלים",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07135592",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137352",
+      "title": "מרכז/ת בכיר/ה הדרכה ובקרה במערך ההשתלות - תל אביב",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07134997",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137357",
+      "title": "מרכז/ת נושא (שיקום תעסוקתי) - צפון",
+      "publisher": "מרכז הרפואי לבריאות הנפש מזור",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07137032",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137360",
+      "title": "מפקח/ת מבצעים בטיסה מובילים אוויריים - מרכז",
+      "publisher": "רשות התעופה האזרחית",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07137426",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137361",
+      "title": "מרכז/ת נושא (שעת חירום) - צפון",
+      "publisher": "מ.גריאטרי ע\"ש שוהם",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07137353",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137363",
+      "title": "מנהל/ת שירות (טיפול במשפחות/קבוצתי) - מרכז",
+      "publisher": "בית חולים באר יעקב - נס ציונה",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07137355",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137362",
+      "title": "מרכז/ת בכיר/ה (גופי ביטחון) - ירושלים",
+      "publisher": "משרד האוצר",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07137429",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137367",
+      "title": "מרכז בכיר (נותני שירותים) - ירושלים",
+      "publisher": "משרד האוצר",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07137360",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137366",
+      "title": "מנהל תחום (נותני שירותים) - ירושלים",
+      "publisher": "משרד האוצר",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07137362",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137365",
+      "title": "מנהל תחום בכיר מכר קרקעות - ירושלים",
+      "publisher": "משרד האוצר",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07137364",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137369",
+      "title": "פועל/ת מאומן/ת סטריליזציה - דרום",
+      "publisher": "לשכת הבריאות מחוז הדרום",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07137184",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137368",
+      "title": "סגן חשב בכיר (חינוך) - ירושלים",
+      "publisher": "משרד האוצר",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07137186",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-134038",
+      "title": "רע\"ן איסוף וחקירות - צפון",
+      "publisher": "הרשות הארצית לכבאות והצלה",
+      "deadline": "2026-02-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07010880",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
       "tenderNumber": "4000611154",
       "title": "מכרז להקמה, הפעלה וניהול מזנון חלבי (קפיטריה) בשטח המרכז הרפואי",
       "publisher": "משרד הבריאות - המרכז הגריאטרי-שקומי פלימן",
@@ -2392,6 +2654,201 @@
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000549730",
       "description": "",
       "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "MRK-136967",
+      "title": "מנהל/ת שירות מרפאה בהמטולוגיה - חיפה",
+      "publisher": "בית חולים רמב\"ם חיפה",
+      "deadline": "2026-02-03",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07117967",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137392",
+      "title": "רופא/ה מומחה/ית בנוירולוגיה - צפון",
+      "publisher": "בית חולים הלל יפה חדרה",
+      "deadline": "2026-02-03",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07138556",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137391",
+      "title": " מנהל/ת מדור (הוצל\"פ) - תל אביב",
+      "publisher": "רשות המסים בישראל - מס הכנסה",
+      "deadline": "2026-02-03",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07138560",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137393",
+      "title": "רכז/ת לשכה בכיר/ה (א) - תל אביב",
+      "publisher": "רשות המסים בישראל - מס הכנסה",
+      "deadline": "2026-02-03",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07137195",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137394",
+      "title": "מזכיר/ה רפואית - צפון",
+      "publisher": "בית חולים הלל יפה חדרה",
+      "deadline": "2026-02-03",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07137199",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137396",
+      "title": "סגן/ית בכיר/ה ליועץ/ת המשפטי/ת - ירושלים",
+      "publisher": "רשות המסים בישראל- מכס ומע\"מ",
+      "deadline": "2026-02-03",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07137862",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137400",
+      "title": "רכז/ת נושא (התפתחות הילד) - מרכז",
+      "publisher": "בית חולים ע\"ש א. וולפסון",
+      "deadline": "2026-02-03",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07138568",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137405",
+      "title": "מרכז/ת נושא (שע\"ח) - מרכז",
+      "publisher": "בית חולים ע\"ש א. וולפסון",
+      "deadline": "2026-02-03",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07138855",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137408",
+      "title": "רוקח/ת מחלקתי - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-02-03",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07138688",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137411",
+      "title": "עובד מעבדה/עובד מעבדה מתקדם - מרכז",
+      "publisher": "בית חולים ע\"ש א. וולפסון",
+      "deadline": "2026-02-03",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07139201",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137410",
+      "title": "מרכז/ת בכיר/ה (תעשיה וניהול) - צפון",
+      "publisher": "בית חולים הלל יפה חדרה",
+      "deadline": "2026-02-03",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07139203",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137413",
+      "title": "עובד מעבדה/עובד מעבדה מתקדם - מרכז",
+      "publisher": "בית חולים ע\"ש א. וולפסון",
+      "deadline": "2026-02-03",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07139207",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137416",
+      "title": "עובד/ת סוציאלי/ת עצמאי/ת (ילדים עם צרכים - מרכז",
+      "publisher": "בית חולים ע\"ש א. וולפסון",
+      "deadline": "2026-02-03",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07138814",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137428",
+      "title": " ראש צוות ייעוץ משפטי (פלילי) - ירושלים",
+      "publisher": "רשות המסים בישראל - מס הכנסה",
+      "deadline": "2026-02-03",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07139123",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137430",
+      "title": "ממונה (רכז/ת חולית מודיעין וחקירות- מטה) - ירושלים",
+      "publisher": "רשות המסים בישראל - מס הכנסה",
+      "deadline": "2026-02-03",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07139502",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
     },
     {
       "tenderNumber": "4000612866",
@@ -2420,6 +2877,305 @@
       "docType": "מכרז"
     },
     {
+      "tenderNumber": "MRK-137031",
+      "title": "מנהל/ת יחידה מקצועית לחדרי לידה - מרכז",
+      "publisher": "בית חולים ע\"ש א. וולפסון",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07121308",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137238",
+      "title": "דיין בית דין לגיור (מערך הגיור) - צפון",
+      "publisher": "משרד ראש ממשלה",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07131479",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137433",
+      "title": "מרכז/ת בכיר/ה (מאגר מידע ונתונים-אנרג\"מ) - ירושלים",
+      "publisher": "משרד האנרגיה והתשתיות",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07137872",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137434",
+      "title": "מנהל/ת תחום (סיעוד) - מרכז",
+      "publisher": "רשות האוכלוסין וההגירה",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07140075",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137435",
+      "title": "ממונה (חקלאות) - ירושלים",
+      "publisher": "רשות האוכלוסין וההגירה",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07140079",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137436",
+      "title": "מנהל/ת אשכול (ביקורת גבולות-אילת) - דרום",
+      "publisher": "רשות האוכלוסין וההגירה",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07138872",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137437",
+      "title": "מנהל/ת תחום (סיעוד) - ירושלים",
+      "publisher": "רשות האוכלוסין וההגירה",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07140051",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137440",
+      "title": "ראש/ת מינהל תשתיות תחבורה - ירושלים",
+      "publisher": "משרד התחבורה והבטיחות בדרכים",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07140053",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137439",
+      "title": "עובד/ת סוציאלי/ת עצמאי/ת - מרכז",
+      "publisher": "מרכז בריאות הנפש יפו",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07140055",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137438",
+      "title": "מנהל/ת מדור (גביה ואכיפה) - מרכז",
+      "publisher": "רשות המסים בישראל - מס הכנסה",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07140057",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137442",
+      "title": "פסיכולוג/ית מומחה/ית - צפון",
+      "publisher": "מרכז לבריאות הנפש מעלה הכרמל",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07140182",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137443",
+      "title": "רכז/ת לשכה בכיר/ה א' (מדען ראשי) - ירושלים",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07140184",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137444",
+      "title": "רכז/ת (רשומות ומידע) - ירושלים",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07140083",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137445",
+      "title": "מרכז/ת בכיר/ה (מנהל/ת לוגיסטי/ת סקרים) - ירושלים",
+      "publisher": "הלשכה המרכזית לסטטיסטיקה",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07140085",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137446",
+      "title": "ראש/ת ענף - מרכז/ת בכיר/ה (סטטי' כלכלית) - ירושלים",
+      "publisher": "הלשכה המרכזית לסטטיסטיקה",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07140061",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137447",
+      "title": "מנהל/ת ענף (מבצעים) - יהודה ושומרון",
+      "publisher": "משרד האוצר",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07140087",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137448",
+      "title": "מנהל/ת תחום (איכות והכרה במעבדות) - מרכז",
+      "publisher": "משרד החקלאות וביטחון המזון",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07140095",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137449",
+      "title": "מנהל/ת אגף בכיר (מורשת וחברה) - ירושלים",
+      "publisher": "חדשנות מדע וטכנו' תרבות וספורט",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07140207",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137450",
+      "title": "מנהל/ת חטיבת פיתוח תשתיות מים וביוב - ירושלים",
+      "publisher": "הרשות הממשלתית למים ולביוב",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07140064",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137453",
+      "title": "רכז/ת נושא משאבי אנוש - מרכז",
+      "publisher": "בית חולים אברבנאל",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07140070",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137454",
+      "title": "סגן ראש האגף לביטחון - ירושלים",
+      "publisher": "המשרד לבטחון לאומי",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07139992",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137451",
+      "title": "מרכז/ת בכיר/ה (מוסמך/ת רכש) - ירושלים",
+      "publisher": "משרד התיירות",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07140068",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137253",
+      "title": "מרכז/ת (גיוס ואיתור אקטיבי) - ירושלים",
+      "publisher": "נציבות שרות המדינה",
+      "deadline": "2026-02-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07130324",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
       "tenderNumber": "4000612969",
       "title": "מכרז פומבי למתן שירותי פיקוח, ייעוץ ובקרה על עבודות שיקום נכסים",
       "publisher": "משרד האוצר - רשות ה",
@@ -2431,6 +3187,136 @@
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000612969",
       "description": "",
       "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "MRK-137060",
+      "title": "מנהל/ת יחידה לאשפוז יום נשים - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-02-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07124234",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137455",
+      "title": "מנהל/ת תחום בכיר/ה (יישומים) - ירושלים",
+      "publisher": "משרד הפנים",
+      "deadline": "2026-02-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07141591",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137456",
+      "title": "מנהל/ת תחום (חדר מצב למאבק באנטישמיות) - ירושלים",
+      "publisher": "משרד התפוצות והמאבק באנטישמיות",
+      "deadline": "2026-02-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07140644",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137460",
+      "title": "פקיד/ת קבלת חולים/ מרפאה - תל אביב",
+      "publisher": "מרכז בריאות הנפש יפו",
+      "deadline": "2026-02-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07142509",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137461",
+      "title": "ממונה ייעוץ משפטי - מוקד ידע - ירושלים",
+      "publisher": "בתי דין רבניים",
+      "deadline": "2026-02-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07142511",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137464",
+      "title": "ראש/ת ענף (מוביל/ת רכש) - ירושלים",
+      "publisher": "לשכת הבריאות ירושלים",
+      "deadline": "2026-02-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07143715",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137458",
+      "title": "מנהל תחום (משמעת) - ירושלים",
+      "publisher": "משרד הפנים",
+      "deadline": "2026-02-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07142019",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137466",
+      "title": "רופא/ה מתמחה רפואה פיסיקאלית ושיקום - צפון",
+      "publisher": "מרכז רפואי צפון (פוריה)",
+      "deadline": "2026-02-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07213660",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137470",
+      "title": "רופא/ה מומחה/ית כירורגיה אורתופדית - צפון",
+      "publisher": "מרכז רפואי צפון (פוריה)",
+      "deadline": "2026-02-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07213664",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-135374",
+      "title": "יו\"ר המועצה לשידורי כבלים ולשידורי לווין - ירושלים",
+      "publisher": "משרד התקשורת",
+      "deadline": "2026-02-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07060774",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
     },
     {
       "tenderNumber": "4000613008",
@@ -2525,6 +3411,448 @@
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000608325",
       "description": "",
       "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "MRK-137087",
+      "title": "מנהל/ת מכון לאבחון על-קולי מיילדותי גניק - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07125976",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137084",
+      "title": "מנהל יח' מקצ' להרדמה חזה וכלי דם - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07125993",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137085",
+      "title": "מנהל/ת יחידה מקצועית לכאב - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07126252",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137332",
+      "title": "לוחם/ת אש - מרכז",
+      "publisher": "הרשות הארצית לכבאות והצלה",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07133979",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137471",
+      "title": "מרכז/ת (תיאום, מעקב ובקרה) - צפון",
+      "publisher": "משרד הבינוי והשיכון",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07143425",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137472",
+      "title": "מרכז/ת (בטיחות וגיהות) - מרכז",
+      "publisher": "בית חולים באר יעקב - נס ציונה",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07143429",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137473",
+      "title": "מנהל/ת תחום  בכיר/ה  (ביקורת פנימית) - ירושלים",
+      "publisher": "משרד הבינוי והשיכון",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07143433",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137474",
+      "title": "רכז/ת בכיר/ה (רכב ונהיגה) - ירושלים",
+      "publisher": "משרד התחבורה והבטיחות בדרכים",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07143445",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137475",
+      "title": "מנהל/ת תחום  (כלכלה - שירותי רכב) - מרכז",
+      "publisher": "משרד התחבורה והבטיחות בדרכים",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07143447",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137476",
+      "title": "רופא/ה מומחה/ית גסטרו - מרכז",
+      "publisher": "בית חולים ע\"ש א. וולפסון",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07143539",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137477",
+      "title": "רופא/ה מומחה/ית רפואה פלסטית - מרכז",
+      "publisher": "בית חולים ע\"ש א. וולפסון",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07143612",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137478",
+      "title": "רופא/ה מומחה/ית פתולוגיה - מרכז",
+      "publisher": "בית חולים ע\"ש א. וולפסון",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07143726",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137479",
+      "title": "מנהל/ת תחום בכיר/ה (פיתוח כלכלי חברתי) - ירושלים",
+      "publisher": "משרד ההתיישבות",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07143617",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137480",
+      "title": "מרכז/ת (קידום ידע) - מרכז",
+      "publisher": "מינהל המחקר החקלאי",
+      "deadline": "2026-02-08",
+      "categories": [
+        "שיווק"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07143619",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137481",
+      "title": "רופא/ה מומחה/ית פנימית ג' - מרכז",
+      "publisher": "בית חולים ע\"ש א. וולפסון",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07143857",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137482",
+      "title": "עובד/ת סוציאלי/ת - צפון",
+      "publisher": "בית חולים שער מנשה",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07143861",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137483",
+      "title": "עובד/ת סוציאלי/ת עצמאי/ת - צפון",
+      "publisher": "בית חולים שער מנשה",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07143863",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137484",
+      "title": "מרכז/ת תחום דימות ילדים - צפון",
+      "publisher": "בית חולים זיו צפת",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07143865",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137485",
+      "title": "רופא/ה מתמחה נשים יולדות - צפון",
+      "publisher": "בית חולים זיו צפת",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07143867",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137486",
+      "title": "הנדסאי/ת טכנאי/ת (הנדסה רפואית) - צפון",
+      "publisher": "בית חולים זיו צפת",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07143793",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137487",
+      "title": "מנהל/ת ענף משאבי אנוש מנמ\"ש - ירושלים",
+      "publisher": "מרכז ירושלמי לבריאות הנפש",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07143908",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137488",
+      "title": "טבח ראשי ב' - ירושלים",
+      "publisher": "מרכז ירושלמי לבריאות הנפש",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07143910",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137492",
+      "title": "מהנדס/ת (מחקר) א' - מרכז",
+      "publisher": "מינהל המחקר החקלאי",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07143743",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137491",
+      "title": "מנהל/ת תחום (משכורת) - דרום",
+      "publisher": "רשות הבדואים",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07143745",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137493",
+      "title": "מנהל/ת תחום  (רכש, נכסים ולוגיסטיקה) - ירושלים",
+      "publisher": "הרשות להגנת הצרכן ולסחר הוגן",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07143799",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137496",
+      "title": "מנהל תחום (הנדסת תקשורת-חירום ויועצים) - תל אביב",
+      "publisher": "משרד התקשורת",
+      "deadline": "2026-02-08",
+      "categories": [
+        "תקשורת"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07144331",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137498",
+      "title": "מרכז/ת בכיר/ה (מבצעי אירוח) - ירושלים",
+      "publisher": "משרד התיירות",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07144232",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137500",
+      "title": "מרכז/ת בכיר/ה (חדלות פרעון) - ירושלים",
+      "publisher": "רשות האכיפה והגבייה",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07144431",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137502",
+      "title": "פסיכולוג/ית מומחה/ית - תל אביב",
+      "publisher": "מרכז בריאות הנפש יפו",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07144433",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137503",
+      "title": "מרכז/ת נושא (ילדים בסיכון) - תל אביב",
+      "publisher": "מרכז בריאות הנפש יפו",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07144435",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137505",
+      "title": "מנהל תחום (פנים, תכנון ופיתוח) - ירושלים",
+      "publisher": "משרד ראש ממשלה",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07144441",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137506",
+      "title": "מרכז/ת בכיר/ה נגר עירוני והצפות - ירושלים",
+      "publisher": "הרשות הממשלתית למים ולביוב",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07144445",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137504",
+      "title": "סגן/ית מנהל/ת תחום בכיר/ה (משכורת) - ירושלים",
+      "publisher": "המשרד לבטחון לאומי",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07144437",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137277",
+      "title": "מנהל/ת תחום בכיר (מתן רישיונות חשמל) - ירושלים",
+      "publisher": "משרד העבודה",
+      "deadline": "2026-02-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07131971",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
     },
     {
       "tenderNumber": "4000613733",
@@ -2655,6 +3983,396 @@
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000613469",
       "description": "",
       "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "MRK-137133",
+      "title": "מנהל מחלקה רפואה דחופה - צפון",
+      "publisher": "בית חולים הלל יפה חדרה",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07126148",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137508",
+      "title": "מרכז/ת בכיר/ה (הוצאות ותשלומים) - ירושלים",
+      "publisher": "הרשות לזכויות ניצולי שואה",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07144449",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137509",
+      "title": "עובד/ת מעבדה/עובד/ת מעבדה מתקדם (בריה\"צ) - דרום",
+      "publisher": "לשכת הבריאות מחוז הדרום",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07207976",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137510",
+      "title": "מזכיר/ה רפואי/ת - צפון",
+      "publisher": "בית חולים שער מנשה",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07207981",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137511",
+      "title": "מנהל/ת תחום (חשבונאות ודיווח) - ירושלים",
+      "publisher": "הרשות לזכויות ניצולי שואה",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07207983",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137512",
+      "title": "אחראי/ת משמרת (ביקורת גבולות) - חיפה",
+      "publisher": "רשות האוכלוסין וההגירה",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07207997",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137513",
+      "title": "מרכז/ת מחקר בכיר/ה -(ב') - מרכז",
+      "publisher": "מינהל המחקר החקלאי",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07207999",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137514",
+      "title": "מנהל/ת תחום (סיעוד) - דרום",
+      "publisher": "רשות האוכלוסין וההגירה",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07208701",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137515",
+      "title": "מנהל/ת תחום (מעסיקי עובדים פלשתינאים) - צפון",
+      "publisher": "רשות האוכלוסין וההגירה",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07208708",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137516",
+      "title": "סגן/ית פסיכולוג/ית ארצי/ת - ירושלים",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07208710",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137517",
+      "title": "פסיכולוג/ית מומחה/ית (תעסוקתי) - תל אביב",
+      "publisher": "מכון לבטיחות בדרכים",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07208712",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137518",
+      "title": "מפקח/ת קליני/ת (ט.נמרץ,מיון ודימות) - צפון",
+      "publisher": "המרכז הרפואי לגליל",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07209052",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137521",
+      "title": "מרכז/ת תחום בכיר/ה חקירות לאומיות - ירושלים",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07209015",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137523",
+      "title": "מרכז/ת בכיר/ה גיוס תכנון ובקרה - ירושלים",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07210032",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137525",
+      "title": "אח/אחות מומחה/ית (אונקולוגיה ילדים ) - מרכז",
+      "publisher": "מרכז רפואי שיבא תל-השומר",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07209060",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137526",
+      "title": "נספח/ת משרד הבריאות באיחוד האירופי - חו\"ל",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07208011",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137529",
+      "title": "סוקר בכיר - ירושלים",
+      "publisher": "הלשכה המרכזית לסטטיסטיקה",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07210954",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137530",
+      "title": "ממונה  (הכנסות וגבייה) - ירושלים",
+      "publisher": "משרד האוצר",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07210956",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137531",
+      "title": "מרכז/ת תורה והדרכה בחירות - ירושלים",
+      "publisher": "משרד הפנים",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07211028",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137533",
+      "title": "רכז/ת נושא (משכורת) - ירושלים",
+      "publisher": "מרכז ירושלמי לבריאות הנפש",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07211032",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137535",
+      "title": "מרכז/ת (תקציב ותמחיר) - ירושלים",
+      "publisher": "משרד העלייה והקליטה",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07211168",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137537",
+      "title": "מדריך (עו\"ס) - מרכז",
+      "publisher": "מרכז רפואי שיבא תל-השומר",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07211355",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137540",
+      "title": "אחראי תחום רפואה דחופה אא' - מרכז",
+      "publisher": "מרכז רפואי שיבא תל-השומר",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07211357",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137538",
+      "title": "עובד/ת סוציאלי/ת עצמאי/ת - מרכז",
+      "publisher": "מרכז רפואי שיבא תל-השומר",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07211359",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137541",
+      "title": "מנהל/ת תחום מקצועי אא' (אולטרסאונד) - מרכז",
+      "publisher": "מרכז רפואי שיבא תל-השומר",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07211361",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137542",
+      "title": "נאמן/ת בטיחות קרינה מייננת - מרכז",
+      "publisher": "מרכז רפואי שיבא תל-השומר",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07211363",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137539",
+      "title": "מרכז/ת בכיר/ה קשרי קהילה,גמלאים והתנדבות - ירושלים",
+      "publisher": "שירות עיבודים ממוחשבים",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07211331",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137543",
+      "title": "מרכז תחום (סרולוגיה) - מרכז",
+      "publisher": "מרכז רפואי שיבא תל-השומר",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07211174",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137544",
+      "title": "קלינאי תקשורת יחיד/עצמאי - מרכז",
+      "publisher": "מרכז רפואי שיבא תל-השומר",
+      "deadline": "2026-02-09",
+      "categories": [
+        "תקשורת"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07211476",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137545",
+      "title": "עוזר/ת מקצועי/ת להרכב בית הדין - ירושלים",
+      "publisher": "בתי דין רבניים",
+      "deadline": "2026-02-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07211310",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
     },
     {
       "tenderNumber": "4000613602",
@@ -2798,6 +4516,136 @@
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000612623",
       "description": "",
       "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "MRK-137546",
+      "title": "רכז/ת לשכה בכיר/ה א' - ירושלים",
+      "publisher": "המשרד לבטחון לאומי",
+      "deadline": "2026-02-10",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07211453",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137547",
+      "title": "עוזר/ת (יעוץ משפטי) - ירושלים",
+      "publisher": "רשות שוק ההון",
+      "deadline": "2026-02-10",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07211480",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137549",
+      "title": "רכז/ת בכיר/ה רכב ונהיגה - דרום",
+      "publisher": "משרד התחבורה והבטיחות בדרכים",
+      "deadline": "2026-02-10",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07211490",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137550",
+      "title": "מרכז (אתרי רחצה) - תל אביב",
+      "publisher": "משרד הפנים",
+      "deadline": "2026-02-10",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07211492",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137551",
+      "title": "עוזר מחקר למרחב אירופה - ירושלים",
+      "publisher": "משרד החוץ",
+      "deadline": "2026-02-10",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07211494",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137554",
+      "title": "עוזר מחקר לתורכיה והקווקז - ירושלים",
+      "publisher": "משרד החוץ",
+      "deadline": "2026-02-10",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07211320",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137553",
+      "title": "רופא/ה מתמחה/מומחה/ית מרכז לרפואה משפטית - תל אביב",
+      "publisher": "רפואה משפטית  אבו-כביר",
+      "deadline": "2026-02-10",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07213700",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137556",
+      "title": "רע''ן-מרכז/ת בכיר/ה (הנדסה-אנרגיה מקיימת - ירושלים",
+      "publisher": "משרד האנרגיה והתשתיות",
+      "deadline": "2026-02-10",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07214199",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137557",
+      "title": "סגן/נית מנהל/ת מדור (חוליה) - מרכז",
+      "publisher": "רשות המסים בישראל - מס הכנסה",
+      "deadline": "2026-02-10",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07213541",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137558",
+      "title": "רכז/ת נושא (משאבי אנוש) - צפון",
+      "publisher": "מרכז רפואי צפון (פוריה)",
+      "deadline": "2026-02-10",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07215481",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
     },
     {
       "tenderNumber": "4000613569",
@@ -2956,17 +4804,498 @@
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000613426",
-      "title": "ספק יחיד - לביד הנדסה",
-      "publisher": "משרד האוצר - רשות ה",
+      "tenderNumber": "MRK-137262",
+      "title": "מנהל/ת יחידה כאב אונקולוגי - מרכז",
+      "publisher": "מרכז רפואי שיבא תל-השומר",
       "deadline": "2026-02-11",
       "categories": [
         "אחר"
       ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613426",
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07131639",
       "description": "",
-      "docType": "מכרז"
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137263",
+      "title": "מנהל שירות (אישפוז יום שיקום נוירולוגי) - מרכז",
+      "publisher": "מרכז רפואי שיבא תל-השומר",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07131447",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137441",
+      "title": "ציר/ה כלכלי/ת אוצר בוושינגטון - חו\"ל",
+      "publisher": "משרד החוץ",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07140059",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137561",
+      "title": "מרכז/ת בכיר/ה (הון אנושי) - ירושלים",
+      "publisher": "משרד האנרגיה והתשתיות",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07214770",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137563",
+      "title": "מנהל/ת תחום (בטיחות) - מרכז",
+      "publisher": "מינהל המחקר החקלאי",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07215495",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137564",
+      "title": "מנהל מחסן/מרלו\"ג ב' - דרום",
+      "publisher": "ב. הנפש באר-שבע",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07215497",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137565",
+      "title": "רכז/ת נושא (יחידה ביורפואית) - מרכז",
+      "publisher": "בית חולים ע\"ש א. וולפסון",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07215499",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137566",
+      "title": "מפקח/ת-מפקח/ת בכיר/ה תכנון ובניה בריה\"ס - תל אביב",
+      "publisher": "לשכת הבריאות מחוז תל-אביב",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07216501",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137568",
+      "title": "דובר/ת וממונה על ההסברה א' - דרום",
+      "publisher": "ב. הנפש באר-שבע",
+      "deadline": "2026-02-11",
+      "categories": [
+        "דוברות"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07215662",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137570",
+      "title": "מנהל/ת אגף בכיר (חברה וקהילה) - ירושלים",
+      "publisher": "משרד העלייה והקליטה",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07216506",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137571",
+      "title": "ממונה משפטי/ת (האפוטרופוס הכללי) - ירושלים",
+      "publisher": "משרד המשפטים",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07216510",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137569",
+      "title": "מנהל/ת ענף (הכנסות) - מרכז",
+      "publisher": "בית חולים ע\"ש א. וולפסון",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07216555",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137572",
+      "title": "מנהל/ת אגף בכיר אכיפה ועיצומים - ירושלים",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07215599",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137574",
+      "title": "מנהל/ת אגף בכיר שירות המזון - ירושלים",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07218351",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137573",
+      "title": "ממונה הדרכה ופיתוח אירגוני - מרכז",
+      "publisher": "בית חולים ע\"ש א. וולפסון",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07218353",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137575",
+      "title": "מנהל/ת אגף בכיר פיקוח ארצי (מוצרי צריכה) - ירושלים",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07216518",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137578",
+      "title": "משגיח ראשי על כשרות ועניני דת - צפון",
+      "publisher": "המרכז הרפואי לגליל",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07218476",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137577",
+      "title": "מדריך\\ה פעילות תעסוקה חברתי \\ת - מרכז",
+      "publisher": "מרכז גריאטרי דורות נתניה",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07218478",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137581",
+      "title": "עוזר/ת לפסיכיאטר/ית מחוזי/ת - מרכז",
+      "publisher": "לשכת הבריאות מחוז המרכז",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07218507",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137580",
+      "title": "מרכז/ת (פיתוח יישומים) - מרכז",
+      "publisher": "בית חולים ע\"ש א. וולפסון",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07218509",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137582",
+      "title": "מרכז נושא (שיקום תפקודי בקהילה) - דרום",
+      "publisher": "ב. הנפש באר-שבע",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07218511",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137584",
+      "title": "כלכלן/ית/כלכלן/ית בכיר/ה (תכנון, תקצוב ו - ירושלים",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07218513",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137589",
+      "title": "מנהל/ת אגף בכיר (תשתיות אנרגיה) - ירושלים",
+      "publisher": "מנהל התכנון",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07218519",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137586",
+      "title": "קניין/ית - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07218521",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137593",
+      "title": "מנהל/ת אגף בכיר (תשתיות פסולת ומים) - ירושלים",
+      "publisher": "מנהל התכנון",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07220376",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137592",
+      "title": "ראש ענף (מוביל/ה לוגיסטיקה ו/או נכסים) - ירושלים",
+      "publisher": "הרשות להגנת הצרכן ולסחר הוגן",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07220378",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137597",
+      "title": "מנהל/ת מעבדה א' (המטולוגית) - מרכז",
+      "publisher": "בית חולים ע\"ש א. וולפסון",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07218560",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137600",
+      "title": "רופא/ה מומחה/ית טיפול נמרץ כללי - מרכז",
+      "publisher": "בית חולים ע\"ש א. וולפסון",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07218564",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137603",
+      "title": "ממונה בכיר/ה (נציבות תלונות על שופטים) - ירושלים",
+      "publisher": "משרד המשפטים",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07218570",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137605",
+      "title": "מנהל/ת תחום (נכסי נפקדים) - ירושלים",
+      "publisher": "משרד האוצר",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07218492",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137602",
+      "title": "רופא/ה מתמחה (דימות) - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07220575",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137588",
+      "title": "עובד/ת סוציאלי/ת - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07220579",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137594",
+      "title": "מרכז/ת נושא  (שעת חירום) - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07220581",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137609",
+      "title": "מרכז/ת (תיאום ובקרה שו\"ט בשדה) - מרכז",
+      "publisher": "משרד החקלאות וביטחון המזון",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07218494",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137610",
+      "title": "ראש/ת ענף-מרכז/ת בכיר/ה (סטט' חברתית) - ירושלים",
+      "publisher": "הלשכה המרכזית לסטטיסטיקה",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07220628",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137611",
+      "title": "ראש/ת ענף – מרכז/ת בכיר/ה (סטטי' כלכלית) - ירושלים",
+      "publisher": "הלשכה המרכזית לסטטיסטיקה",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07220630",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137612",
+      "title": "ראש/ת ענף-מרכז/ת בכיר/ה (סטט' כלכלית) - ירושלים",
+      "publisher": "הלשכה המרכזית לסטטיסטיקה",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07220634",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137591",
+      "title": "מרכז/ת בכיר/ה (מעקב תמיכות מבני דת) - ירושלים",
+      "publisher": "המשרד לשירותי דת",
+      "deadline": "2026-02-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07220380",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
     },
     {
       "tenderNumber": "4000613632",
@@ -3164,6 +5493,292 @@
       "docType": "מכרז"
     },
     {
+      "tenderNumber": "MSHCL-6",
+      "title": "מכרז למתן שירותי ניהול ופיקוח לעבודות פיתוח נופי, אחזקת גנים ועבודות כריתה וגיזום",
+      "publisher": "משכ\"ל - החברה למשק וכלכלה",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mashcal.co.il",
+      "url": "https://www.mashcal.co.il/our-tenders/",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "MRK-137613",
+      "title": "מפקח/ת רישוי עובדי טיס - מרכז",
+      "publisher": "רשות התעופה האזרחית",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07218496",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137614",
+      "title": "מנהל/ת תחום (שמאי/ת מחוזי/ת) - מרכז",
+      "publisher": "רשות המסים בישראל - מס הכנסה",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07220492",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137620",
+      "title": "פסיכולוג/ית מומחה/ית - תל אביב",
+      "publisher": "מרכז בריאות הנפש יפו",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221178",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137623",
+      "title": "עוזר/ת ראשי/ת (יעוץ משפטי) - ירושלים",
+      "publisher": "מערך הדיגיטל הלאומי",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221184",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137625",
+      "title": "מזכיר/ה רפואי/ת - מרכז",
+      "publisher": "בית חולים אברבנאל",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221300",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137627",
+      "title": "מנהל/ת אגף פיתוח ארגוני ולמידה - ירושלים",
+      "publisher": "משרד העלייה והקליטה",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221278",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137628",
+      "title": "מרכז/ת בכיר/ה (קשרי חוץ) - ירושלים",
+      "publisher": "חדשנות מדע וטכנו' תרבות וספורט",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221429",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137631",
+      "title": "עוזר/ת ליועץ המשפטי - ירושלים",
+      "publisher": "הרשות להגנת הצרכן ולסחר הוגן",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221431",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137626",
+      "title": "ראש צוות (ייעוץ משפטי) - ירושלים",
+      "publisher": "חדשנות מדע וטכנו' תרבות וספורט",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221433",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137630",
+      "title": "סגן/נית מנהל/ת תחום (סגן/נית גובה ראשי/ת - ירושלים",
+      "publisher": "רשות המסים בישראל - מס הכנסה",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221435",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137632",
+      "title": "ראש ענף (בוחן/ת תאגידים) - ירושלים",
+      "publisher": "משרד המשפטים",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221437",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137633",
+      "title": "מרכז/ת בכיר/ה (או\"ש ותגמול תמרוץ) - ירושלים",
+      "publisher": "חדשנות מדע וטכנו' תרבות וספורט",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221308",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137638",
+      "title": "מנהל אגף אסטרטגיה ומדיניות - ירושלים",
+      "publisher": "משרד הפנים",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221555",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137641",
+      "title": "מרכז/ת נושא (שיקום תפקודי) - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221388",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137639",
+      "title": "פסיכולוג/ית מומחה/ית - מרכז",
+      "publisher": "מרכז בריאות הנפש יפו",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221390",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137640",
+      "title": "פסיכולוג/ית מומחה/ית - תל אביב",
+      "publisher": "מרכז בריאות הנפש יפו",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221392",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137642",
+      "title": "סגנ/ית מפקח/ת/מנהל/ת מדור תחזוקה ושרותים - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221394",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137643",
+      "title": "יועץ/ת קליטה מרחבי- צרפתית - מרכז",
+      "publisher": "משרד העלייה והקליטה",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221634",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137644",
+      "title": "מנהל/ת מרחב (חיפה והקריות) - חיפה",
+      "publisher": "משרד העלייה והקליטה",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221565",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137646",
+      "title": "יועצ/ת קליטה מרחבי - רוסית אשקלון - דרום",
+      "publisher": "משרד העלייה והקליטה",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221567",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137637",
+      "title": "מרכז/ת בכיר/ה (מוסמך/ת רכש) - ירושלים",
+      "publisher": "משרד הפנים",
+      "deadline": "2026-02-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221384",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
       "tenderNumber": "4000612978",
       "title": "ערכות אפיון דנ\"א של כרומוזום Y",
       "publisher": "המשרד לביטחון פנים - משטרת ישראל",
@@ -3331,6 +5946,461 @@
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000609590",
       "description": "",
       "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "MRK-137327",
+      "title": "מנהל מחלקה פסיכיאטרית פעילה ד' - מרכז",
+      "publisher": "בית חולים אברבנאל",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07134001",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137616",
+      "title": "מנהל/ת תחום (פרוייקטים לאומיים -גמישות - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07219717",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137617",
+      "title": "מנהל/ת תחום (חינוך קדם יסודי ממלכתי-דתי) - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07218499",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137619",
+      "title": "מרכז/ת בכיר/ה (תקן, מוסדות וחטיבות בינים - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221176",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137621",
+      "title": "מרכז/ת בכיר/ה (ביקורת כספית) - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221180",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137622",
+      "title": "מנהל/ת תחום דעת  (חינוך פיננסי) - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221182",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137624",
+      "title": "מנהל/ת תחום דעת (שבילי מורשת) - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07220499",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137636",
+      "title": "מנהל/ת ענף (משאבי אנוש - שירות לפרט) - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221551",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137645",
+      "title": "מנהל/ת תחום (תקציב מוניציפלי) - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221638",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137647",
+      "title": "מוסמך רכש מקצועי - ירושלים",
+      "publisher": "רשות האוכלוסין וההגירה",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221806",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137648",
+      "title": "מנהל/ת ענף (התקשרויות,רכש ופיקוח תקציבי) - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221465",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137649",
+      "title": "מנהל/ת תחום (תכנון פיזי) - ירושלים",
+      "publisher": "משרד האנרגיה והתשתיות",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221885",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137650",
+      "title": "מנהל/ת תחום (מוסמך/ת רכש) - מרכז",
+      "publisher": "מינהל המחקר החקלאי",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221573",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137651",
+      "title": "מרכז/ת בכיר/ה (מכרות ומחצבים) - ירושלים",
+      "publisher": "משרד האנרגיה והתשתיות",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221648",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137652",
+      "title": "סגן/ית מנהל/ת שרותי המינהל במרפאות א' - צפון",
+      "publisher": "מרכז רפואי צפון (פוריה)",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07223307",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137653",
+      "title": "עוזר/ת ייעוץ משפטי (דיני עבודה) - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07223309",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137658",
+      "title": "עוזר/ת(ייעוץ משפטי) - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221818",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137657",
+      "title": "עובד/ת סוציאלית –טרום עלייה (אנגלית) - ירושלים",
+      "publisher": "משרד העלייה והקליטה",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221820",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137659",
+      "title": "עוזר/ת (ייעוץ משפטי) - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07221822",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137662",
+      "title": "מנהל/ת ענף (או\"ש תגמול תמרוץ) - ירושלים",
+      "publisher": "רשות המסים בישראל - מס הכנסה",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07223601",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137656",
+      "title": "יועצ/ת קליטה - מוביל/ה - מרכז",
+      "publisher": "משרד העלייה והקליטה",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07223626",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137661",
+      "title": "יועץ/ת קליטה בין מרחבי (ספרדית) - צפון",
+      "publisher": "משרד העלייה והקליטה",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07223502",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137665",
+      "title": "מנהל/ת תחום (חטיבה מקצועית) - תל אביב",
+      "publisher": "רשות המסים בישראל - מס הכנסה",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07223504",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137666",
+      "title": "רכז/ת לשכה ב' - ירושלים",
+      "publisher": "מנהל לחינוך התישבותי ועליית הנ",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07223506",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137667",
+      "title": "ממונה (מפקח/ת ארצי/ת - חטיבה מקצועית) - תל אביב",
+      "publisher": "רשות המסים בישראל - מס הכנסה",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07223508",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137664",
+      "title": "מרכז (חוליה מרכזית) - תל אביב",
+      "publisher": "רשות המסים בישראל - מס הכנסה",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07223510",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137668",
+      "title": "מנהל/ת ענף בריאות הציבור - צפון",
+      "publisher": "לשכת הבריאות מחוז הצפון",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07223628",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137669",
+      "title": "עוזר/ת  ייעוץ משפטי (תחום מסחרי) - צפון",
+      "publisher": "בית חולים הלל יפה חדרה",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07223630",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137670",
+      "title": "מנהל/ת תחום בכיר/ה (מחקר, כלכלה ונתונים) - ירושלים",
+      "publisher": "חדשנות מדע וטכנו' תרבות וספורט",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07223678",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137672",
+      "title": "מרכז נושא(המשך טיפול ומעקב) - ירושלים",
+      "publisher": "מרכז ירושלמי לבריאות הנפש",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07223539",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137674",
+      "title": "רכז נושא (דיאטה) - ירושלים",
+      "publisher": "מרכז ירושלמי לבריאות הנפש",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07223541",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137673",
+      "title": "מנהל תחום (פיזיקה ומדעי המחשב) - ירושלים",
+      "publisher": "חדשנות מדע וטכנו' תרבות וספורט",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07223516",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137677",
+      "title": "מרכז/ת בכיר/ה (פיתוח למידה ארגונית) - ירושלים",
+      "publisher": "שירות עיבודים ממוחשבים",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07223646",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137679",
+      "title": "מרכז/ת בכיר/ה למידה ארגונית, ביצוע הדרכה - ירושלים",
+      "publisher": "שירות עיבודים ממוחשבים",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07223688",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137680",
+      "title": "נהג/ת א' - ירושלים",
+      "publisher": "שירות עיבודים ממוחשבים",
+      "deadline": "2026-02-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07223690",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
     },
     {
       "tenderNumber": "4000613572",
@@ -3528,6 +6598,487 @@
       "docType": "מכרז"
     },
     {
+      "tenderNumber": "MRK-137358",
+      "title": "מנהל/ת מחלקה קרדיולוגיה וטיפול נמרץ לב - דרום",
+      "publisher": "מרכז רפואי ברזילי אשקלון",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07135499",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137681",
+      "title": "ממונה (תקציב) - ירושלים",
+      "publisher": "משרד הבינוי והשיכון",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07224526",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137682",
+      "title": "מפעיל/ת מחשב - דרום",
+      "publisher": "ב. הנפש באר-שבע",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07224528",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137684",
+      "title": "מרכז/ת תחום בכיר/ה(פסיכיאטר מחוזי/איזורי - מרכז",
+      "publisher": "לשכת הבריאות מחוז המרכז",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07224532",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137685",
+      "title": "פסיכולוג/ית מנהל/ת צוות - ירושלים",
+      "publisher": "מרכז ירושלמי לבריאות הנפש",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07224536",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137686",
+      "title": "רע\"ן - מרכז/ת (הוצאות ותשלומים) - מרכז",
+      "publisher": "לשכת הבריאות מחוז המרכז",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07224538",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137687",
+      "title": "ראש ענף (תיאום מעקב ובקרה) - ירושלים",
+      "publisher": "מנהל התכנון",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07223913",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137688",
+      "title": "פסיכולוג/ית מנהל/ת צוות - ירושלים",
+      "publisher": "מרכז ירושלמי לבריאות הנפש",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07223623",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137689",
+      "title": "מרכז (מתכנן) - ירושלים",
+      "publisher": "מנהל התכנון",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07224729",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137691",
+      "title": "ראש ענף - מרכז/ת (הון אנושי) - ירושלים",
+      "publisher": "משרד המשפטים",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07224731",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137690",
+      "title": "מנהל/ת תחום (כלכלה ופיקוח) - ירושלים",
+      "publisher": "משרד האנרגיה והתשתיות",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07224733",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137693",
+      "title": "מנהל/ת מחלקה (עבודה סוציאלית ארצי-רפואה - תל אביב",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07224737",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137694",
+      "title": "מנהל/ת תחום (מועצות לאומיות) - תל אביב",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07224741",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137695",
+      "title": "מנהל/ת תחום (פיקוח ובקרה טכנו' רפואיות) - ירושלים",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07224610",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137696",
+      "title": "מרכז נושא (טפול בילד החריג) - צפון",
+      "publisher": "בית חולים הלל יפה חדרה",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07224612",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137699",
+      "title": "מזכיר/ה משפטי/ת (פרקליטות מ.קידום) - צפון",
+      "publisher": "משרד המשפטים",
+      "deadline": "2026-02-16",
+      "categories": [
+        "שיווק"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07224900",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137697",
+      "title": "הנדסאי/ת/טכנאי/ת (גזים) - צפון",
+      "publisher": "בית חולים הלל יפה חדרה",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07224853",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137701",
+      "title": "רופא/ה מתמחה בבריאות הציבור - מרכז",
+      "publisher": "לשכת הבריאות מחוז המרכז",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07224858",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137700",
+      "title": "ממונה (אכיפה ובקרה) - תל אביב",
+      "publisher": "משרד המשפטים",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07224766",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137702",
+      "title": "פסיכולוג/ית מומחה/ית - תל אביב",
+      "publisher": "מרכז בריאות הנפש יפו",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07225075",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137705",
+      "title": "ראש ענף - מרכז/ת (הון אנושי) - ירושלים",
+      "publisher": "משרד המשפטים",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07225077",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137707",
+      "title": "מהנדס/ת תחום אחזקה (חשמל) - צפון",
+      "publisher": "המרכז הרפואי לגליל",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07225079",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137708",
+      "title": "מנהל/ת אגף א'(תורת הבנייה ופיתוח הנדסי) - ירושלים",
+      "publisher": "משרד הבינוי והשיכון",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07225081",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137709",
+      "title": "פסיכולוג/ית מומחה/ית - תל אביב",
+      "publisher": "מרכז בריאות הנפש יפו",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07224614",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137711",
+      "title": "מנהל/ת ענף (הסדר מקרקעין) - ירושלים",
+      "publisher": "משרד המשפטים",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07225004",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137712",
+      "title": "מנהל/ת תחום בכיר/ה (מיסוי בינלאומי) - תל אביב",
+      "publisher": "רשות המסים בישראל - מס הכנסה",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07225006",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137704",
+      "title": "מנהל/ת מעבדה א' (מיקרוביולוגיה) - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07225176",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137703",
+      "title": "מרכז/ת נושא (פגייה) - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07225178",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137716",
+      "title": "מרכז/ת בכיר/ה (מוסמך/ת רכש) - ירושלים",
+      "publisher": "משרד המשפטים",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07224913",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137717",
+      "title": "פסיכולוג/ית מנהל/ת צוות - מרכז",
+      "publisher": "בית חולים באר יעקב - נס ציונה",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07225087",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137718",
+      "title": "ראש ענף (מתקנים ברמת בטיחות גבוהה) - מרכז",
+      "publisher": "משרד החקלאות וביטחון המזון",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07225089",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137720",
+      "title": "פסיכולוג/ית מנהל/ת צוות - מרכז",
+      "publisher": "בית חולים באר יעקב - נס ציונה",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07225091",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137725",
+      "title": "מרכז/ת תחום (בליעה) - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07225503",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137726",
+      "title": "קלינאי/ת תקשורת בכיר/ה (מכון אודיולוגי) - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-02-16",
+      "categories": [
+        "תקשורת"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07225195",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137724",
+      "title": "קלינאי/ת תקשורת בכיר/ה (ABR,שתל, ש.משקל) - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-02-16",
+      "categories": [
+        "תקשורת"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07225197",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137723",
+      "title": "רוקח/ת אחראי/ת בכיר/ה (רוקחות קלינית) - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07225199",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137727",
+      "title": "רכז/ת נושא  (תפעול מערך המשק) - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-02-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07225590",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
       "tenderNumber": "4000613618",
       "title": "מכשיר טיפולי לפרזיס רב תחומי",
       "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש חיים שיבא, תל השומר",
@@ -3563,6 +7114,19 @@
       ],
       "source": "mr.gov.il",
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000613607",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "MSHCL-2",
+      "title": "מכרז לתכנון ובניית מוסדות חינוך וציבור",
+      "publisher": "משכ\"ל - החברה למשק וכלכלה",
+      "deadline": "2026-02-17",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mashcal.co.il",
+      "url": "https://www.mashcal.co.il/our-tenders/",
       "description": "",
       "docType": "מכרז"
     },
@@ -3633,6 +7197,19 @@
       "docType": "מכרז"
     },
     {
+      "tenderNumber": "MSHCL-4",
+      "title": "אספקה, התקנה, שיפוץ ואחזקה של מתקני משחק, מתקני ומגרשי ספורט, ריהוט רחוב וסככות",
+      "publisher": "משכ\"ל - החברה למשק וכלכלה",
+      "deadline": "2026-02-18",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mashcal.co.il",
+      "url": "https://www.mashcal.co.il/our-tenders/",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
       "tenderNumber": "4000613737",
       "title": "תחזוקת מע' סימפוני ומערכת מכון מירב",
       "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש חיים שיבא, תל השומר",
@@ -3698,6 +7275,32 @@
       "docType": "מכרז"
     },
     {
+      "tenderNumber": "MSHCL-1",
+      "title": "מכרז לאיסוף ופינוי אשפה, גזם ופסולת מוצקה",
+      "publisher": "משכ\"ל - החברה למשק וכלכלה",
+      "deadline": "2026-02-19",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mashcal.co.il",
+      "url": "https://www.mashcal.co.il/our-tenders/",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "MRK-137469",
+      "title": "מנהל/ת יחידה לטפול נמרץ לב - צפון",
+      "publisher": "מרכז רפואי צפון (פוריה)",
+      "deadline": "2026-02-19",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07213662",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
       "tenderNumber": "4000613727",
       "title": "התקשרות עם פארק מג'יק קאס  (MAGIC KASS) כספק יחיד",
       "publisher": "משרד האוצר",
@@ -3720,6 +7323,32 @@
       ],
       "source": "mr.gov.il",
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000610860",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000613780",
+      "title": "קונסיסט ספק יחיד",
+      "publisher": "משרד העבודה",
+      "deadline": "2026-02-22",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613780",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000613779",
+      "title": "יוביטק ספק יחיד",
+      "publisher": "משרד העבודה",
+      "deadline": "2026-02-22",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613779",
       "description": "",
       "docType": "מכרז"
     },
@@ -3759,6 +7388,19 @@
       ],
       "source": "mr.gov.il",
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000609838",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "MSHCL-5",
+      "title": "מכרז לאספקת שירותי תקשורת, תשתית קווית, תשתית אלחוטית ושירותי טלפוניה ותקשוב",
+      "publisher": "משכ\"ל - החברה למשק וכלכלה",
+      "deadline": "2026-02-22",
+      "categories": [
+        "תקשורת"
+      ],
+      "source": "mashcal.co.il",
+      "url": "https://www.mashcal.co.il/our-tenders/",
       "description": "",
       "docType": "מכרז"
     },
@@ -3815,6 +7457,58 @@
       "docType": "מכרז"
     },
     {
+      "tenderNumber": "MRK-137520",
+      "title": "מנהל/ת מחלקה שיקום נוירולוגי ב' - מרכז",
+      "publisher": "מרכז רפואי שיבא תל-השומר",
+      "deadline": "2026-02-23",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07209013",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137522",
+      "title": "מנהל/ת מחלקה לשיקום נשימתי מוגבר - מרכז",
+      "publisher": "מרכז רפואי שיבא תל-השומר",
+      "deadline": "2026-02-23",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07209885",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137524",
+      "title": "מנהל יחידה מקצועית פסיכיאטריה של הילד - מרכז",
+      "publisher": "מרכז רפואי שיבא תל-השומר",
+      "deadline": "2026-02-23",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07210174",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137532",
+      "title": "מנהל/ת מחלקה רפואה דחופה - צפון",
+      "publisher": "מרכז רפואי צפון (פוריה)",
+      "deadline": "2026-02-23",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07211030",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
       "tenderNumber": "4000613750",
       "title": "פרסום מכרז פומבי הפעלת יריד דוכנים במרכז הרפואי רמב\"ם בחיפה",
       "publisher": "משרד הבריאות - הקריה הרפואית לבריאות האדם, ביה\"ח רמב\"ם",
@@ -3852,6 +7546,32 @@
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000609427",
       "description": "",
       "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "MSHCL-7",
+      "title": "מכרז לביצוע עבודות כבישים, פיתוח ותשתיות",
+      "publisher": "משכ\"ל - החברה למשק וכלכלה",
+      "deadline": "2026-02-25",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mashcal.co.il",
+      "url": "https://www.mashcal.co.il/our-tenders/",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "MRK-137608",
+      "title": "מנהל/ת יחידה לרפואה משפטית פתולוגית - תל אביב",
+      "publisher": "רפואה משפטית  אבו-כביר",
+      "deadline": "2026-02-25",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07220577",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
     },
     {
       "tenderNumber": "4000599061",
@@ -3945,6 +7665,19 @@
       "docType": "מכרז"
     },
     {
+      "tenderNumber": "MRK-137675",
+      "title": " מנהל/ת מרפאה רב מקצועית - ירושלים",
+      "publisher": "מרכז ירושלמי לבריאות הנפש",
+      "deadline": "2026-03-01",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07223518",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
       "tenderNumber": "4000613430",
       "title": "מתן שירותי השגחה על נבחנים בבחינות הבגרות והסמכה לטכנאים והנדסאים",
       "publisher": "משרד החינוך",
@@ -3995,6 +7728,32 @@
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000613538",
       "description": "",
       "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "MSHCL-3",
+      "title": "תכנון ובניית אולמות ספורט וקירויים למגרשי ספורט",
+      "publisher": "משכ\"ל - החברה למשק וכלכלה",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mashcal.co.il",
+      "url": "https://www.mashcal.co.il/our-tenders/",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "MRK-137692",
+      "title": "מנהל/ת מחלקה פסיכוגריאטרית - צפון",
+      "publisher": "מרכז הרפואי לבריאות הנפש מזור",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/job-details/07224752",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
     },
     {
       "tenderNumber": "4000601342",
@@ -4244,14 +8003,15 @@
       "docType": "מכרז"
     }
   ],
-  "totalCount": 326,
+  "totalCount": 615,
   "sources": {
     "mr.gov.il": 320,
     "tender.gov.il": 0,
     "municipal": 6,
-    "mashcal.co.il": 0,
+    "mashcal.co.il": 7,
+    "merkava.mrp.gov.il": 282,
     "rashuiot.co.il": 0,
     "government-company": 0
   },
-  "note": "נמצאו 326 מכרזים ממגוון מקורות. השתמש בפילטרים באתר לחיפוש ממוקד."
+  "note": "נמצאו 615 מכרזים ממגוון מקורות. השתמש בפילטרים באתר לחיפוש ממוקד."
 }
