@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2026-03-01 05:06",
+  "lastUpdate": "2026-03-08 04:55",
   "tenders": [
     {
-      "tenderNumber": "4000614509",
-      "title": "שירות ותיקונים עבור 2 מעקרים GS ומכשיר לסילוג קזים מתוצרות 3M",
-      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש חיים שיבא, תל השומר",
-      "deadline": "2026-01-13",
+      "tenderNumber": "4000614743",
+      "title": "התקשרות המשך לקבלת שירותי ימי מומחה למוצרי סייבר ארק",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-01-14",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614509",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614743",
       "description": "",
       "docType": "מכרז"
     },
@@ -41,1289 +41,41 @@
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000613638",
-      "title": "חשמל חדר שנאים שלושה שנאים",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-12",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613638",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613637",
-      "title": "חשמל חדר שנאים שני שנאים",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-12",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613637",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613713",
-      "title": "חשמל חדר שנאים שני שנאים",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-15",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613713",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613912",
-      "title": "חשמל חדר שנאים שלושה שנאים",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-19",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613912",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613914",
-      "title": "חשמל חדר שנאים שלושה שנאים",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-19",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613914",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614394",
-      "title": "נחלות במשבצת",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-19",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614394",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614389",
-      "title": "מגורים",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-19",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614389",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614386",
-      "title": "מגורים שיוך דירות",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-19",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614386",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614387",
-      "title": "נחלות במשבצת",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-19",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614387",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614385",
-      "title": "מגורים שיוך דירות",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-19",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614385",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614383",
-      "title": "בניה עצמית",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-19",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614383",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614382",
-      "title": "בניה עצמית",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-19",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614382",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614397",
-      "title": "מגורים שיוך דירות",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-19",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614397",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614396",
-      "title": "מגורים שיוך דירות",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-19",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614396",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614403",
-      "title": "נחלות במשבצת",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-19",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614403",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000611995",
-      "title": "מכרז 35/2025 להפעלת קהילת חדשנות עסקית בתחום החקלאות והחקלאות הימית",
-      "publisher": "משרד הכלכלה",
-      "deadline": "2026-02-19",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000611995",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000612852",
-      "title": "לאספקת סט למתן נוזלים עם מחט אויר, שקיות שתן למבוגר וילד, ולהבים לאינטובציה",
-      "publisher": "משרד הבריאות - הקריה הרפואית לבריאות האדם, ביה\"ח רמב\"ם",
-      "deadline": "2026-02-19",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000612852",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000611959",
-      "title": "מכרז 34/2025 להפעלת קהילת חדשנות עסקית בתחום האנרגיה והמים",
-      "publisher": "משרד הכלכלה",
-      "deadline": "2026-02-19",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000611959",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613066",
-      "title": "מכרז מס' 01/2026 למתן שירותי תיקוף נתונים, בקרה והטמעת מדדי איכות עבור התכנית הלאומית למדדי איכות",
-      "publisher": "משרד הבריאות",
-      "deadline": "2026-02-19",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613066",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614155",
-      "title": "חידוש תחזוקת מערכות EMERGE חברת סאפינס מ- 17.02.2026 עד 16.02.2027",
-      "publisher": "משרד התחבורה והבטיחות בדרכים",
-      "deadline": "2026-02-19",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614155",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000612273",
-      "title": "מכרז 33/2025 להפעלת קהילת חדשנות עסקית בתחום הבטחון הלאומי",
-      "publisher": "משרד הכלכלה",
-      "deadline": "2026-02-19",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000612273",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613823",
-      "title": "הודעה על כוונה להתקשרות עם ספק יחיד לפי תקנה 3(29) בחטיבת גולני 50  בחיפה",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-19",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613823",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000612290",
-      "title": "רשות המים מפרסמת בזאת מכרז 100056007/2025 לביצוע עבודות לחישוף צמחייה ופינויי משטח מתקן תפלה.",
-      "publisher": "משרד התשתיות הלאומיות, האנרגיה והמים - רשות המים",
-      "deadline": "2026-02-19",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000612290",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614125",
-      "title": "ביצוע התקשרות עם ההסתדרות הציונית העולמית לביצוע תכנית העבודה להנצחת בנימין זאב הרצל לשנת 2026",
-      "publisher": "משרד ראש הממשלה",
-      "deadline": "2026-02-21",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614125",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613971",
-      "title": "ביצוע מיזם משותף עם עמותת \"חזון לאומי\" להנצחת הרצל לשנת 2026",
-      "publisher": "משרד ראש הממשלה",
-      "deadline": "2026-02-21",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613971",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613779",
-      "title": "יוביטק ספק יחיד",
-      "publisher": "משרד העבודה",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613779",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613780",
-      "title": "קונסיסט ספק יחיד",
-      "publisher": "משרד העבודה",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613780",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614418",
-      "title": "נחלות במשבצת",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614418",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614414",
-      "title": "מגורים שיוך דירות",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614414",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614413",
-      "title": "התקשרות בפטור ממכרז מיזם משותף עם עמותת רופאי חלום - שילוב ליצנים רפואיים במרכזי היום של מנהל מוגבלויות– פנייה",
-      "publisher": "משרד הרווחה",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614413",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614411",
-      "title": "קייט בנחלה",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614411",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613105",
-      "title": "מתן שירותי אוריינות מחשבים לאנשים חרשים וכבדי שמיעה ולאנשים עם מוגבלות חושית כפולה חירשות ועיוורון, בפריסה ארצ",
-      "publisher": "משרד הרווחה",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613105",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614442",
-      "title": "תעסוקה",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614442",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614450",
-      "title": "בניה חד משפחתית",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614450",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614428",
-      "title": "נחלות במשבצת",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614428",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613974",
-      "title": "רכש מחברת BARGAL ספק יחיד של מתכלים , חלקי חילוף וחומרים מתוצרת THERMO - DIONEX",
-      "publisher": "משרד הבריאות - לשכת הבריאות המחוזית צפון, חיפה",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613974",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613818",
-      "title": "התקשרות עם משרדי עורכי פטנטים שונים בארץ ובחו\"ל להמשך רישום קניין רוחני  (עבור פטנט",
-      "publisher": "משרד החקלאות ופיתוח הכפר - מינהל המחקר החקלאי, מכון וולקני",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613818",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613973",
-      "title": "רכש מספק יחיד - גדות מרקורי של כימיקלים,מתכלים, פילטרים וחלקי חילוף מתוצרת MERCK",
-      "publisher": "משרד הבריאות - לשכת הבריאות המחוזית צפון, חיפה",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613973",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614042",
-      "title": "התקשרות במסגרת מיזם משותף עם הספק איל\"ת - התאחדות ישראלית לספורט",
-      "publisher": "משרד המדע התרבות והספורט",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614042",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613812",
-      "title": "מתן שרותי יעוץ במהלך ביצוע מחקר ופיתוח",
-      "publisher": "משרד החקלאות ופיתוח הכפר - מינהל המחקר החקלאי, מכון וולקני",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613812",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613813",
-      "title": "התקשרות בהסכם מסגרת עם חברת בזק עבור קווי בזק ישירים במינהל המחקר החקלאי",
-      "publisher": "משרד החקלאות ופיתוח הכפר - מינהל המחקר החקלאי, מכון וולקני",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613813",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613953",
-      "title": "תחזוקת מערכת ניר במתקני שב\"ס",
-      "publisher": "המשרד לביטחון לאומי - שירות בתי הסוהר",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613953",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000610860",
-      "title": "מתן שירותי הוראת שפות למשטרת ישראל ושרות בתי הסוהר",
-      "publisher": "המשרד לביטחון פנים - משטרת ישראל",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000610860",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613505",
-      "title": "למתן שירותי אחזקה ותחזוקה של מחסני רשות פס\"ח עליונה הפרוסים ברחבי הארץ",
-      "publisher": "משרד הפנים",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613505",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000607334",
-      "title": "מכרז 15/2025 להקמת והפעלת מכון המזון הלאומי",
-      "publisher": "משרד הכלכלה",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000607334",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000612845",
-      "title": "רכש גלילי נייר תרמי",
-      "publisher": "המשרד לביטחון פנים - משטרת ישראל",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000612845",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613810",
-      "title": "התקשרות עם איגוד ערים אשכול רשויות נגב מערבי לביצוע מיזם משותף אשר במסגרתו יקיים אירוע האקתון בנושא: חקלאות בת",
-      "publisher": "משרד החקלאות ופיתוח הכפר - מינהל המחקר החקלאי, מכון וולקני",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613810",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000612974",
-      "title": "מכרז לאיתור דיור עבור משרדי ממשלה/יחידות ממשלתיות בעיר ראשון לציון",
-      "publisher": "משרד האוצר - מינהל הדיור הממשלתי",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000612974",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613802",
-      "title": "מכרז ש-2-2026 לאספקה והתקנת מזגני אויר ומפוחי נחשון",
-      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש ברזילי, אשקלון",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613802",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613727",
-      "title": "התקשרות עם פארק מג'יק קאס  (MAGIC KASS) כספק יחיד",
-      "publisher": "משרד האוצר",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613727",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613989",
-      "title": "מיזם משותף עם מוזיאון המדע ע''ש בלומפילד עבור ביצוע תכנית העבודה לפעילויות להנצחת נשיאים וראשי ממשלה לשנת 202",
-      "publisher": "משרד ראש הממשלה",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613989",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614143",
-      "title": "עמותת מדקרים ללא גבולות - דיקור וטיפול קבוצתי למטופלים הסובלים מטראומה",
-      "publisher": "משרד הבריאות - מרכז לבריאות הנפש טירת כרמל",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614143",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614451",
-      "title": "בניה עצמית",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614451",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614449",
-      "title": "משרדים בנחלה",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614449",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614437",
-      "title": "חברת החשמל לישראל בע\"מ – התקשרות בפטור ממכרז לשנת 2026",
-      "publisher": "משרד התחבורה והבטיחות בדרכים",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614437",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614447",
-      "title": "תעשיה ומלאכה בנחלה",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614447",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614452",
-      "title": "קייט בנחלה",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614452",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614444",
-      "title": "מגורים שיוך דירות",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614444",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614453",
-      "title": "מגורי עובדים זרים",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614453",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614454",
-      "title": "נחלות במשבצת",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614454",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614456",
-      "title": "שמורת טבע",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614456",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614445",
-      "title": "בניה לא רוויה",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614445",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614462",
-      "title": "הרחבה   מושב קיבוץ",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614462",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614463",
-      "title": "נחלות במשבצת",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614463",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614466",
-      "title": "מגורים שיוך דירות",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614466",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614468",
-      "title": "נחלות במשבצת",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614468",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614467",
-      "title": "הרחבה   מושב קיבוץ",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614467",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614460",
-      "title": "נחלות במשבצת",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614460",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614465",
-      "title": "נחלות במשבצת",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614465",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614464",
-      "title": "הרחבה   מושב קיבוץ",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614464",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614469",
-      "title": "מגורים שיוך דירות",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614469",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614457",
-      "title": "הרחבה   מושב קיבוץ",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614457",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614458",
-      "title": "הרחבה   מושב קיבוץ",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614458",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614461",
-      "title": "הרחבה   מושב קיבוץ",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614461",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614480",
-      "title": "הרחבה   מושב קיבוץ",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614480",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614485",
-      "title": "מתקנים פוטו וולטאיים",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614485",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614484",
-      "title": "מתקנים פוטו וולטאיים",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614484",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614486",
-      "title": "בניה חד משפחתית",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614486",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614492",
-      "title": "המרה משכר לחכר בבניה נמוכה",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614492",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614481",
-      "title": "גידולי שדה   בעל",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614481",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614482",
-      "title": "מגורים שיוך דירות",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614482",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614490",
-      "title": "ספורט ו או נופש",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614490",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614491",
-      "title": "מתקנים הנדסיים",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614491",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614488",
-      "title": "הרחבה   מושב קיבוץ",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614488",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614483",
-      "title": "נחלות במשבצת",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614483",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614501",
-      "title": "נחלות במשבצת",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614501",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614500",
-      "title": "גידולי שדה   בעל",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614500",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614496",
-      "title": "בניה חד משפחתית",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614496",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614478",
-      "title": "פטור ממכרז גיליאד-התרופות הן יחודיות",
+      "tenderNumber": "4000614787",
+      "title": "מתן שירות ואחזקה למלגזות מפעיל הולך ורכב תפעולי",
       "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש חיים שיבא, תל השומר",
-      "deadline": "2026-02-23",
+      "deadline": "2026-02-16",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614478",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614787",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614477",
-      "title": "פטור ממכרז SERONO-התרופות הן יחודיות",
+      "tenderNumber": "4000614790",
+      "title": "מתן שירותי תחזוקה למערכות בקרת טמפרטורה, מקררים ומקפיאים.",
       "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש חיים שיבא, תל השומר",
-      "deadline": "2026-02-23",
+      "deadline": "2026-02-16",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614477",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614790",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614476",
-      "title": "פטור ממכרז קיי ס. קים-התרופות הן יחודיות",
+      "tenderNumber": "4000614789",
+      "title": "שירות לאחזקת גנרטורים",
       "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש חיים שיבא, תל השומר",
-      "deadline": "2026-02-23",
+      "deadline": "2026-02-16",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614476",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613807",
-      "title": "שירותי תחזוקה עבור מערכת ניטור רשתות תקשורת-תכנת NET MONITOR",
-      "publisher": "משרד האוצר - סיגמה",
-      "deadline": "2026-02-23",
-      "categories": [
-        "תקשורת"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613807",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613639",
-      "title": "מכרז למכירת ציוד מכבסה תעשייתית,\nהמרכז הרפואי ע\"ש חיים שיבא, תל השומר",
-      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש חיים שיבא, תל השומר",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613639",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614080",
-      "title": "אירוע פורימון לשוטרי וילדי מחוז י-ם, אה\"ד, אטו\"ב, אג\"ת, יח' סמפכ\"ל, אח\"מ, אמ\"ש ואג\"מ",
-      "publisher": "המשרד לביטחון פנים - משטרת ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614080",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613213",
-      "title": "אספקת דטרגנטים למכונות שטיפה וחיטוי עבור אספקה סטרילית",
-      "publisher": "משרד הבריאות - המרכז הרפואי תל אביב ע\"ש סוראסקי, איכילוב",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613213",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613197",
-      "title": "אספקת ביגוד ייצוגי לעובדי שירות התעסוקה",
-      "publisher": "שרות התעסוקה",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613197",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613688",
-      "title": "אספקת נזופרינגוסקופים",
-      "publisher": "משרד הבריאות - המרכז הרפואי תל אביב ע\"ש סוראסקי, איכילוב",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613688",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614067",
-      "title": "רכש והתקנת 2 צ'ילרים חדשים בתפוקת 206 ק\"ט כולל הנפה פירוק ופינוי המזגנים הישנים כולל חיבור לצנרת הקיימת ולחשמל",
-      "publisher": "המשרד לביטחון פנים - משטרת ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614067",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614055",
-      "title": "אירוע פורימון לשוטרי וילדי מחוז י-ם, אה\"ד, אטו\"ב, אג\"ת, יח' סמפכ\"ל, אח\"מ, אמ\"ש ואג\"מ",
-      "publisher": "המשרד לביטחון פנים - משטרת ישראל",
-      "deadline": "2026-02-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614055",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614789",
       "description": "",
       "docType": "מכרז"
     },
@@ -1506,266 +258,6 @@
       ],
       "source": "mr.gov.il",
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000614550",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614508",
-      "title": "הרחבה   מושב קיבוץ",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-24",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614508",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614552",
-      "title": "הרחבה   מושב קיבוץ",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-24",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614552",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614551",
-      "title": "משרדים בנחלה",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-24",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614551",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614546",
-      "title": "קייט בנחלה",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-24",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614546",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613918",
-      "title": "מכרז ממוכן מהיר שירותי תדלוק כלי שיט - מכרז מבוטל",
-      "publisher": "המשרד לביטחון פנים - משטרת ישראל",
-      "deadline": "2026-02-24",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613918",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614549",
-      "title": "מבנים ומוסדות ציבור",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-24",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614549",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614553",
-      "title": "שטח ספורט",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-24",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614553",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614554",
-      "title": "מבנים ומוסדות ציבור לחינוך",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-24",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614554",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614548",
-      "title": "תעשיה  תעשיה קלה ומלאכה",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-24",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614548",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614571",
-      "title": "מגורים שיוך דירות",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-24",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614571",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614547",
-      "title": "מגורים שיוך דירות",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-24",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614547",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614570",
-      "title": "בניה חד משפחתית",
-      "publisher": "רשות מקרקעי ישראל",
-      "deadline": "2026-02-24",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614570",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614103",
-      "title": "כוונה להתקשרות עם עמותת הפועל בפטור ממכרז כספק יחיד",
-      "publisher": "המשרד לביטחון לאומי",
-      "deadline": "2026-02-24",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614103",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614105",
-      "title": "התקשרות עם אורטל נובו בפטור ממכרז כספק יחיד",
-      "publisher": "המשרד לביטחון לאומי",
-      "deadline": "2026-02-24",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614105",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613933",
-      "title": "שרות שנתי לאחזקת מערכות אל פסק תוצרת EATON  לשנת 2026",
-      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש חיים שיבא, תל השומר",
-      "deadline": "2026-02-24",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613933",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614071",
-      "title": "התקשרות עם חברת גרטנר ישראל אדוייזורי בנושא מחקר טכנולוגי עסק י",
-      "publisher": "משרד החינוך",
-      "deadline": "2026-02-24",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614071",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613884",
-      "title": "רישום למחוזיאדה 2026",
-      "publisher": "מנהל התכנון",
-      "deadline": "2026-02-24",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613884",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613881",
-      "title": "הלנת שחקנים במחוזיאדה",
-      "publisher": "מנהל התכנון",
-      "deadline": "2026-02-24",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613881",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613851",
-      "title": "WENDI אפליקציה ארגונית",
-      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש אדית וולפסון",
-      "deadline": "2026-02-24",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613851",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614058",
-      "title": "תשלום דמי חברות לשנת  2026 עם ארגון IOC  מועצת הזית הבינלאומית INTERNATIONAL OLIVE COUNCIL  - התקשרות עם ספק ח",
-      "publisher": "משרד החקלאות ובטחון המזון",
-      "deadline": "2026-02-24",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614058",
       "description": "",
       "docType": "מכרז"
     },
@@ -2628,41 +1120,210 @@
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614588",
-      "title": "מכרז מס' 11/4.2024 : מתן שרותי סיוע וייעוץ בהטמעת תכנית גפ\"ן בבתי הספר, במחוזות משרד  החינוך וברשויות מקומיות.",
-      "publisher": "משרד החינוך",
+      "tenderNumber": "4000614185",
+      "title": "מאגר",
+      "publisher": "רשות מקרקעי ישראל",
       "deadline": "2026-03-01",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614588",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614185",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614459",
-      "title": "מאשרים התקשרות לשנה שניה במכרז 30/9.2024 עם חברת מרמנת, עבור מתן  שירותים מנהלתיים.",
-      "publisher": "משרד החינוך",
+      "tenderNumber": "4000614199",
+      "title": "חשמל חדר שנאים שנאי אחד",
+      "publisher": "רשות מקרקעי ישראל",
       "deadline": "2026-03-01",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614459",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614199",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000613209",
-      "title": "אספקת מעיל מפחית החזר אור תת אדום עבור יחידות במשטרת ישראל",
-      "publisher": "המשרד לביטחון פנים - משטרת ישראל",
+      "tenderNumber": "4000614690",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
       "deadline": "2026-03-01",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613209",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614690",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614678",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-01",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614678",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614677",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-01",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614677",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614679",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-01",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614679",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614691",
+      "title": "הרחבה   מושב קיבוץ",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-01",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614691",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614692",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-01",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614692",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614669",
+      "title": "נחלות במשבצת",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-01",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614669",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614700",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-01",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614700",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614668",
+      "title": "תעשיה   מגזר חקלאי",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-01",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614668",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614706",
+      "title": "מסחר ותעשיה",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-01",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614706",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614705",
+      "title": "הרחבה   מושב קיבוץ",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-01",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614705",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614701",
+      "title": "בניה לא רוויה",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-01",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614701",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614694",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-01",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614694",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614693",
+      "title": "מבנים ומוסדות ציבור לדת",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-01",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614693",
       "description": "",
       "docType": "מכרז"
     },
@@ -2680,80 +1341,470 @@
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614395",
-      "title": "מאשרים הארכת התקשרות לשנה שלישית במסגרת האופציה שהוגדרה במכרז. 4/2.2023",
-      "publisher": "משרד החינוך",
+      "tenderNumber": "4000614047",
+      "title": "שימוש במאגר OXFORD UNIVERSITY PRESS",
+      "publisher": "רשות התחרות",
+      "deadline": "2026-03-01",
+      "categories": [
+        "יחסי ציבור"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614047",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000612817",
+      "title": "כרטיס לדיגום דנ\"א אנושי (FTA)",
+      "publisher": "המשרד לביטחון פנים - משטרת ישראל",
       "deadline": "2026-03-01",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614395",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000612817",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "TLV-1",
-      "title": "העיר והעירייה",
-      "publisher": "עיריית תל אביב-יפו",
+      "tenderNumber": "4000614106",
+      "title": "תחזוקת צומת תחנות אוטומטיות 2026",
+      "publisher": "משרד התחבורה והבטיחות בדרכים",
       "deadline": "2026-03-01",
       "categories": [
         "אחר"
       ],
-      "source": "municipal",
-      "url": "https://www.tel-aviv.gov.il/About/Pages/about.aspx",
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614106",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "TLV-2",
-      "title": "מכרזים ודרושים",
-      "publisher": "עיריית תל אביב-יפו",
+      "tenderNumber": "4000614283",
+      "title": "קול קורא לקבלת הצעות לאיתור יועץ טכנולוגי עבור קרן מחקרים רפואיים במרכז הרפואי ברזילי",
+      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש ברזילי, אשקלון",
       "deadline": "2026-03-01",
       "categories": [
         "אחר"
       ],
-      "source": "municipal",
-      "url": "https://www.tel-aviv.gov.il/AuctionAndCareers/Pages/Careers.aspx",
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614283",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "TLV-3",
-      "title": "מכרזים ודרושים",
-      "publisher": "עיריית תל אביב-יפו",
+      "tenderNumber": "4000614202",
+      "title": "מכרז פומבי 06/2019 - הצטרפות לרשימת קבלנים לביצוע עבודות חשמל  בנציגויות של ישראל בחול",
+      "publisher": "משרד החוץ",
       "deadline": "2026-03-01",
       "categories": [
         "אחר"
       ],
-      "source": "municipal",
-      "url": "https://www.tel-aviv.gov.il/AuctionAndCareers/Pages/Service.aspx",
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614202",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "TLV-4",
-      "title": "לתשומת לבכם:",
-      "publisher": "עיריית תל אביב-יפו",
+      "tenderNumber": "4000614046",
+      "title": "שימוש במאגר של חברת LEXIS",
+      "publisher": "רשות התחרות",
       "deadline": "2026-03-01",
       "categories": [
         "אחר"
       ],
-      "source": "municipal",
-      "url": "https://www.tel-aviv.gov.il/AuctionAndCareers/Pages/Service.aspx",
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614046",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "TLV-5",
-      "title": "* לצפייה במסמכים יש ללחוץ על החץ הכחול* כל המסמכים בטבלאות אלומונגשים. ייתכן פער בין מועד פרסום המסמכים למועד פרסומם המונגש, עמכם הסליחה* פרטי הקשר מופיעים בהודעת המכרז ובמסמכיו בהתאם לאגף המכרז.",
-      "publisher": "עיריית תל אביב-יפו",
+      "tenderNumber": "4000613281",
+      "title": "הפעלת קהילה ברוח קלאבהאוס במרכז לבר\"ן שער מנשה",
+      "publisher": "משרד הבריאות - המרכז לבריאות הנפש ש.מנשה",
       "deadline": "2026-03-01",
       "categories": [
-        "פרסום"
+        "אחר"
       ],
-      "source": "municipal",
-      "url": "https://www.tel-aviv.gov.il/AuctionAndCareers/Pages/Service.aspx",
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613281",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614043",
+      "title": "שימוש במאגר של חברת WOLTERS KLUWER",
+      "publisher": "רשות התחרות",
+      "deadline": "2026-03-01",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614043",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614035",
+      "title": "זיקסים  - שירותי חניה בבאר שבע (ספק יחיד)",
+      "publisher": "משרד האוצר - רשות ה",
+      "deadline": "2026-03-01",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614035",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000613617",
+      "title": "10/2026-הודעה על כוונה לערוך רשימת ספקים לצורך מתן פינוי מטופלים בחירום",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-03-01",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613617",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000613512",
+      "title": "פנייה להקמת רשימת ספקים 09/2026 למתן שירותי פינוי באמבולנסים עבור משרד הבריאות",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-03-01",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613512",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614696",
+      "title": "נחלות במשבצת",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-01",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614696",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614695",
+      "title": "קייט בנחלה",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-01",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614695",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614730",
+      "title": "מבנים ומוסדות ציבור",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614730",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614699",
+      "title": "נחלות במשבצת",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614699",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614734",
+      "title": "נחלות במשבצת",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614734",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614733",
+      "title": "הרחבה   מושב קיבוץ",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614733",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614698",
+      "title": "בניה חד משפחתית",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614698",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614709",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614709",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614711",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614711",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614732",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614732",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614731",
+      "title": "נחלות במשבצת",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614731",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614713",
+      "title": "הרחבה   מושב קיבוץ",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614713",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614736",
+      "title": "הרחבה   מושב קיבוץ",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614736",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614735",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614735",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614740",
+      "title": "הרחבה   מושב קיבוץ",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614740",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614742",
+      "title": "הרחבה   מושב קיבוץ",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614742",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614715",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614715",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614714",
+      "title": "הרחבה   מושב קיבוץ",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614714",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614744",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614744",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614716",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614716",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614122",
+      "title": "רכש חלפים ותיקונים למכשיר דבורה BEE III IL",
+      "publisher": "המשרד לביטחון פנים - משטרת ישראל",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614122",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614081",
+      "title": "RAPID IMAGE תכנה לניהול מרפאת פה ולסת",
+      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש אדית וולפסון",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614081",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614075",
+      "title": "שירות WHATSAPP המתממשק עם מערכת CA",
+      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש חיים שיבא, תל השומר",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614075",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614261",
+      "title": "רכש מערכת TLD עבור יחידת הקרינה",
+      "publisher": "משרד הבריאות - הקריה הרפואית לבריאות האדם, ביה\"ח רמב\"ם",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614261",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614264",
+      "title": "רכש מכשיר לייזר STELLAR M22",
+      "publisher": "משרד הבריאות - הקריה הרפואית לבריאות האדם, ביה\"ח רמב\"ם",
+      "deadline": "2026-03-02",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614264",
       "description": "",
       "docType": "מכרז"
     },
@@ -2771,6 +1822,305 @@
       "docType": "מכרז"
     },
     {
+      "tenderNumber": "4000614132",
+      "title": "אלמוג שירותי ים - ספק יחיד",
+      "publisher": "משרד האוצר - רשות ה",
+      "deadline": "2026-03-03",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614132",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614109",
+      "title": "שדרוג תוכנה לניתור ובקרה של מכשירים DW",
+      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש חיים שיבא, תל השומר",
+      "deadline": "2026-03-03",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614109",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614296",
+      "title": "התקשרות עם חברת STORENEXT כספק יחיד",
+      "publisher": "משרד האוצר",
+      "deadline": "2026-03-03",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614296",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614297",
+      "title": "רכש הליכון אנטיגרביטי ללוחמי יחידת מצדה",
+      "publisher": "המשרד לביטחון לאומי - שירות בתי הסוהר",
+      "deadline": "2026-03-03",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614297",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614013",
+      "title": "מכרז פומבי 2/26 תיאום תכנון והפקת קמפיינים",
+      "publisher": "לשכת הפרסום הממשלתית (לפ\"מ)",
+      "deadline": "2026-03-03",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614013",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614754",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614754",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614760",
+      "title": "הרחבה   מושב קיבוץ",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614760",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614748",
+      "title": "הרחבה   מושב קיבוץ",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614748",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614749",
+      "title": "הרחבה   מושב קיבוץ",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614749",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614761",
+      "title": "הרחבה   מושב קיבוץ",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614761",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614763",
+      "title": "בית קברות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614763",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614752",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614752",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614764",
+      "title": "קייט בנחלה",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614764",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614765",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614765",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614762",
+      "title": "בניה חד משפחתית",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614762",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614753",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614753",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614800",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614800",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614779",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614779",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614766",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614766",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614157",
+      "title": "שירותי דואר עבור יחידות המשרד הראשי במשרד הבריאות",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614157",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614802",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614802",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614213",
+      "title": "ליידוס - ספק יחיד (שירות ותחזוקה ל 2 מערכות)",
+      "publisher": "משרד האוצר - רשות ה",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614213",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614358",
+      "title": "מתכלים למערכת EXCIMER LASER לשליפת מערכות קוצבי לב",
+      "publisher": "משרד הבריאות - הקריה הרפואית לבריאות האדם, ביה\"ח רמב\"ם",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614358",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
       "tenderNumber": "4000612994",
       "title": "אספקת מכשור אוטומטי לביצוע סוגי דם בעסקת מתכלים",
       "publisher": "משרד הבריאות - הקריה הרפואית לבריאות האדם, ביה\"ח רמב\"ם",
@@ -2780,6 +2130,71 @@
       ],
       "source": "mr.gov.il",
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000612994",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614370",
+      "title": "מתכלים למערכת CARTO",
+      "publisher": "משרד הבריאות - הקריה הרפואית לבריאות האדם, ביה\"ח רמב\"ם",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614370",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614350",
+      "title": "חוזה שירות ללייזר   CO2 מדגם PERFECTA  מתוצרת חברת CANDELA",
+      "publisher": "משרד הבריאות - הקריה הרפואית לבריאות האדם, ביה\"ח רמב\"ם",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614350",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614359",
+      "title": "כוונה להתקשרות בפטור ממכרז כספק יחיד, לשם הפעלת תכנית מימד התערבות טיפול דיאדית הורה ילד באומנה",
+      "publisher": "משרד הרווחה",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614359",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614188",
+      "title": "רישוי GIS",
+      "publisher": "רשות התחרות",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614188",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614351",
+      "title": "רכש מחברת סולטק של קיט R-BIOPHARM, מתכלים, סטנדרטים וטיפול במכשיר מחברת ADVANCED INSTRUMENTS",
+      "publisher": "משרד הבריאות - לשכת הבריאות המחוזית צפון, חיפה",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614351",
       "description": "",
       "docType": "מכרז"
     },
@@ -2797,28 +2212,67 @@
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000611175",
-      "title": "הקמת רשימות ספקים בעלי מומחיות ביישום ובפיתוח של חבילות עבודה בסביבת SAP",
-      "publisher": "משרד האוצר - סיגמה",
-      "deadline": "2026-03-05",
+      "tenderNumber": "4000614801",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-04",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000611175",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614801",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000613289",
-      "title": "מתודולוגיית ספירת מצאי משרדית בתחום המחשוב והתקשרות",
-      "publisher": "משרד הרווחה",
-      "deadline": "2026-03-05",
+      "tenderNumber": "4000614803",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-04",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613289",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614803",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614767",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614767",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614804",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614804",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614805",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-04",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614805",
       "description": "",
       "docType": "מכרז"
     },
@@ -2836,28 +2290,54 @@
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614427",
-      "title": "שירותי תחזוקה עבור מערכת גילוי אש וכיבוי אוטומטי",
-      "publisher": "משרד הבריאות - לשכת הבריאות המחוזית ת\"א",
+      "tenderNumber": "4000614813",
+      "title": "נחלות במשבצת",
+      "publisher": "רשות מקרקעי ישראל",
       "deadline": "2026-03-05",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614427",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614813",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000613356",
-      "title": "אספקה ופינוי כלי רכב מושבתים לאימוני כבאות",
-      "publisher": "המשרד לביטחון לאומי - נציבות כבאות והצלה",
+      "tenderNumber": "4000614816",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
       "deadline": "2026-03-05",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613356",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614816",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614806",
+      "title": "בניה חד משפחתית",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614806",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614214",
+      "title": "הפעול - דמי רישום למחוזיאדה (ספק יחיד)",
+      "publisher": "משרד האוצר - רשות ה",
+      "deadline": "2026-03-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614214",
       "description": "",
       "docType": "מכרז"
     },
@@ -2876,6 +2356,175 @@
       "docType": "מכרז"
     },
     {
+      "tenderNumber": "4000614249",
+      "title": "רכישת מוצרי מיקרוסופט לא ייחודיים",
+      "publisher": "המשרד לביטחון לאומי - נציבות כבאות והצלה",
+      "deadline": "2026-03-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614249",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000613538",
+      "title": "מתן שירותי ניטור וניתוח מידע תקשורתי",
+      "publisher": "הרשות לשרות הלאומי אזרחי",
+      "deadline": "2026-03-05",
+      "categories": [
+        "תקשורת"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613538",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614208",
+      "title": "התקשרות עם חברת סלקום לצורך תכנון וביצוע תשתיות, העתקת תשתיות וכל הכרוך בכך",
+      "publisher": "משרד הבינוי והשיכון",
+      "deadline": "2026-03-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614208",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614200",
+      "title": "התקשרות עם חברת פרטנר לצורך תכנון וביצוע תשתיות, העתקת תשתיות וכל הכרוך בכך",
+      "publisher": "משרד הבינוי והשיכון",
+      "deadline": "2026-03-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614200",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614246",
+      "title": "רכש מוצרי VMWARE",
+      "publisher": "המשרד לביטחון לאומי - נציבות כבאות והצלה",
+      "deadline": "2026-03-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614246",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614205",
+      "title": "תכנון וביצוע תשתיות, העתקת תשתיות וכך הכרוך בכך",
+      "publisher": "משרד הבינוי והשיכון",
+      "deadline": "2026-03-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614205",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614215",
+      "title": "חברת אורטל - דמי אירוח למחוזיאדה",
+      "publisher": "משרד האוצר - רשות ה",
+      "deadline": "2026-03-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614215",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614253",
+      "title": "חידוש התקשרות עם חברת מיקרוסופט עבור פלטפורמת AZURE DEVOPS",
+      "publisher": "משרד האוצר - סיגמה",
+      "deadline": "2026-03-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614253",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614216",
+      "title": "השטיח המעופף - ספק יחיד",
+      "publisher": "משרד האוצר - רשות ה",
+      "deadline": "2026-03-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614216",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000613886",
+      "title": "מכרז פומבי  ע-1-2026 להחלפת מעלית מטבח במרכז הרפואי ברזילי",
+      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש ברזילי, אשקלון",
+      "deadline": "2026-03-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613886",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614209",
+      "title": "התקשרות עם חברת מקורות לצורך תכנון וביצוע תשתיות, העתקת תשתיות וכל הכרוך בכך",
+      "publisher": "משרד הבינוי והשיכון",
+      "deadline": "2026-03-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614209",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614207",
+      "title": "התקשרות עם חברת הוט לצורך תכנון וביצוע תשתיות, העתקת תשתיות וכל הכרוך בכך",
+      "publisher": "משרד הבינוי והשיכון",
+      "deadline": "2026-03-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614207",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614427",
+      "title": "שירותי תחזוקה עבור מערכת גילוי אש וכיבוי אוטומטי",
+      "publisher": "משרד הבריאות - לשכת הבריאות המחוזית ת\"א",
+      "deadline": "2026-03-05",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614427",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
       "tenderNumber": "4000614374",
       "title": "התקשרות עם מיקרוסופט, באמצעות המשווק שאושר במנהל הרכש            לרכישת רישיונות למוצרי החברה בעלי פריסה רחבה",
       "publisher": "משרד ראש הממשלה",
@@ -2889,93 +2538,93 @@
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000610551",
-      "title": "מכרז מסגרת 33/2025 לאיסוף ובדיקות מעבדה עבור מערך רגולציה משקית מזון ותמרוקים במשרד הבריאות",
-      "publisher": "משרד הבריאות",
-      "deadline": "2026-03-08",
+      "tenderNumber": "4000614409",
+      "title": "אספקה ושרות למערכות בקרות כניסה ויציאה וציוד נלווה",
+      "publisher": "משרד הבריאות - הקריה הרפואית לבריאות האדם, ביה\"ח רמב\"ם",
+      "deadline": "2026-03-05",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000610551",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614409",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000613962",
-      "title": "מכרז  למתן שירותי הסעדה ומטבח קצה בשרי, עם אופציה עתידית למזנון חלבי",
-      "publisher": "משרד הפנים",
-      "deadline": "2026-03-08",
+      "tenderNumber": "4000614809",
+      "title": "נחלות במשבצת",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-05",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613962",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614809",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000613295",
-      "title": "אספקת שירותי מסעדה ושירותי מזנון לעובדי משרד החינוך בירושלים ובתל אביב",
-      "publisher": "משרד החינוך",
-      "deadline": "2026-03-08",
+      "tenderNumber": "4000614808",
+      "title": "מגורים שיוך דירות",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-05",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613295",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614808",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614494",
-      "title": "רכש גלילי נייר טרמי",
-      "publisher": "המשרד לביטחון פנים - משטרת ישראל",
-      "deadline": "2026-03-08",
+      "tenderNumber": "4000614820",
+      "title": "בניה עצמית",
+      "publisher": "רשות מקרקעי ישראל",
+      "deadline": "2026-03-05",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614494",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614820",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614378",
-      "title": "כוונה להתקשרות בפטור ממכרז כספק יחיד, להפעלת בית אבות בעיר ערד",
+      "tenderNumber": "4000605603",
+      "title": "הצטרפות לרשימת מציעים (מאגר) של נותני שירותים ‏מקצועיים וספקים למשרד הרווחה והביטחון החברתי",
       "publisher": "משרד הרווחה",
-      "deadline": "2026-03-08",
+      "deadline": "2026-03-05",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614378",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000605603",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614440",
-      "title": "רכש מספק יחיד ISI - מתכלים, חלקי חילוף ותיקונים למכשירים מחברות BUCHI ו- METROHM",
-      "publisher": "משרד הבריאות - לשכת הבריאות המחוזית צפון, חיפה",
-      "deadline": "2026-03-08",
+      "tenderNumber": "4000605605",
+      "title": "הצטרפות לרשימת מציעים (מאגר) של נותני שירותים ‏מקצועיים וספקים למשרד הרווחה והביטחון החברתי",
+      "publisher": "משרד הרווחה",
+      "deadline": "2026-03-05",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614440",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000605605",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614429",
-      "title": "רכישת מתכלים, חלקי חילוף ותחזוקת מכשירים חברת CEM",
-      "publisher": "משרד הבריאות - לשכת הבריאות המחוזית צפון, חיפה",
-      "deadline": "2026-03-08",
+      "tenderNumber": "4000614840",
+      "title": "הרחבת התקשרות מכרז 16/2025 לשירותי תפעול הרכש ואופרציה עבור משרד הבריאות",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-03-06",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614429",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614840",
       "description": "",
       "docType": "מכרז"
     },
@@ -2993,15 +2642,470 @@
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614225",
-      "title": "אספקת שקיות לסטריליזציה בקיטור וגז + שרוולים לסטריליזציה עבור מרת\"א",
-      "publisher": "משרד הבריאות - המרכז הרפואי תל אביב ע\"ש סוראסקי, איכילוב",
+      "tenderNumber": "4000613209",
+      "title": "אספקת מעיל מפחית החזר אור תת אדום עבור יחידות במשטרת ישראל",
+      "publisher": "המשרד לביטחון פנים - משטרת ישראל",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613209",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000610513",
+      "title": "אספקה, התקנה בתחזוקה של מצלמות לצורך אכיפת עבירות מהירות ומקטע דרך.",
+      "publisher": "המשרד לביטחון פנים - משטרת ישראל",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000610513",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614588",
+      "title": "מכרז מס' 11/4.2024 : מתן שרותי סיוע וייעוץ בהטמעת תכנית גפ\"ן בבתי הספר, במחוזות משרד  החינוך וברשויות מקומיות.",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614588",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "TLV-1",
+      "title": "העיר והעירייה",
+      "publisher": "עיריית תל אביב-יפו",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "municipal",
+      "url": "https://www.tel-aviv.gov.il/About/Pages/about.aspx",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "TLV-2",
+      "title": "מכרזים ודרושים",
+      "publisher": "עיריית תל אביב-יפו",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "municipal",
+      "url": "https://www.tel-aviv.gov.il/AuctionAndCareers/Pages/Careers.aspx",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "TLV-3",
+      "title": "מכרזים ודרושים",
+      "publisher": "עיריית תל אביב-יפו",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "municipal",
+      "url": "https://www.tel-aviv.gov.il/AuctionAndCareers/Pages/Service.aspx",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "TLV-4",
+      "title": "לתשומת לבכם:",
+      "publisher": "עיריית תל אביב-יפו",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "municipal",
+      "url": "https://www.tel-aviv.gov.il/AuctionAndCareers/Pages/Service.aspx",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "TLV-5",
+      "title": "* לצפייה במסמכים יש ללחוץ על החץ הכחול* כל המסמכים בטבלאות אלומונגשים. ייתכן פער בין מועד פרסום המסמכים למועד פרסומם המונגש, עמכם הסליחה* פרטי הקשר מופיעים בהודעת המכרז ובמסמכיו בהתאם לאגף המכרז.",
+      "publisher": "עיריית תל אביב-יפו",
+      "deadline": "2026-03-08",
+      "categories": [
+        "פרסום"
+      ],
+      "source": "municipal",
+      "url": "https://www.tel-aviv.gov.il/AuctionAndCareers/Pages/Service.aspx",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "MRK-137860",
+      "title": "מנהל/ת מכון הפריה חוץ גופית - מרכז",
+      "publisher": "מרכז רפואי שיבא תל-השומר",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07230588",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138202",
+      "title": "מרכז/ת בכיר/ה (תכנון סטטוטורי) - ירושלים",
+      "publisher": "משרד האנרגיה והתשתיות",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07248169",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138205",
+      "title": "מדריך/ת פעילות/תעסוקה/חברתי - צפון",
+      "publisher": "מרכז הרפואי לבריאות הנפש מזור",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07248173",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138206",
+      "title": "רופא מומחה ריאות - צפון",
+      "publisher": "המרכז הרפואי לגליל",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07250200",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138208",
+      "title": "תומך/ת מחקר בכיר/ה (ב') - מרכז",
+      "publisher": "מינהל המחקר החקלאי",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07250204",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138209",
+      "title": "פסיכולוג/ית מומחה/ית - תל אביב",
+      "publisher": "מרכז בריאות הנפש יפו",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07250208",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138214",
+      "title": "רופא מתמחה / רופא מומחה - צפון",
+      "publisher": "מרכז הרפואי לבריאות הנפש מזור",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07250224",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138217",
+      "title": "דיאטנ/ית אחראי/ית (בקרה בגריאטריה) - ירושלים",
+      "publisher": "לשכת הבריאות ירושלים",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07250528",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138219",
+      "title": "מפקח/ת / מפקח/ת בכיר/ה מזון - ירושלים",
+      "publisher": "לשכת הבריאות ירושלים",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07250534",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138223",
+      "title": "עובד/ת סוציאלי/ת - ירושלים",
+      "publisher": "מרכז ירושלמי לבריאות הנפש",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07250536",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138224",
+      "title": "פסיכולוג מומחה קליני) - ירושלים",
+      "publisher": "מרכז ירושלמי לבריאות הנפש",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07248899",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138225",
+      "title": "מנהל/ת תחום (מידע וקשרי ציבור) - ירושלים",
+      "publisher": "משרד ראש ממשלה",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07250953",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138226",
+      "title": "עוזר/ת ייעוץ משפטי- ייעוץ, מינהל, עבודת - ירושלים",
+      "publisher": "משרד ראש ממשלה",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07250955",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-132625",
+      "title": "ממונה (צוות מעריכים) - מרכז",
+      "publisher": "רשות המסים בישראל- מכס ומע\"מ",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/06954370",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-132626",
+      "title": "ממונה (צוות מעריכים) - מרכז",
+      "publisher": "רשות המסים בישראל- מכס ומע\"מ",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/06954484",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-132615",
+      "title": "ממונה (צוות מעריכים) - מרכז",
+      "publisher": "רשות המסים בישראל- מכס ומע\"מ",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/06954355",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-132610",
+      "title": "ממונה (צוות מעריכים) - חיפה",
+      "publisher": "רשות המסים בישראל- מכס ומע\"מ",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/06953349",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-132628",
+      "title": "ממונה (צוות מעריכים) - יהודה ושומרון",
+      "publisher": "רשות המסים בישראל- מכס ומע\"מ",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/06954409",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-132620",
+      "title": "ממונה (צוות מעריכים) - מרכז",
+      "publisher": "רשות המסים בישראל- מכס ומע\"מ",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/06954269",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-132627",
+      "title": "ממונה (צוות מעריכים) - צפון",
+      "publisher": "רשות המסים בישראל- מכס ומע\"מ",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/06954700",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-136215",
+      "title": "ממונה (גורם כלכלי מאושר) - מרכז",
+      "publisher": "רשות המסים בישראל- מכס ומע\"מ",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07097912",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138408",
+      "title": "מנהל/ת ענף (תיאום פעולות - חינוך דתי) - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07258629",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138412",
+      "title": "מרכז/ת בכיר/ה (בטיחות ושע\"ח מחוזי) - תל אביב",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07258648",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138425",
+      "title": "רכז/ת בכיר/ה (משכורת עובדי הוראה במחוז) - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07259164",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138432",
+      "title": "ממונה (ראש צוות - משכורת עו\"ה במחוז) - חיפה",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07259172",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-132624",
+      "title": "ממונה (צוות מעריכים) - מרכז",
+      "publisher": "רשות המסים בישראל- מכס ומע\"מ",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/06954368",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-132759",
+      "title": "מנהל/ת תחום בכיר/ה (ניהול מוצר וחווית מש - ירושלים",
+      "publisher": "רשות המסים בישראל- מכס ומע\"מ",
+      "deadline": "2026-03-08",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/06960381",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "4000613774",
+      "title": "מכרז להשכרת שטחים מסחריים בקניון הצומת \nבמרכז הרפואי ע\"ש ח. שיבא, תל- השומר",
+      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש חיים שיבא, תל השומר",
       "deadline": "2026-03-09",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614225",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613774",
       "description": "",
       "docType": "מכרז"
     },
@@ -3032,106 +3136,223 @@
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614439",
-      "title": "כוונה להתקשרות בפטור ממכרז כספק יחיד, לצורך הקמת זרוע החדשנות ARC WELFARE",
-      "publisher": "משרד הרווחה",
+      "tenderNumber": "MRK-138465",
+      "title": "מנהל/ת תחום פרט - יהודה ושומרון",
+      "publisher": "נציבות שרות המדינה",
       "deadline": "2026-03-09",
       "categories": [
         "אחר"
       ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614439",
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07261264",
       "description": "",
-      "docType": "מכרז"
+      "docType": "מכרז בינמשרדי"
     },
     {
-      "tenderNumber": "4000614470",
-      "title": "כוונה להתקשרות בפטור ממכרז כספק יחיד, לצורך הפעלת פיילוט \"המסייעת\"",
-      "publisher": "משרד הרווחה",
+      "tenderNumber": "MRK-138466",
+      "title": "מנהל/ת תחום (למידה ארגונית ורווחה) - יהודה ושומרון",
+      "publisher": "נציבות שרות המדינה",
       "deadline": "2026-03-09",
       "categories": [
         "אחר"
       ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614470",
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07261266",
       "description": "",
-      "docType": "מכרז"
+      "docType": "מכרז בינמשרדי"
     },
     {
-      "tenderNumber": "4000614487",
-      "title": "תיקון ותחזוקת אוטקלאבים של חברת SYSTEC GMBH",
-      "publisher": "משרד הבריאות - לשכת הבריאות המחוזית צפון, חיפה",
+      "tenderNumber": "MRK-138467",
+      "title": "מרכז/ת בכיר/ה (דיווח ומיצוי זכויות) - יהודה ושומרון",
+      "publisher": "נציבות שרות המדינה",
       "deadline": "2026-03-09",
       "categories": [
         "אחר"
       ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614487",
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07261268",
       "description": "",
-      "docType": "מכרז"
+      "docType": "מכרז בינמשרדי"
     },
     {
-      "tenderNumber": "4000611446",
-      "title": "ליווי בתי ספר בחינוך העל יסודי לקידום הישגים לימודיים וצמצום פערים חברתיים ורגשיים",
-      "publisher": "משרד החינוך",
-      "deadline": "2026-03-09",
-      "categories": [
-        "שיווק"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000611446",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613430",
-      "title": "מתן שירותי השגחה על נבחנים בבחינות הבגרות והסמכה לטכנאים והנדסאים",
-      "publisher": "משרד החינוך",
+      "tenderNumber": "MRK-138227",
+      "title": "ראש ענף-מרכז בכיר (פיקוח/אכיפת חוקי עבוד - דרום",
+      "publisher": "משרד העבודה",
       "deadline": "2026-03-09",
       "categories": [
         "אחר"
       ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613430",
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07250438",
       "description": "",
-      "docType": "מכרז"
+      "docType": "מכרז בינמשרדי"
     },
     {
-      "tenderNumber": "4000601342",
-      "title": "מכרז מרכזי מספר 04-2025 סל 2 - לאספקת שירותי תקשורת נתונים (DATA) עבור משרדי הממשלה, יחידות סמך וגופים נילווים",
-      "publisher": "משרד האוצר - מינהל הרכש הממשלתי",
+      "tenderNumber": "MRK-138228",
+      "title": "ראש ענף-מרכז בכיר(פיקוח/אכיפת חוקי עבודה - תל אביב",
+      "publisher": "משרד העבודה",
+      "deadline": "2026-03-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07250538",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138232",
+      "title": "מרכז/ת תחום בקרה ארצי (בריה\"נ קהילתית) - ירושלים",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-03-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07250193",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138234",
+      "title": "מרכז/ת בכיר/ה (ניתוחי עלויות ומחירים) - ירושלים",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-03-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07250542",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138243",
+      "title": "רופא/ה מתמחה (גריאטריה) - צפון",
+      "publisher": "מ.גריאטרי ע\"ש שוהם",
+      "deadline": "2026-03-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07250546",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138247",
+      "title": "פקיד/ת קבלת חולים/ מרפאה - תל אביב",
+      "publisher": "מרכז בריאות הנפש יפו",
+      "deadline": "2026-03-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07252350",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138248",
+      "title": "הנדסאי/ת טכנאי/ת אחזקה(טכנולוג מים) - צפון",
+      "publisher": "מרכז רפואי צפון (פוריה)",
+      "deadline": "2026-03-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07251885",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138246",
+      "title": "רופא/ה תחומי/ת לא מומחה/ית - צפון",
+      "publisher": "מ.גריאטרי ע\"ש שוהם",
+      "deadline": "2026-03-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07251748",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138249",
+      "title": "מרכז/ת-מרכז/ת בכיר/ה (פיקוח כלי ירייה) - מרכז",
+      "publisher": "המשרד לבטחון לאומי",
+      "deadline": "2026-03-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07252007",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138231",
+      "title": "סמנכ\"ל מוביל טכנולוגי מעבדה לאומית - תל אביב",
+      "publisher": "משרד ראש ממשלה",
+      "deadline": "2026-03-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07250191",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138229",
+      "title": "ראש ענף-מרכז בכיר(פיקוח/אכיפת חוקי עבודה - חיפה",
+      "publisher": "משרד העבודה",
+      "deadline": "2026-03-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07250540",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138458",
+      "title": "מנהל/ת אגף (אמנויות חזותיות וקולנוע) - ירושלים",
+      "publisher": "חדשנות מדע וטכנו' תרבות וספורט",
+      "deadline": "2026-03-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07262566",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138459",
+      "title": "מנהל/ת תחום (מודלים, מדידה והערכת אפקטיב - ירושלים",
+      "publisher": "חדשנות מדע וטכנו' תרבות וספורט",
+      "deadline": "2026-03-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07262568",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "4000614590",
+      "title": "דלויט ספק יחיד",
+      "publisher": "משרד העבודה",
       "deadline": "2026-03-10",
       "categories": [
-        "תקשורת"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000601342",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000601326",
-      "title": "מכרז מרכזי מספר 04-2025 סל 1 -לאספקת שירותי תקשורת נתונים (DATA ) עבור משרדי הממשלה, יחידות סמך וגופים נילווים",
-      "publisher": "משרד האוצר - מינהל הרכש הממשלתי",
-      "deadline": "2026-03-10",
-      "categories": [
-        "תקשורת"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000601326",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000612985",
-      "title": "הפעלת מערך תשלומי מלגות לתלמידים וסטודנטים",
-      "publisher": "משרד החינוך",
-      "deadline": "2026-03-10",
-      "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000612985",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614590",
       "description": "",
       "docType": "מכרז"
     },
@@ -3149,6 +3370,149 @@
       "docType": "מכרז"
     },
     {
+      "tenderNumber": "MRK-138469",
+      "title": "רכז/ת לשכה בכיר/ה א' - ירושלים",
+      "publisher": "מרכז ההסברה",
+      "deadline": "2026-03-10",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07262918",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138254",
+      "title": "תומך/ת מחקר בכיר/ה (ב') - מרכז",
+      "publisher": "מינהל המחקר החקלאי",
+      "deadline": "2026-03-10",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07252366",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138255",
+      "title": "מרכז/ת נושא (התמכרויות) - מרכז",
+      "publisher": "מרכז רפואי \"לב השרון\"",
+      "deadline": "2026-03-10",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07252370",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138258",
+      "title": "מנהל/ת תחום תכנון סטטוטורי - ירושלים",
+      "publisher": "הרשות הממשלתית למים ולביוב",
+      "deadline": "2026-03-10",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07252372",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138261",
+      "title": "פסיכולוג מומחה - מרכז רפואי - מרכז",
+      "publisher": "מרכז רפואי \"לב השרון\"",
+      "deadline": "2026-03-10",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07253061",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138262",
+      "title": "משפטן/ית (חדלות פירעון ושיקום כלכלי) - ירושלים",
+      "publisher": "משרד המשפטים",
+      "deadline": "2026-03-10",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07253063",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138266",
+      "title": "מרכז/ת בכיר/ה (מדיניות רגולציה) - מרכז",
+      "publisher": "משרד החקלאות וביטחון המזון",
+      "deadline": "2026-03-10",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07252021",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138275",
+      "title": "מנהל/ת אגף (תכנון חקלאות מים) - מרכז",
+      "publisher": "משרד החקלאות וביטחון המזון",
+      "deadline": "2026-03-10",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07253320",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138283",
+      "title": "ראש ענף (מחסן כימיקלים) - מרכז",
+      "publisher": "משרד החקלאות וביטחון המזון",
+      "deadline": "2026-03-10",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07253324",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138285",
+      "title": "מנהל/ת תחום בכיר/ה (טכנולוגיות ופיתוח) - ירושלים",
+      "publisher": "משרד הפנים",
+      "deadline": "2026-03-10",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07253701",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138281",
+      "title": "ראש ענף (מוביל/ה לוגיסטיקה - רכב) - מרכז",
+      "publisher": "משרד החקלאות וביטחון המזון",
+      "deadline": "2026-03-10",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07253322",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
       "tenderNumber": "4000614364",
       "title": "השכרת מדי סגל לבנים וצבעוניים + מכונת ניפוק",
       "publisher": "משרד הבריאות - המרכז הרפואי תל אביב ע\"ש סוראסקי, איכילוב",
@@ -3158,6 +3522,20 @@
       ],
       "source": "mr.gov.il",
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000614364",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614768",
+      "title": "התקשרות עם חברת גריי קונטנט בע\"מ לביצוע קמפיין הסברה עבור בחירות 2026",
+      "publisher": "לשכת הפרסום הממשלתית (לפ\"מ)",
+      "deadline": "2026-03-11",
+      "categories": [
+        "דוברות",
+        "פרסום"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614768",
       "description": "",
       "docType": "מכרז"
     },
@@ -3214,28 +3592,420 @@
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614443",
-      "title": "קונקורדיה - ספק יחחיד למשקף נייד במעבר ניצנה",
-      "publisher": "משרד האוצר - רשות ה",
+      "tenderNumber": "MRK-138290",
+      "title": "מזכיר/ה רפואי/ת - מרכז",
+      "publisher": "בית חולים שמואל הרופא",
       "deadline": "2026-03-11",
       "categories": [
         "אחר"
       ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07253535",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138291",
+      "title": "מנהל/ת התוכנית הארצית לבדיקות סקר ילודים - מרכז",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07253504",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138293",
+      "title": "מנהל/ת אגף א' תכנון מדיניות - ירושלים",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07253709",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138294",
+      "title": "מנהל תחום (הנדסת תקשורת-חירום ויועצים) - תל אביב",
+      "publisher": "משרד התקשורת",
+      "deadline": "2026-03-11",
+      "categories": [
+        "תקשורת"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07253711",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138296",
+      "title": "מנהל/ת תחום (ביקורת פנימית) - ירושלים",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07253715",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138292",
+      "title": "עובד מעבדה/עובד מעבדה מתקדם - מרכז",
+      "publisher": "בית חולים שמואל הרופא",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07253717",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138300",
+      "title": "מפקד/ת תחנה - מרכז",
+      "publisher": "הרשות הארצית לכבאות והצלה",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07253291",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138306",
+      "title": "מרכז/ת נושא תחלואה כפולה - תל אביב",
+      "publisher": "מרכז בריאות הנפש יפו",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07253539",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138309",
+      "title": "מוביל\\ה רכש - ירושלים",
+      "publisher": "המדפיס הממשלתי",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07253548",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138313",
+      "title": "מנהל/ת תחום (שיבוץ התנדבות) - ירושלים",
+      "publisher": "רשות השירות הלאומי האזרחי",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07254454",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138314",
+      "title": "מרכז/ת מחסנים - ירושלים",
+      "publisher": "המדפיס הממשלתי",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07253885",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138320",
+      "title": "מנהל/ת תחום (פיתוח למידה ארגונית) - ירושלים",
+      "publisher": "הרשות הממשלתית למים ולביוב",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07253889",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138329",
+      "title": "רופא/ה מומחה/ית בכירורגית ילדים - חיפה",
+      "publisher": "בית חולים רמב\"ם חיפה",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07254650",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138333",
+      "title": "מזכיר/ה - חיפה",
+      "publisher": "בית חולים רמב\"ם חיפה",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07254676",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138334",
+      "title": "מזכירה רפואית - חיפה",
+      "publisher": "בית חולים רמב\"ם חיפה",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07254682",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138345",
+      "title": "מרכז/ת בכיר/ה (חשבונאות ודיווח) - ירושלים",
+      "publisher": "משרד התחבורה והבטיחות בדרכים",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07254780",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138348",
+      "title": "מנהל/ת תחום (חשבות – תקציבי פיתוח) - ירושלים",
+      "publisher": "משרד התחבורה והבטיחות בדרכים",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07254658",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138366",
+      "title": "רכז/ת - מרכז/ת עובד/ת ייצור - ירושלים",
+      "publisher": "המדפיס הממשלתי",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07253897",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138376",
+      "title": "תומך/ת מחקר בכיר/ה ניהול רפת - מרכז",
+      "publisher": "מינהל המחקר החקלאי",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07254965",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138357",
+      "title": "רופא/ה מומחה/ית (דימות) - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07255088",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138383",
+      "title": "טבח/ית ראשי/ת  ג' (בכיר) - חיפה",
+      "publisher": "בית חולים פלימן חיפה",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07255368",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138385",
+      "title": "קלינאי/ת תקשורת אחראי/ת ג' - חיפה",
+      "publisher": "בית חולים פלימן חיפה",
+      "deadline": "2026-03-11",
+      "categories": [
+        "תקשורת"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07255627",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138311",
+      "title": "מנהל/ת תחום (פרסום, שיווק והסברה) - ירושלים",
+      "publisher": "רשות השירות הלאומי האזרחי",
+      "deadline": "2026-03-11",
+      "categories": [
+        "דוברות",
+        "פרסום",
+        "שיווק"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07254450",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138315",
+      "title": "עובד/ת אחזקה מקצועי/ת - דרום",
+      "publisher": "מנהל לחינוך התישבותי ועליית הנ",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07253883",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138364",
+      "title": "מרכז/ת כריכייה - ירושלים",
+      "publisher": "המדפיס הממשלתי",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07254462",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138382",
+      "title": "ראש ענף (חקירות ופיקוח תח\"צ) - ירושלים",
+      "publisher": "הרשות הארצית לתחבורה ציבורית",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07255096",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138289",
+      "title": "מרכז/ת (נותני שירותים - מיחשוב) - ירושלים",
+      "publisher": "המשרד לבטחון לאומי",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07253707",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138365",
+      "title": "סמנכ\"ל/ית בכיר/ה (הון אנושי ומינהל) - ירושלים",
+      "publisher": "הרשות הממשלתית למים ולביוב",
+      "deadline": "2026-03-11",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07254464",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "4000613694",
+      "title": "הפעלת עגלות קפה",
+      "publisher": "משרד הבריאות - המרכז הרפואי תל אביב ע\"ש סוראסקי, איכילוב",
+      "deadline": "2026-03-12",
+      "categories": [
+        "אחר"
+      ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614443",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613694",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614434",
-      "title": "אישור התקשרות עם חברת \"ארדן קונטרול טק\" לשנת 2026 למערכות ביטחון במתקן בית קרדן בת\"א",
-      "publisher": "משרד המשפטים",
-      "deadline": "2026-03-11",
+      "tenderNumber": "4000614791",
+      "title": "התקשרות עם חברת גריי קונטנט בע\"מ לביצוע קמפיין הסל של ישראל",
+      "publisher": "לשכת הפרסום הממשלתית (לפ\"מ)",
+      "deadline": "2026-03-12",
+      "categories": [
+        "פרסום"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614791",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000613356",
+      "title": "אספקה ופינוי כלי רכב מושבתים לאימוני כבאות",
+      "publisher": "המשרד לביטחון לאומי - נציבות כבאות והצלה",
+      "deadline": "2026-03-12",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614434",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613356",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000611175",
+      "title": "הקמת רשימות ספקים בעלי מומחיות ביישום ובפיתוח של חבילות עבודה בסביבת SAP",
+      "publisher": "משרד האוצר - סיגמה",
+      "deadline": "2026-03-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000611175",
       "description": "",
       "docType": "מכרז"
     },
@@ -3275,19 +4045,6 @@
       ],
       "source": "mr.gov.il",
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000614662",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613700",
-      "title": "לייעוץ וליווי אישי-מקצועי לקורס הצוערים של משרד החוץ וכן לעובדי המשרד, פיתוח הדרכה, העברת הדרכות וגיוס ומיון",
-      "publisher": "משרד החוץ",
-      "deadline": "2026-03-12",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613700",
       "description": "",
       "docType": "מכרז"
     },
@@ -3409,106 +4166,288 @@
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614581",
-      "title": "ניהול וביצוע תוכנית עבודה קהילתית עם סטודנטים ישראלים לרפואה בחו\"ל",
+      "tenderNumber": "MRK-138482",
+      "title": "רכז/ת בכיר/ה (ציוד חבישה) - דרום",
+      "publisher": "מרכז רפואי ברזילי אשקלון",
+      "deadline": "2026-03-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07264184",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-137984",
+      "title": "מנהל/ת אגף (שירותי אשפוז בבריאות הנפש) - ירושלים",
       "publisher": "משרד הבריאות",
       "deadline": "2026-03-12",
       "categories": [
         "אחר"
       ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614581",
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07237154",
       "description": "",
-      "docType": "מכרז"
+      "docType": "מכרז בינמשרדי"
     },
     {
-      "tenderNumber": "4000614582",
-      "title": "בקשה להתקשרות עם חברת גיליאד סיאנסז בע\"מ - רכש התרופה STRIBILD עבור טיפול המהגרים נושאי HIV חסרי ביטוח רפואי",
-      "publisher": "משרד הבריאות",
+      "tenderNumber": "MRK-137987",
+      "title": "מנהל מחלקה להנשמה ממושכת - מרכז",
+      "publisher": "מרכז גריאטרי דורות נתניה",
       "deadline": "2026-03-12",
       "categories": [
         "אחר"
       ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614582",
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07237138",
       "description": "",
-      "docType": "מכרז"
+      "docType": "מכרז בינמשרדי"
     },
     {
-      "tenderNumber": "4000614489",
-      "title": "• רכישת חיישני פריסטייל ליברה 2 לצורך מחקר קליני בחולי סוכרת.",
-      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש אדית וולפסון",
+      "tenderNumber": "MRK-138392",
+      "title": "עובד/ת סוציאלי/ת עצמאי/ת - תל אביב",
+      "publisher": "מרכז בריאות הנפש יפו",
       "deadline": "2026-03-12",
       "categories": [
         "אחר"
       ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614489",
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07256937",
       "description": "",
-      "docType": "מכרז"
+      "docType": "מכרז בינמשרדי"
     },
     {
-      "tenderNumber": "4000614479",
-      "title": "רכש שירותי הערכת פרטיות",
-      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש חיים שיבא, תל השומר",
+      "tenderNumber": "MRK-138394",
+      "title": "רופא מרכז תחום פסיכיאטריה דחופה - מרכז",
+      "publisher": "בית חולים אברבנאל",
       "deadline": "2026-03-12",
       "categories": [
         "אחר"
       ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614479",
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07256740",
       "description": "",
-      "docType": "מכרז"
+      "docType": "מכרז בינמשרדי"
     },
     {
-      "tenderNumber": "4000614493",
-      "title": "ספק יחיד - מגיק - עבור שעות תמיכה לצוות פיתוח",
-      "publisher": "משרד המשפטים - רשות האכיפה והגביה",
+      "tenderNumber": "MRK-138402",
+      "title": "מנהל/ת ענף - מרכז/ת (מחלות זיהומיות) - דרום",
+      "publisher": "מרכז רפואי ברזילי אשקלון",
       "deadline": "2026-03-12",
       "categories": [
         "אחר"
       ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614493",
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07257550",
       "description": "",
-      "docType": "מכרז"
+      "docType": "מכרז בינמשרדי"
     },
     {
-      "tenderNumber": "4000614502",
-      "title": "התקשרות עם חברת תומקס פתרונות סריקהבעמ כספק יחיד",
-      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש ברזילי, אשקלון",
+      "tenderNumber": "MRK-138405",
+      "title": "עובד/ת סוציאלי/ת אחראי/ת גריאטריה במחוז - דרום",
+      "publisher": "מרכז רפואי ברזילי אשקלון",
       "deadline": "2026-03-12",
       "categories": [
         "אחר"
       ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614502",
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07257458",
       "description": "",
-      "docType": "מכרז"
+      "docType": "מכרז בינמשרדי"
     },
     {
-      "tenderNumber": "4000614503",
-      "title": "התקשרות עם חברת אופנאפ כספק יחיד",
-      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש ברזילי, אשקלון",
+      "tenderNumber": "MRK-138406",
+      "title": "מרכז אחראי לכרוניים ושיקום - דרום",
+      "publisher": "מרכז רפואי ברזילי אשקלון",
       "deadline": "2026-03-12",
       "categories": [
         "אחר"
       ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614503",
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07257552",
       "description": "",
-      "docType": "מכרז"
+      "docType": "מכרז בינמשרדי"
     },
     {
-      "tenderNumber": "4000613401",
-      "title": "מכרז פומבי למכירת נכס ברחוב  ארלוזורוב 11 (מגרש) , נהריה",
-      "publisher": "משרד האוצר - מינהל הדיור הממשלתי",
+      "tenderNumber": "MRK-138409",
+      "title": "מרכז בכיר (בקרה במוסדות בריה\"נ) - דרום",
+      "publisher": "מרכז רפואי ברזילי אשקלון",
       "deadline": "2026-03-12",
       "categories": [
         "אחר"
       ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07258625",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138426",
+      "title": "רופא/ה אם וילד ומרפאה/רופא/ה כנ\"ל מומחה - דרום",
+      "publisher": "לשכת הבריאות מחוז הדרום",
+      "deadline": "2026-03-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07258793",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138428",
+      "title": "אחראי/ת מרפאה (נוירולוגיה) - דרום",
+      "publisher": "מרכז רפואי ברזילי אשקלון",
+      "deadline": "2026-03-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07258797",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138427",
+      "title": "עובד/ת מעבדה/עובד/ת מעבדה מתקדמ/ת - צפון",
+      "publisher": "מרכז רפואי צפון (פוריה)",
+      "deadline": "2026-03-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07259253",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138437",
+      "title": "מרכז/ת (פיתוח - תשתיות) - ירושלים",
+      "publisher": "שירות עיבודים ממוחשבים",
+      "deadline": "2026-03-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07259339",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138440",
+      "title": "מרכז/ת (פיתוח - הלבנת הון) - ירושלים",
+      "publisher": "שירות עיבודים ממוחשבים",
+      "deadline": "2026-03-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07261120",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138441",
+      "title": "מרכז/ת (פיתוח - חילופי מידע) - ירושלים",
+      "publisher": "שירות עיבודים ממוחשבים",
+      "deadline": "2026-03-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07261122",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138442",
+      "title": "מרכז/ת (פיתוח - שומה) - ירושלים",
+      "publisher": "שירות עיבודים ממוחשבים",
+      "deadline": "2026-03-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07259343",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138443",
+      "title": "מרכז/ת (פיתוח - תשתיות) - ירושלים",
+      "publisher": "שירות עיבודים ממוחשבים",
+      "deadline": "2026-03-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07259345",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138444",
+      "title": "מרכז/ת (פיתוח גביה - מסמ\"ק) - ירושלים",
+      "publisher": "שירות עיבודים ממוחשבים",
+      "deadline": "2026-03-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07261257",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138398",
+      "title": "מנהל/ת כספים מחוזי/ת - דרום",
+      "publisher": "מרכז רפואי ברזילי אשקלון",
+      "deadline": "2026-03-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07256321",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138448",
+      "title": "רע\"ן מבצעים ארץ - מרכז",
+      "publisher": "משרד ראש ממשלה",
+      "deadline": "2026-03-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07261261",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "4000613962",
+      "title": "מכרז  למתן שירותי הסעדה ומטבח קצה בשרי, עם אופציה עתידית למזנון חלבי",
+      "publisher": "משרד הפנים",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613401",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613962",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000613289",
+      "title": "מתודולוגיית ספירת מצאי משרדית בתחום המחשוב והתקשרות",
+      "publisher": "משרד הרווחה",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613289",
       "description": "",
       "docType": "מכרז"
     },
@@ -3591,15 +4530,418 @@
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614416",
-      "title": "מכרז 01/2026 לריענון מאגר הרופאים החברים בוועדות לקביעת זכאות לדיור ציבורי",
-      "publisher": "משרד העלייה והקליטה",
+      "tenderNumber": "MRK-138005",
+      "title": "מנהל/ת מחלקה נוירולוגיה - צפון",
+      "publisher": "המרכז הרפואי לגליל",
       "deadline": "2026-03-15",
       "categories": [
         "אחר"
       ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07239903",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138014",
+      "title": "מנהל/ת יחידה- גסטרואנטרולוגיה פולשנית - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07238415",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138017",
+      "title": "מנהל/ת מכון פתולוגיה - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07240535",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138015",
+      "title": "מנהל/ת מכון גסטרואנטרולוגי - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07240537",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138023",
+      "title": "מנהל מחלקה פסיכיאטרית פעילה כרונית ב'(או - ירושלים",
+      "publisher": "מרכז ירושלמי לבריאות הנפש",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07240086",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138024",
+      "title": "מנהל יחידה לרפואה דחופה - ירושלים",
+      "publisher": "מרכז ירושלמי לבריאות הנפש",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07240088",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138399",
+      "title": "מרכז/ת (ביקורת פנים) - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07256663",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138400",
+      "title": "מנהל/ת תחום (דוברות) - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-15",
+      "categories": [
+        "דוברות"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07256665",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138401",
+      "title": "מנהל/ת ענף (משכורת) - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07256948",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138403",
+      "title": "מנהל/ת תחום תכנון ומדיניות (ממשל ומדידה) - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07257454",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138404",
+      "title": "ממונה (תהליכי שיתוף, פיתוח מקצועי ומאגר - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07257456",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138407",
+      "title": "ממונה על התביעה - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07257554",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138410",
+      "title": "מרכז/ת בכיר/ה (ביצוע תקציב-מינהל הפיתוח) - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07257564",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138413",
+      "title": "מנהל/ת ענף (משכורת עובדי הוראה) - צפון",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07258902",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138416",
+      "title": "מנהל/ת חברה ונוער (מחוז ירושלים) - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07258906",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138417",
+      "title": "מנהל/ת תחום (אכיפה ואיסוף מידע) - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07258912",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138418",
+      "title": "מרכז/ת (בקרת שכר מרכזי וסליקה) - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07258917",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138423",
+      "title": "רכז/ת בכיר/ה (משכורת עובדי הוראה במחוז) - ירושלים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07259160",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138430",
+      "title": "רכז/ת בכיר/ה (משכורת עובדי הוראה במחוז) - תל אביב",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07259166",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138414",
+      "title": "נהג/ת א' (עוזר למסעות של\"ח) - תל אביב",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07258915",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138419",
+      "title": "עוזר/ת ייעוץ משפטי (חינוך התיישבותי) - תל אביב",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07258919",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138037",
+      "title": "צוער/ת מדיני (מתמחה) בשירות המדיני - ירושלים",
+      "publisher": "משרד החוץ",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07240725",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138042",
+      "title": "צוער/ת מינהל (מתמחה) בשירות החוץ מינהלי - ירושלים",
+      "publisher": "משרד החוץ",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07240729",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138216",
+      "title": "מנהל/ת רשות (השירות לאומי אזרחי) - ירושלים",
+      "publisher": "רשות השירות הלאומי האזרחי",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07250532",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138450",
+      "title": "מנהל ענף (חשבונאות ) - דרום",
+      "publisher": "ב. הנפש באר-שבע",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07261692",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138451",
+      "title": "סגן מרכז שרותים טכניים א' (בכיר) - ירושלים",
+      "publisher": "מרכז ירושלמי לבריאות הנפש",
+      "deadline": "2026-03-15",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07262303",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "4000614225",
+      "title": "אספקת שקיות לסטריליזציה בקיטור וגז + שרוולים לסטריליזציה עבור מרת\"א",
+      "publisher": "משרד הבריאות - המרכז הרפואי תל אביב ע\"ש סוראסקי, איכילוב",
+      "deadline": "2026-03-16",
+      "categories": [
+        "אחר"
+      ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614416",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614225",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614710",
+      "title": "מעלית גרנד קניון",
+      "publisher": "משרד הבריאות - לשכת הבריאות המחוזית צפון, חיפה",
+      "deadline": "2026-03-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614710",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614720",
+      "title": "רכש קרקעות מזון ואבקות של חברת BD מחברת בקטלאב",
+      "publisher": "משרד הבריאות - לשכת הבריאות המחוזית צפון, חיפה",
+      "deadline": "2026-03-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614720",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000613700",
+      "title": "לייעוץ וליווי אישי-מקצועי לקורס הצוערים של משרד החוץ וכן לעובדי המשרד, פיתוח הדרכה, העברת הדרכות וגיוס ומיון",
+      "publisher": "משרד החוץ",
+      "deadline": "2026-03-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613700",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614703",
+      "title": "אספקת נייר לבן להדפסה וצילום",
+      "publisher": "המשרד לביטחון לאומי - שירות בתי הסוהר",
+      "deadline": "2026-03-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614703",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614082",
+      "title": "מכרז 37/2026\nלמתן שירותי גרירה של כלי רכב",
+      "publisher": "משרד החקלאות ובטחון המזון",
+      "deadline": "2026-03-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614082",
       "description": "",
       "docType": "מכרז"
     },
@@ -3643,6 +4985,110 @@
       "docType": "מכרז"
     },
     {
+      "tenderNumber": "MRK-138078",
+      "title": "מנהל/ת שירות (תחלואה כפולה) - מרכז",
+      "publisher": "המרכז הרפואי שמיר",
+      "deadline": "2026-03-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07242579",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138454",
+      "title": "מפקח/ת / מפקח/ת בכיר/ה בריאות הסביבה - מרכז",
+      "publisher": "לשכת הבריאות מחוז המרכז",
+      "deadline": "2026-03-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07262853",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138456",
+      "title": "מנהל/ת תחום בכיר (דוברות) - ירושלים",
+      "publisher": "משרד ראש ממשלה",
+      "deadline": "2026-03-16",
+      "categories": [
+        "דוברות"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07262857",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138457",
+      "title": "רופא/ה מתמחה אא\"ג - צפון",
+      "publisher": "בית חולים זיו צפת",
+      "deadline": "2026-03-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07262910",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138460",
+      "title": "מנהל/ת תחום (נכסי נפקדים) - ירושלים",
+      "publisher": "משרד האוצר",
+      "deadline": "2026-03-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07263251",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138461",
+      "title": "מרכז/ת (פיתוח גביה - אכיפה קשה) - ירושלים",
+      "publisher": "שירות עיבודים ממוחשבים",
+      "deadline": "2026-03-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07262914",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138462",
+      "title": "מרכז/ת (פיתוח - דיווח פרטני ובקרה) - ירושלים",
+      "publisher": "שירות עיבודים ממוחשבים",
+      "deadline": "2026-03-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07263253",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138463",
+      "title": "מרכז/ת (פיתוח - שומה) - ירושלים",
+      "publisher": "שירות עיבודים ממוחשבים",
+      "deadline": "2026-03-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07263255",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
       "tenderNumber": "4000614639",
       "title": "מערכת מתקדמת לניתוח ביטוי גנים",
       "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש חיים שיבא, תל השומר",
@@ -3652,19 +5098,6 @@
       ],
       "source": "mr.gov.il",
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000614639",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614590",
-      "title": "דלויט ספק יחיד",
-      "publisher": "משרד העבודה",
-      "deadline": "2026-03-17",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614590",
       "description": "",
       "docType": "מכרז"
     },
@@ -3721,6 +5154,97 @@
       "docType": "מכרז"
     },
     {
+      "tenderNumber": "MRK-138468",
+      "title": "דובר/ת - ירושלים",
+      "publisher": "משרד ראש ממשלה",
+      "deadline": "2026-03-17",
+      "categories": [
+        "דוברות"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07261272",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138470",
+      "title": "מנהל/ת תחום בכיר (ביקורת חשבויות) - ירושלים",
+      "publisher": "משרד ראש ממשלה",
+      "deadline": "2026-03-17",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07262320",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138471",
+      "title": "קלינאי\\ת תקשורת אחראי\\ת ג - מרכז",
+      "publisher": "מרכז גריאטרי דורות נתניה",
+      "deadline": "2026-03-17",
+      "categories": [
+        "תקשורת"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07263014",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "4000614812",
+      "title": "רכישה רישוי תוכנה ספק יחיד MONDAY",
+      "publisher": "משרד הבינוי - המרכז למיפוי ישראל",
+      "deadline": "2026-03-18",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614812",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000610551",
+      "title": "מכרז מסגרת 33/2025 לאיסוף ובדיקות מעבדה עבור מערך רגולציה משקית מזון ותמרוקים במשרד הבריאות",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-03-18",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000610551",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614707",
+      "title": "מתכלים למערכת AXIEM",
+      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש חיים שיבא, תל השומר",
+      "deadline": "2026-03-18",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614707",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614689",
+      "title": "רכש ותחזוקה לרחפנים מסוג AUTEL",
+      "publisher": "המשרד לביטחון פנים - משטרת ישראל",
+      "deadline": "2026-03-18",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614689",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
       "tenderNumber": "4000614648",
       "title": "הפועל דמי רישום למחוזיאדה 38",
       "publisher": "משרד האוצר - רשות ה",
@@ -3730,19 +5254,6 @@
       ],
       "source": "mr.gov.il",
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000614648",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000611861",
-      "title": "הפעלת תכניות מעבר לבני נוער וצעירים עם מוגבלות, בפריסה ארצית",
-      "publisher": "משרד הרווחה",
-      "deadline": "2026-03-18",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000611861",
       "description": "",
       "docType": "מכרז"
     },
@@ -3760,6 +5271,176 @@
       "docType": "מכרז"
     },
     {
+      "tenderNumber": "MRK-138472",
+      "title": "עוזר/ת ליועץ המשפטי - ירושלים",
+      "publisher": "הרשות להגנת הצרכן ולסחר הוגן",
+      "deadline": "2026-03-18",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07264062",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138134",
+      "title": "רופא/ה / רופא/ה אחראי/ת (בקרה בגריאטריה) - ירושלים",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-03-18",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07244169",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138138",
+      "title": "מנהל/ת מחלקה (סטאז' ברפואה) - ירושלים",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-03-18",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07244220",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "4000614811",
+      "title": "תיאור מהות ההתקשרות (רקע ופירוט התכונות של הטובין/השירות/העבודה) ביצוע אחזקה הדרכה ואספקת חלקי חילוף לציוד רפו",
+      "publisher": "משרד הבריאות - המרכז הרפואי הלל יפה",
+      "deadline": "2026-03-19",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614811",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614817",
+      "title": "החלפת 4 מפסקים זרם 3X2000A למערך לוחות גנרציה תחנת גנרציה מבנה אשפוז א'",
+      "publisher": "משרד הבריאות - המרכז הרפואי הלל יפה",
+      "deadline": "2026-03-19",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614817",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614815",
+      "title": "התקשרות עם בזק לשירות מנוהל לציוד תקשורת",
+      "publisher": "משרד הבריאות",
+      "deadline": "2026-03-19",
+      "categories": [
+        "תקשורת"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614815",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614746",
+      "title": "תמיכה,תחזוקה ופיתוח במערכת \"נוהל ידע\"",
+      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש חיים שיבא, תל השומר",
+      "deadline": "2026-03-19",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614746",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614719",
+      "title": "מילוי ואספקה של גזים רפואיים",
+      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש אדית וולפסון",
+      "deadline": "2026-03-19",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614719",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "MRK-138474",
+      "title": "מנהל/ת אגף בכיר (דוברות, תקשורת והסברה) - ירושלים",
+      "publisher": "משרד ראש ממשלה",
+      "deadline": "2026-03-19",
+      "categories": [
+        "דוברות",
+        "תקשורת"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07264180",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138475",
+      "title": "רכז /ת נושא כספים וחשבונות - ירושלים",
+      "publisher": "מרכז ירושלמי לבריאות הנפש",
+      "deadline": "2026-03-19",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07263662",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138477",
+      "title": "פסיכולוג/ית מנהל/ת צוות - ירושלים",
+      "publisher": "מרכז ירושלמי לבריאות הנפש",
+      "deadline": "2026-03-19",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07264650",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138480",
+      "title": "מנהל תחום בכיר דניידי (נכסי נפקדים) - ירושלים",
+      "publisher": "משרד האוצר",
+      "deadline": "2026-03-19",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07263558",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138481",
+      "title": "רופא/ה מומחה/ית טיפול מיוחד ביילוד - צפון",
+      "publisher": "מרכז רפואי צפון (פוריה)",
+      "deadline": "2026-03-19",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07263560",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
       "tenderNumber": "4000614027",
       "title": "אספקת מוצרי נייר מודפסים מסוגים שונים",
       "publisher": "המשרד לביטחון פנים - משטרת ישראל",
@@ -3773,197 +5454,158 @@
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614511",
-      "title": "מכרז 21/2026 לקבלת שירותי ייעוץ ממונה בטיחות למעבדה הארצית לבריאות הציבור ת\"א",
-      "publisher": "משרד הבריאות",
+      "tenderNumber": "4000613609",
+      "title": "שימוש במערכת מיון מקוונת   משטרת ישראל  ושירות בתי הסוהר",
+      "publisher": "המשרד לביטחון פנים - משטרת ישראל",
       "deadline": "2026-03-22",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614511",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613609",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614419",
-      "title": "למיתקון ניידות לבדיקות תקינות כלי רכב",
+      "tenderNumber": "4000613476",
+      "title": "מציאת פתרונות למחיקת סימני צבע בכביש שאינה פוגעת באספלט",
       "publisher": "משרד התחבורה והבטיחות בדרכים",
       "deadline": "2026-03-22",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614419",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613476",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000611279",
-      "title": "תיחור36 לאספקת רכבים חשמליים בקבוצת רישוי 5",
-      "publisher": "משרד האוצר - מינהל הרכב הממשלתי",
-      "deadline": "2026-03-22",
+      "tenderNumber": "4000613430",
+      "title": "מתן שירותי השגחה על נבחנים בבחינות הבגרות והסמכה לטכנאים והנדסאים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-23",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000611279",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613430",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000611278",
-      "title": "תיחור 35 לאספקת רכבים חשמלייים - 7 מושבים",
-      "publisher": "משרד האוצר - מינהל הרכב הממשלתי",
-      "deadline": "2026-03-22",
+      "tenderNumber": "4000612985",
+      "title": "הפעלת מערך תשלומי מלגות לתלמידים וסטודנטים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-23",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000611278",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000612985",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000611281",
-      "title": "תיחור 32 במסגרת מכרז מסגרת 5-2021 לאספקת רכבי סופר מיני חשמליים",
-      "publisher": "משרד האוצר - מינהל הרכב הממשלתי",
-      "deadline": "2026-03-22",
+      "tenderNumber": "4000611446",
+      "title": "ליווי בתי ספר בחינוך העל יסודי לקידום הישגים לימודיים וצמצום פערים חברתיים ורגשיים",
+      "publisher": "משרד החינוך",
+      "deadline": "2026-03-23",
+      "categories": [
+        "שיווק"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000611446",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "MRK-138236",
+      "title": "סגנ/ית רופא/ה מחוזי/ת - ירושלים",
+      "publisher": "לשכת הבריאות ירושלים",
+      "deadline": "2026-03-23",
       "categories": [
         "אחר"
       ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000611281",
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07250197",
       "description": "",
-      "docType": "מכרז"
+      "docType": "מכרז בינמשרדי"
     },
     {
-      "tenderNumber": "4000611290",
-      "title": "תיחור 37 לאספקת רכבים חשמליים בקבוצת רישוי 6",
-      "publisher": "משרד האוצר - מינהל הרכב הממשלתי",
-      "deadline": "2026-03-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000611290",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000611282",
-      "title": "תיחור 33 לאספקת רכבים במרכב האצ'בק",
-      "publisher": "משרד האוצר - מינהל הרכב הממשלתי",
-      "deadline": "2026-03-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000611282",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000611283",
-      "title": "תיחור 34 לאספקת רכבים חשמליים במרכב פנאי שטח",
-      "publisher": "משרד האוצר - מינהל הרכב הממשלתי",
-      "deadline": "2026-03-22",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000611283",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614676",
-      "title": "אספקת מיטות אשפוז ייחודיות",
+      "tenderNumber": "4000614807",
+      "title": "תחזוקת שייר דוקס, דיר לוגיק",
       "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש חיים שיבא, תל השומר",
-      "deadline": "2026-03-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614676",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614448",
-      "title": "אספקת אלקטרודות תוך מוחיות SEEG",
-      "publisher": "משרד הבריאות - הקריה הרפואית לבריאות האדם, ביה\"ח רמב\"ם",
-      "deadline": "2026-03-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614448",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614446",
-      "title": "מכרז מתקן אוגרי כביסה",
-      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש חיים שיבא, תל השומר",
-      "deadline": "2026-03-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614446",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614498",
-      "title": "אספקת מתכלים לטיפול בתסחיף ריאתי - PE",
-      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש חיים שיבא, תל השומר",
-      "deadline": "2026-03-23",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614498",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000613750",
-      "title": "פרסום מכרז פומבי הפעלת יריד דוכנים במרכז הרפואי רמב\"ם בחיפה",
-      "publisher": "משרד הבריאות - הקריה הרפואית לבריאות האדם, ביה\"ח רמב\"ם",
-      "deadline": "2026-03-23",
-      "categories": [
-        "פרסום"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613750",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000614415",
-      "title": "מכרז פומבי מס' 1/2026 למערכת לניהול ועדה לרשות רישוי ארצית במינהל התכנון.",
-      "publisher": "מנהל התכנון",
       "deadline": "2026-03-24",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614415",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614807",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614375",
-      "title": "מכרז לשכירת נכס מדינה ברחוב גולדברג 2, רחובות",
-      "publisher": "משרד האוצר - מינהל הדיור הממשלתי",
+      "tenderNumber": "4000601342",
+      "title": "מכרז מרכזי מספר 04-2025 סל 2 - לאספקת שירותי תקשורת נתונים (DATA) עבור משרדי הממשלה, יחידות סמך וגופים נילווים",
+      "publisher": "משרד האוצר - מינהל הרכש הממשלתי",
+      "deadline": "2026-03-24",
+      "categories": [
+        "תקשורת"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000601342",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000601326",
+      "title": "מכרז מרכזי מספר 04-2025 סל 1 -לאספקת שירותי תקשורת נתונים (DATA ) עבור משרדי הממשלה, יחידות סמך וגופים נילווים",
+      "publisher": "משרד האוצר - מינהל הרכש הממשלתי",
+      "deadline": "2026-03-24",
+      "categories": [
+        "תקשורת"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000601326",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000613295",
+      "title": "אספקת שירותי מסעדה ושירותי מזנון לעובדי משרד החינוך בירושלים ובתל אביב",
+      "publisher": "משרד החינוך",
       "deadline": "2026-03-24",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614375",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613295",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "MRK-138278",
+      "title": "גריאטר/ית מחוזי/ת / אזורי/ת - ירושלים",
+      "publisher": "לשכת הבריאות ירושלים",
+      "deadline": "2026-03-24",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07253072",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "4000613872",
+      "title": "אספקה ותחזוקת ערכות לפריצת דלתות",
+      "publisher": "המשרד לביטחון לאומי - נציבות כבאות והצלה",
+      "deadline": "2026-03-25",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613872",
       "description": "",
       "docType": "מכרז"
     },
@@ -3981,6 +5623,97 @@
       "docType": "מכרז"
     },
     {
+      "tenderNumber": "MRK-138325",
+      "title": "מנהל/ת מחלקה פנימית ה' - חיפה",
+      "publisher": "בית חולים רמב\"ם חיפה",
+      "deadline": "2026-03-25",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07254423",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "MRK-138379",
+      "title": "רופא/ה מומחה/ית / רופא/ה תחומי/ת לא מומח - צפון",
+      "publisher": "מרכז רפואי צפון (פוריה)",
+      "deadline": "2026-03-25",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07255090",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "4000610361",
+      "title": "בחירת מנהלי קרנות לניהול השקעות בתחום \nהטכנולוגיות הצבאיות המתקדמות",
+      "publisher": "משרד האוצר - החשב הכללי",
+      "deadline": "2026-03-26",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000610361",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000613634",
+      "title": "מכרז 06-2026 - לקבלת שירותי הפעלת מערכת תומכת בגיוס מתמחים באופן אינטרנטי לרבות הדרכה, מוקד תמיכה וסיוע למשתמש",
+      "publisher": "משרד המשפטים",
+      "deadline": "2026-03-26",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613634",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "MRK-138433",
+      "title": "רופא/ה אחראי/ת (בקרה על בריה\"נ במחוז) - דרום",
+      "publisher": "לשכת הבריאות מחוז הדרום",
+      "deadline": "2026-03-26",
+      "categories": [
+        "אחר"
+      ],
+      "source": "merkava.mrp.gov.il",
+      "url": "https://merkava.mrp.gov.il/giusp/#/position/07259279",
+      "description": "",
+      "docType": "מכרז בינמשרדי"
+    },
+    {
+      "tenderNumber": "4000613830",
+      "title": "שירותי תחזוקה תפעול וניהול לרבות ניקיון גינון והדברה במתקני משטרה באזורים דרום ש\"י צפון וחוף",
+      "publisher": "המשרד לביטחון פנים - משטרת ישראל",
+      "deadline": "2026-03-29",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613830",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614727",
+      "title": "מכרז לאספקת מסננים לטיפול באוויר",
+      "publisher": "משרד הבריאות - הקריה הרפואית לבריאות האדם, ביה\"ח רמב\"ם",
+      "deadline": "2026-03-29",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614727",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
       "tenderNumber": "4000614632",
       "title": "מכרז מס' 05/2026 להפעלת התוכנית הלאומית למניעת אובדנות",
       "publisher": "משרד הבריאות",
@@ -3994,15 +5727,28 @@
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614406",
-      "title": "מכרז פומבי למתן לביצוע ביקורת ותחזוקה של מערכות מצופי סימון 300 מטר בנמל אילת",
-      "publisher": "משרד התחבורה והבטיחות בדרכים",
-      "deadline": "2026-03-29",
+      "tenderNumber": "4000613712",
+      "title": "אספקת שירותי תכנון וייעוץ בתחומי הבינוי והתשתיות למתקני שב\"ס",
+      "publisher": "המשרד לביטחון לאומי - שירות בתי הסוהר",
+      "deadline": "2026-03-30",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614406",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613712",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614676",
+      "title": "אספקת מיטות אשפוז ייחודיות",
+      "publisher": "משרד הבריאות - המרכז הרפואי ע\"ש חיים שיבא, תל השומר",
+      "deadline": "2026-03-30",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614676",
       "description": "",
       "docType": "מכרז"
     },
@@ -4020,41 +5766,41 @@
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000610664",
-      "title": "מכרז פומבי  20/2025 - לרכישת שירותי ממונה כשירות אווירית נמשכת למערך מטוס ראשי המדינה",
-      "publisher": "משרד ראש הממשלה",
+      "tenderNumber": "4000611548",
+      "title": "אספקת מוצרי חלב עבור שירות בתי הסוהר ומשטרת ישראל",
+      "publisher": "המשרד לביטחון לאומי - שירות בתי הסוהר",
       "deadline": "2026-03-30",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000610664",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000611548",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000610662",
-      "title": "מכרז פומבי  25/2025 - לרכישת שירותי מנהל בטיחות למערך מטוס ראשי המדינה",
-      "publisher": "משרד ראש הממשלה",
+      "tenderNumber": "4000613671",
+      "title": "אחזקה והפעלת מכון טיהור שפכים",
+      "publisher": "המשרד לביטחון לאומי - שירות בתי הסוהר",
       "deadline": "2026-03-30",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000610662",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613671",
       "description": "",
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614471",
-      "title": "מכרז 01/2026  למתן שירותי אבטחת מאוימים למשרד לשירותי דת",
-      "publisher": "המשרד לשירותי דת - הרבנות הראשית לישראל",
+      "tenderNumber": "4000609838",
+      "title": "רכישת שירותי פיתוח ארגוני ולמידה,שירותי טכנולוגיות למידה והפצת ידע,שירותי ביצוע והפקת הדרכות,ורכישת מערכת למיד",
+      "publisher": "משרד הרווחה",
       "deadline": "2026-03-31",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614471",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000609838",
       "description": "",
       "docType": "מכרז"
     },
@@ -4068,6 +5814,32 @@
       ],
       "source": "mr.gov.il",
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000614198",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614741",
+      "title": "פעילות העשרה ופנאי - באמצעות כלבים למטופלים מאושפזים בבי\"ח פסיכיאטרי",
+      "publisher": "משרד הבריאות - המרכז הירושלמי לבריאות הנפש, כפר שאול ואיתנים",
+      "deadline": "2026-04-09",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614741",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000612276",
+      "title": "מכרז 31/2025 להפעלת קהילת חדשנות עסקית בתחום התוכנה",
+      "publisher": "משרד הכלכלה",
+      "deadline": "2026-04-12",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000612276",
       "description": "",
       "docType": "מכרז"
     },
@@ -4098,32 +5870,6 @@
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614441",
-      "title": "לתפעול מערך מבצעי לאבטחת תעופה (ממל\"ת)",
-      "publisher": "משרד התחבורה והבטיחות בדרכים",
-      "deadline": "2026-04-12",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614441",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
-      "tenderNumber": "4000607699",
-      "title": "מכרז ליישום הקמה והפעלה של מערכת שכר עובדי הוראה ועובדי מטה, מערכת ניהול מוסדות, מערכת ניהול תקן ושיבוץ...",
-      "publisher": "משרד החינוך - מעיין החינוך התורני",
-      "deadline": "2026-04-12",
-      "categories": [
-        "אחר"
-      ],
-      "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000607699",
-      "description": "",
-      "docType": "מכרז"
-    },
-    {
       "tenderNumber": "4000614649",
       "title": "שירותי כלביה",
       "publisher": "משרד האוצר - רשות ה",
@@ -4150,6 +5896,19 @@
       "docType": "מכרז"
     },
     {
+      "tenderNumber": "4000614471",
+      "title": "מכרז 01/2026  למתן שירותי אבטחת מאוימים למשרד לשירותי דת",
+      "publisher": "המשרד לשירותי דת - הרבנות הראשית לישראל",
+      "deadline": "2026-04-16",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614471",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
       "tenderNumber": "4000612612",
       "title": "זיהוי ביצוע ותיקוף תשלום על ידי נוסע בתחבורה הציבורית",
       "publisher": "הרשות הארצית לתחבורה ציבורית",
@@ -4159,6 +5918,32 @@
       ],
       "source": "mr.gov.il",
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000612612",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614708",
+      "title": "אספקת רכבים בצורת פנאי- שטח(SUV) עבור משטרת ישראל",
+      "publisher": "המשרד לביטחון פנים - משטרת ישראל",
+      "deadline": "2026-04-19",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614708",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000613763",
+      "title": "מכרז לשכירת נכס ברחוב ויצמן 58, תל אביב",
+      "publisher": "משרד האוצר - מינהל הדיור הממשלתי",
+      "deadline": "2026-04-19",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613763",
       "description": "",
       "docType": "מכרז"
     },
@@ -4176,15 +5961,28 @@
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000614417",
-      "title": "ליווי ומעטפת למשפחות שכולות בשירות הלאומי- אזרחי",
-      "publisher": "הרשות לשרות הלאומי אזרחי",
-      "deadline": "2026-04-19",
+      "tenderNumber": "4000614704",
+      "title": "שכירת ותחזוקת מערכת ניטור טמפרטורה בהתאם לנוהל 126 של משרד הבריאות",
+      "publisher": "המשרד לביטחון לאומי - שירות בתי הסוהר",
+      "deadline": "2026-04-20",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614417",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614704",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000611861",
+      "title": "הפעלת תכניות מעבר לבני נוער וצעירים עם מוגבלות, בפריסה ארצית",
+      "publisher": "משרד הרווחה",
+      "deadline": "2026-04-21",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000611861",
       "description": "",
       "docType": "מכרז"
     },
@@ -4202,15 +6000,28 @@
       "docType": "מכרז"
     },
     {
-      "tenderNumber": "4000605655",
-      "title": "רישום מועמדים להפעלת מסגרות דיור עבור אנשים עם מוגבלות, בפריסה ארצית (מכרז הדגל)",
-      "publisher": "משרד הרווחה",
+      "tenderNumber": "4000612173",
+      "title": "איסוף נתוני השאלות בספריות הציבוריות והעברת תשלומים לסופרים",
+      "publisher": "משרד המדע התרבות והספורט",
       "deadline": "2026-04-26",
       "categories": [
         "אחר"
       ],
       "source": "mr.gov.il",
-      "url": "https://mr.gov.il/ilgstorefront/he/p/4000605655",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000612173",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000614441",
+      "title": "לתפעול מערך מבצעי לאבטחת תעופה (ממל\"ת)",
+      "publisher": "משרד התחבורה והבטיחות בדרכים",
+      "deadline": "2026-04-27",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000614441",
       "description": "",
       "docType": "מכרז"
     },
@@ -4226,17 +6037,69 @@
       "url": "https://mr.gov.il/ilgstorefront/he/p/4000613544",
       "description": "",
       "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000611926",
+      "title": "קבלת רישיונות להפעלת קווי שירות בתחבורה הציבורית באוטובוסים בקווי אשכול חיפה עירוני מזרח",
+      "publisher": "משרד התחבורה והבטיחות בדרכים",
+      "deadline": "2026-05-06",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000611926",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000605655",
+      "title": "רישום מועמדים להפעלת מסגרות דיור עבור אנשים עם מוגבלות, בפריסה ארצית (מכרז הדגל)",
+      "publisher": "משרד הרווחה",
+      "deadline": "2026-05-06",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000605655",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000613401",
+      "title": "מכרז פומבי למכירת נכס ברחוב  ארלוזורוב 11 (מגרש) , נהריה",
+      "publisher": "משרד האוצר - מינהל הדיור הממשלתי",
+      "deadline": "2026-05-28",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000613401",
+      "description": "",
+      "docType": "מכרז"
+    },
+    {
+      "tenderNumber": "4000605606",
+      "title": "הצטרפות לרשימת מציעים (מאגר) של נותני שירותים ‏מקצועיים וספקים למשרד הרווחה והביטחון החברתי",
+      "publisher": "משרד הרווחה",
+      "deadline": "2026-11-26",
+      "categories": [
+        "אחר"
+      ],
+      "source": "mr.gov.il",
+      "url": "https://mr.gov.il/ilgstorefront/he/p/4000605606",
+      "description": "",
+      "docType": "מכרז"
     }
   ],
-  "totalCount": 325,
+  "totalCount": 468,
   "sources": {
-    "mr.gov.il": 319,
+    "mr.gov.il": 310,
     "tender.gov.il": 0,
     "municipal": 6,
     "mashcal.co.il": 0,
-    "merkava.mrp.gov.il": 0,
+    "merkava.mrp.gov.il": 152,
     "rashuiot.co.il": 0,
     "government-company": 0
   },
-  "note": "נמצאו 325 מכרזים ממגוון מקורות. השתמש בפילטרים באתר לחיפוש ממוקד."
+  "note": "נמצאו 468 מכרזים ממגוון מקורות. השתמש בפילטרים באתר לחיפוש ממוקד."
 }
